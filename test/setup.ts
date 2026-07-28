@@ -2,7 +2,7 @@
  * @license
  * MIT
  * Collective AI Tools (https://collectiveai.tools)
- * 
+ *
  * Test setup file for Vitest
  */
 
@@ -46,7 +46,7 @@ const sessionStorageMock = {
 };
 global.sessionStorage = sessionStorageMock as Storage;
 
-global.IntersectionObserver = vi.fn().mockImplementation((_callback) => ({
+global.IntersectionObserver = vi.fn().mockImplementation(_callback => ({
   observe: vi.fn(),
   unobserve: vi.fn(),
   disconnect: vi.fn(),

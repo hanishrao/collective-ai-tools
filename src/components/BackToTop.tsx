@@ -13,9 +13,9 @@ interface BackToTopProps {
   className?: string;
 }
 
-const BackToTop: React.FC<BackToTopProps> = ({ 
-  showAfter = 300, 
-  className 
+const BackToTop: React.FC<BackToTopProps> = ({
+  showAfter = 300,
+  className,
 }) => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -50,21 +50,21 @@ const BackToTop: React.FC<BackToTopProps> = ({
     <button
       onClick={scrollToTop}
       className={cn(
-        "fixed bottom-8 right-8 z-50",
-        "h-12 w-12 rounded-full",
-        "bg-primary text-primary-foreground",
-        "hover:bg-primary/90",
-        "shadow-lg hover:shadow-xl",
-        "transition-all duration-300 ease-in-out",
-        "focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2",
-        "transform hover:scale-110",
-        "border border-border/20",
+        'fixed bottom-8 right-8 z-50',
+        'h-12 w-12 rounded-full',
+        'bg-primary text-primary-foreground',
+        'hover:bg-primary/90',
+        'shadow-lg hover:shadow-xl',
+        'transition-all duration-300 ease-in-out',
+        'focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2',
+        'transform hover:scale-110',
+        'border border-border/20',
         className
       )}
-      aria-label="Back to top"
-      title="Back to top"
+      aria-label='Back to top'
+      title='Back to top'
     >
-      <ChevronUpIcon className="h-5 w-5 mx-auto" />
+      <ChevronUpIcon className='h-5 w-5 mx-auto' />
     </button>
   );
 };

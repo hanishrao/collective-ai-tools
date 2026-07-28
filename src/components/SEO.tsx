@@ -35,7 +35,7 @@ const SEO: React.FC<SEOProps> = ({
   modifiedTime,
   section = 'Technology',
   tags = ['AI', 'Tools', 'Productivity', 'Automation'],
-  aiFriendly = true
+  aiFriendly = true,
 }) => {
   useEffect(() => {
     // Update document title
@@ -59,7 +59,9 @@ const SEO: React.FC<SEOProps> = ({
       ogTitle.setAttribute('content', title);
     }
 
-    const ogDescription = document.querySelector('meta[property="og:description"]');
+    const ogDescription = document.querySelector(
+      'meta[property="og:description"]'
+    );
     if (ogDescription) {
       ogDescription.setAttribute('content', description);
     }
@@ -80,17 +82,23 @@ const SEO: React.FC<SEOProps> = ({
     }
 
     // Update Twitter tags
-    const twitterTitle = document.querySelector('meta[property="twitter:title"]');
+    const twitterTitle = document.querySelector(
+      'meta[property="twitter:title"]'
+    );
     if (twitterTitle) {
       twitterTitle.setAttribute('content', title);
     }
 
-    const twitterDescription = document.querySelector('meta[property="twitter:description"]');
+    const twitterDescription = document.querySelector(
+      'meta[property="twitter:description"]'
+    );
     if (twitterDescription) {
       twitterDescription.setAttribute('content', description);
     }
 
-    const twitterImage = document.querySelector('meta[property="twitter:image"]');
+    const twitterImage = document.querySelector(
+      'meta[property="twitter:image"]'
+    );
     if (twitterImage) {
       twitterImage.setAttribute('content', image);
     }
@@ -103,7 +111,9 @@ const SEO: React.FC<SEOProps> = ({
     // Add structured data
     if (structuredData) {
       // Remove existing structured data
-      const existingScript = document.querySelector('script[type="application/ld+json"]');
+      const existingScript = document.querySelector(
+        'script[type="application/ld+json"]'
+      );
       if (existingScript) {
         existingScript.remove();
       }
@@ -140,7 +150,10 @@ const SEO: React.FC<SEOProps> = ({
       if (!aiContent) {
         const meta = document.createElement('meta');
         meta.setAttribute('name', 'ai-content');
-        meta.setAttribute('content', 'AI tools directory with curated resources for developers and researchers');
+        meta.setAttribute(
+          'content',
+          'AI tools directory with curated resources for developers and researchers'
+        );
         document.head.appendChild(meta);
       }
 
@@ -158,7 +171,10 @@ const SEO: React.FC<SEOProps> = ({
       if (!aiPurpose) {
         const meta = document.createElement('meta');
         meta.setAttribute('name', 'ai-purpose');
-        meta.setAttribute('content', 'educational, research, development, productivity');
+        meta.setAttribute(
+          'content',
+          'educational, research, development, productivity'
+        );
         document.head.appendChild(meta);
       }
 
@@ -167,7 +183,10 @@ const SEO: React.FC<SEOProps> = ({
       if (!aiCategory) {
         const meta = document.createElement('meta');
         meta.setAttribute('name', 'ai-category');
-        meta.setAttribute('content', 'technology, artificial intelligence, tools, automation');
+        meta.setAttribute(
+          'content',
+          'technology, artificial intelligence, tools, automation'
+        );
         document.head.appendChild(meta);
       }
 
@@ -190,7 +209,9 @@ const SEO: React.FC<SEOProps> = ({
       }
 
       // Add AI update frequency meta tag
-      const aiUpdateFreq = document.querySelector('meta[name="ai-update-frequency"]');
+      const aiUpdateFreq = document.querySelector(
+        'meta[name="ai-update-frequency"]'
+      );
       if (!aiUpdateFreq) {
         const meta = document.createElement('meta');
         meta.setAttribute('name', 'ai-update-frequency');
@@ -199,7 +220,9 @@ const SEO: React.FC<SEOProps> = ({
       }
 
       // Add AI data quality meta tag
-      const aiDataQuality = document.querySelector('meta[name="ai-data-quality"]');
+      const aiDataQuality = document.querySelector(
+        'meta[name="ai-data-quality"]'
+      );
       if (!aiDataQuality) {
         const meta = document.createElement('meta');
         meta.setAttribute('name', 'ai-data-quality');
@@ -220,7 +243,9 @@ const SEO: React.FC<SEOProps> = ({
 
     // Add article meta tags if provided
     if (publishedTime) {
-      const meta = document.querySelector('meta[property="article:published_time"]') || document.createElement('meta');
+      const meta =
+        document.querySelector('meta[property="article:published_time"]') ||
+        document.createElement('meta');
       meta.setAttribute('property', 'article:published_time');
       meta.setAttribute('content', publishedTime);
       if (!document.querySelector('meta[property="article:published_time"]')) {
@@ -229,7 +254,9 @@ const SEO: React.FC<SEOProps> = ({
     }
 
     if (modifiedTime) {
-      const meta = document.querySelector('meta[property="article:modified_time"]') || document.createElement('meta');
+      const meta =
+        document.querySelector('meta[property="article:modified_time"]') ||
+        document.createElement('meta');
       meta.setAttribute('property', 'article:modified_time');
       meta.setAttribute('content', modifiedTime);
       if (!document.querySelector('meta[property="article:modified_time"]')) {
@@ -238,7 +265,9 @@ const SEO: React.FC<SEOProps> = ({
     }
 
     if (author) {
-      const meta = document.querySelector('meta[name="author"]') || document.createElement('meta');
+      const meta =
+        document.querySelector('meta[name="author"]') ||
+        document.createElement('meta');
       meta.setAttribute('name', 'author');
       meta.setAttribute('content', author);
       if (!document.querySelector('meta[name="author"]')) {
@@ -247,7 +276,9 @@ const SEO: React.FC<SEOProps> = ({
     }
 
     if (section) {
-      const meta = document.querySelector('meta[property="article:section"]') || document.createElement('meta');
+      const meta =
+        document.querySelector('meta[property="article:section"]') ||
+        document.createElement('meta');
       meta.setAttribute('property', 'article:section');
       meta.setAttribute('content', section);
       if (!document.querySelector('meta[property="article:section"]')) {
@@ -292,15 +323,30 @@ const SEO: React.FC<SEOProps> = ({
     }
 
     // Add Google AdSense meta tag
-    const adsenseAccount = document.querySelector('meta[name="google-adsense-account"]');
+    const adsenseAccount = document.querySelector(
+      'meta[name="google-adsense-account"]'
+    );
     if (!adsenseAccount) {
       const meta = document.createElement('meta');
       meta.setAttribute('name', 'google-adsense-account');
       meta.setAttribute('content', 'ca-pub-6332717099679917');
       document.head.appendChild(meta);
     }
-
-  }, [title, description, keywords, image, url, type, structuredData, author, publishedTime, modifiedTime, section, tags, aiFriendly]);
+  }, [
+    title,
+    description,
+    keywords,
+    image,
+    url,
+    type,
+    structuredData,
+    author,
+    publishedTime,
+    modifiedTime,
+    section,
+    tags,
+    aiFriendly,
+  ]);
 
   return null; // This component doesn't render anything
 };

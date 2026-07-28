@@ -1,28 +1,25 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import AdminDataTable from '../AdminDataTable';
 import { ExternalLink } from 'lucide-react';
-import type {
-  AdminAITool,
-  AdminListParams,
-  AdminListResponse
-} from './types';
+import type { AdminAITool, AdminListParams, AdminListResponse } from './types';
 
 export default function AdminAITools() {
   const [data, setData] = useState<AdminAITool[]>([]);
-  const [pagination, setPagination] = useState({ page: 1, limit: 10, total: 0, pages: 0 });
+  const [pagination, setPagination] = useState({
+    page: 1,
+    limit: 10,
+    total: 0,
+    pages: 0,
+  });
   const [loading, setLoading] = useState(true);
   const [params, setParams] = useState<AdminListParams>({
     page: 1,
     search: '',
     sortBy: 'createdAt',
-    order: 'desc'
+    order: 'desc',
   });
 
-  useEffect(() => {
-    fetchData();
-  }, [params]);
-
-  async function fetchData() {
+  const fetchData = useCallback(async () => {
     setLoading(true);
     try {
       const query = new URLSearchParams({
@@ -30,7 +27,7 @@ export default function AdminAITools() {
         limit: '10',
         search: params.search,
         sortBy: params.sortBy,
-        order: params.order
+        order: params.order,
       });
       const res = await fetch(`/api/admin/ai-tools?${query}`);
       const result: AdminListResponse<AdminAITool> = await res.json();
@@ -41,36 +38,62 @@ export default function AdminAITools() {
     } finally {
       setLoading(false);
     }
-  }
+  }, [params]);
+
+  useEffect(() => {
+    void fetchData();
+  }, [fetchData]);
 
   const columns = [
     { key: 'name', label: 'Name', sortable: true },
-    { key: 'description', label: 'Description', render: (row: AdminAITool) => (
-      <span className="line-clamp-1" title={row.description}>{row.description}</span>
-    )},
-    { key: 'url', label: 'Link', render: (row: AdminAITool) => (
-        <a href={row.url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-500">
-            <ExternalLink className="h-4 w-4" />
+    {
+      key: 'description',
+      label: 'Description',
+      render: (row: AdminAITool) => (
+        <span className='line-clamp-1' title={row.description}>
+          {row.description}
+        </span>
+      ),
+    },
+    {
+      key: 'url',
+      label: 'Link',
+      render: (row: AdminAITool) => (
+        <a
+          href={row.url}
+          target='_blank'
+          rel='noopener noreferrer'
+          className='text-blue-600 hover:text-blue-500'
+        >
+          <ExternalLink className='h-4 w-4' />
         </a>
-    )},
+      ),
+    },
     {
       key: 'addedDate',
       label: 'Added',
       sortable: true,
-      render: (row: AdminAITool) => new Date(row.addedDate).toLocaleDateString()
-    }
+      render: (row: AdminAITool) =>
+        new Date(row.addedDate).toLocaleDateString(),
+    },
   ];
 
   return (
     <AdminDataTable
-      title="AI Tools"
+      title='AI Tools'
       columns={columns}
       data={data}
       pagination={pagination}
       isLoading={loading}
-      onPageChange={(p) => setParams(prev => ({ ...prev, page: p }))}
-      onSearch={(q) => setParams(prev => ({ ...prev, search: q, page: 1 }))}
-      onSort={(key) => setParams(prev => ({ ...prev, sortBy: key, order: prev.order === 'asc' ? 'desc' : 'asc' }))}
+      onPageChange={p => setParams(prev => ({ ...prev, page: p }))}
+      onSearch={q => setParams(prev => ({ ...prev, search: q, page: 1 }))}
+      onSort={key =>
+        setParams(prev => ({
+          ...prev,
+          sortBy: key,
+          order: prev.order === 'asc' ? 'desc' : 'asc',
+        }))
+      }
       onAdd={() => alert('Add functionality coming next!')}
     />
   );

@@ -5,7 +5,7 @@ const fetchMock = vi.mocked(fetch);
 
 function mockResponse(
   body: unknown = null,
-  init: { status?: number; headers?: Record<string, string> } = {},
+  init: { status?: number; headers?: Record<string, string> } = {}
 ): Response {
   const status = init.status ?? 200;
   return {
@@ -17,7 +17,10 @@ function mockResponse(
 }
 
 const filtersBody = { categories: [], languages: [], pricing: [] };
-const listBody = { data: [], pagination: { total: 0, page: 1, limit: 10, totalPages: 0 } };
+const listBody = {
+  data: [],
+  pagination: { total: 0, page: 1, limit: 10, totalPages: 0 },
+};
 
 describe('api', () => {
   let warnSpy: ReturnType<typeof vi.spyOn>;
@@ -56,7 +59,7 @@ describe('api', () => {
       });
       expect(fetchMock).toHaveBeenCalledWith(
         '/api/mcp?page=2&limit=10&search=claude&type=server&category=dev-tools&language=typescript&id=my-server&sort=stars',
-        {},
+        {}
       );
 
       await fetchMCPServers({});
@@ -66,10 +69,17 @@ describe('api', () => {
     it('builds the AI tools query string from provided params only', async () => {
       fetchMock.mockResolvedValue(mockResponse(listBody));
 
-      await fetchAITools({ page: 1, limit: 20, search: 'agent', category: 'chat', pricing: 'free', sort: 'newest' });
+      await fetchAITools({
+        page: 1,
+        limit: 20,
+        search: 'agent',
+        category: 'chat',
+        pricing: 'free',
+        sort: 'newest',
+      });
       expect(fetchMock).toHaveBeenCalledWith(
         '/api/ai-tools?page=1&limit=20&search=agent&category=chat&pricing=free&sort=newest',
-        {},
+        {}
       );
 
       await fetchAITools({});
@@ -97,7 +107,9 @@ describe('api', () => {
 
     it('waits for the Retry-After header (seconds) on 429 instead of the backoff', async () => {
       fetchMock
-        .mockResolvedValueOnce(mockResponse(null, { status: 429, headers: { 'Retry-After': '2' } }))
+        .mockResolvedValueOnce(
+          mockResponse(null, { status: 429, headers: { 'Retry-After': '2' } })
+        )
         .mockResolvedValueOnce(mockResponse(filtersBody));
 
       const promise = fetchFilters();
@@ -116,7 +128,9 @@ describe('api', () => {
       fetchMock.mockResolvedValue(mockResponse(null, { status: 500 }));
 
       const promise = fetchFilters();
-      const assertion = expect(promise).rejects.toThrow('Failed to fetch filters');
+      const assertion = expect(promise).rejects.toThrow(
+        'Failed to fetch filters'
+      );
       expect(fetchMock).toHaveBeenCalledTimes(1);
 
       await vi.advanceTimersByTimeAsync(1000);
@@ -135,7 +149,9 @@ describe('api', () => {
       fetchMock.mockResolvedValue(mockResponse(null, { status: 503 }));
 
       const promise = fetchMCPServers({});
-      const assertion = expect(promise).rejects.toThrow('Failed to fetch MCP data');
+      const assertion = expect(promise).rejects.toThrow(
+        'Failed to fetch MCP data'
+      );
 
       await vi.runAllTimersAsync();
       await assertion;
@@ -145,7 +161,9 @@ describe('api', () => {
     it('does not retry non-retryable errors like 404', async () => {
       fetchMock.mockResolvedValue(mockResponse(null, { status: 404 }));
 
-      await expect(fetchAITools({})).rejects.toThrow('Failed to fetch AI tools');
+      await expect(fetchAITools({})).rejects.toThrow(
+        'Failed to fetch AI tools'
+      );
       expect(fetchMock).toHaveBeenCalledTimes(1);
     });
   });

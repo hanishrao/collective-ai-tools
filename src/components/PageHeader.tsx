@@ -31,14 +31,17 @@ const PageHeader: React.FC<PageHeaderProps> = ({
 }) => {
   const accentClass = ACCENTS[accent];
   return (
-    <div className="text-center mb-10 sm:mb-12">
-      <div className="flex items-center justify-center gap-3 mb-4">
+    <div className='text-center mb-10 sm:mb-12'>
+      <div className='flex items-center justify-center gap-3 mb-4'>
         <Icon className={`h-8 w-8 shrink-0 ${accentClass}`} />
-        <h1 ref={titleRef} className={`text-3xl md:text-4xl font-bold text-gray-900 dark:text-white`}>
+        <h1
+          ref={titleRef}
+          className={`text-3xl md:text-4xl font-bold text-gray-900 dark:text-white`}
+        >
           {title}
         </h1>
       </div>
-      <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto px-4">
+      <p className='text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto px-4'>
         {description}
       </p>
     </div>

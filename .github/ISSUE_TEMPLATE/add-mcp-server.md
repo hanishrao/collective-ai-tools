@@ -9,63 +9,81 @@ assignees: ''
 ## MCP Server Information
 
 **Server Name:**
+
 <!-- e.g., My Awesome MCP Server -->
 
 **GitHub Repository URL:**
+
 <!-- e.g., https://github.com/username/my-mcp-server -->
 
 **Description:**
+
 <!-- Brief description of what this MCP server does -->
 
 **Author:**
+
 <!-- Name of the author or organization -->
 
 **Programming Language:**
+
 <!-- e.g., TypeScript, Python, Go, Rust, etc. -->
 
 **Type:**
+
 - [ ] MCP Server
 - [ ] MCP Client
 
 **Category:**
+
 <!-- e.g., Developer tools, Database, Security, etc. -->
 
 **Tags:**
+
 <!-- Comma-separated list of relevant tags -->
 <!-- e.g., database, postgresql, real-time, auth -->
 
 **Is Official:**
+
 - [ ] Yes (maintained by the official organization)
 - [ ] No (community-maintained)
 
 **Is Certified:**
+
 - [ ] Yes (has been verified/tested)
 - [ ] No (not yet certified)
 
 **Location:**
+
 - [ ] Local (runs locally)
 - [ ] Remote (cloud-based)
 
 **License:**
+
 <!-- e.g., MIT, Apache-2.0, GPL-3.0, etc. -->
 
 ## Additional Information
 
 **Features:**
+
 <!-- List key features of this MCP server -->
+
 - Feature 1
 - Feature 2
 - Feature 3
 
 **Requirements:**
+
 <!-- List any system requirements or dependencies -->
+
 - Requirement 1
 - Requirement 2
 
 **Documentation URL:**
+
 <!-- Link to official documentation if available -->
 
 **Why should this be added?**
+
 <!-- Explain why this MCP server would be valuable to the community -->
 
 ## Screenshots/Demo
@@ -83,4 +101,3 @@ assignees: ''
 ## Additional Notes
 
 <!-- Any additional information that might be helpful -->
-

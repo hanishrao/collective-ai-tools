@@ -14,7 +14,8 @@ import './styles/globals.css';
 // working app out of the box (see src/mocks). Opt out with VITE_USE_REAL_API=true
 // in .env.local if you have a real backend running and want live data.
 async function enableMocksIfNeeded() {
-  if (!import.meta.env.DEV || import.meta.env.VITE_USE_REAL_API === 'true') return;
+  if (!import.meta.env.DEV || import.meta.env.VITE_USE_REAL_API === 'true')
+    return;
   const { worker } = await import('./mocks/browser');
   await worker.start({ onUnhandledRequest: 'bypass' });
 }

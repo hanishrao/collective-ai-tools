@@ -76,7 +76,7 @@ export async function capturePageview(path: string): Promise<void> {
  */
 export async function captureEvent(
   event: string,
-  properties?: Record<string, unknown>,
+  properties?: Record<string, unknown>
 ): Promise<void> {
   const client = await getClient();
   client?.capture(event, properties);

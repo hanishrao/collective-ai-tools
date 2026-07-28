@@ -5,7 +5,7 @@
  * Checks for vulnerabilities, outdated packages, and security best practices
  */
 
-import { execSync } from 'child_process';
+import { spawnSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -24,95 +24,159 @@ class SecurityChecker {
     console.log(`[${timestamp}] ${level.toUpperCase()}: ${message}`);
   }
 
+  runPnpmJson(args) {
+    let command = 'pnpm';
+    let commandArgs = args;
+    if (process.platform === 'win32') {
+      const resolved = spawnSync('where.exe', ['pnpm.cmd'], {
+        encoding: 'utf8',
+      });
+      const pnpmCmd = resolved.stdout?.split(/\r?\n/).find(Boolean);
+      if (pnpmCmd) {
+        const runtimeRoot = path.resolve(path.dirname(pnpmCmd), '..', '..');
+        command = path.join(runtimeRoot, 'node', 'bin', 'node.exe');
+        commandArgs = [
+          path.join(
+            runtimeRoot,
+            'node',
+            'node_modules',
+            'pnpm',
+            'bin',
+            'pnpm.mjs'
+          ),
+          ...args,
+        ];
+      }
+    }
+
+    const result = spawnSync(command, commandArgs, {
+      cwd: path.join(__dirname, '..'),
+      encoding: 'utf8',
+      shell: false,
+    });
+
+    if (result.error) throw result.error;
+    if (!result.stdout.trim()) {
+      throw new Error(
+        result.stderr.trim() || `pnpm ${args.join(' ')} produced no output`
+      );
+    }
+
+    return JSON.parse(result.stdout);
+  }
+
   async checkDependencies() {
     this.log('info', 'Checking for outdated dependencies...');
-    
+
     try {
-      const outdated = execSync('pnpm outdated --json', { encoding: 'utf8' });
-      const outdatedPackages = JSON.parse(outdated);
-      
+      const outdatedPackages = this.runPnpmJson(['outdated', '--json']);
+
       if (Object.keys(outdatedPackages).length > 0) {
         this.warnings.push('Outdated dependencies found');
-        this.log('warn', `${Object.keys(outdatedPackages).length} packages are outdated`);
+        this.log(
+          'warn',
+          `${Object.keys(outdatedPackages).length} packages are outdated`
+        );
       } else {
         this.log('info', 'All dependencies are up to date');
       }
     } catch (error) {
-      this.log('error', 'Failed to check outdated dependencies');
+      this.warnings.push('Unable to check outdated dependencies');
+      this.log(
+        'error',
+        `Failed to check outdated dependencies: ${error.message}`
+      );
     }
   }
 
   async checkVulnerabilities() {
-    this.log('info', 'Checking for security vulnerabilities...');
-    
+    this.log(
+      'info',
+      'Checking production dependencies for security vulnerabilities...'
+    );
+
     try {
-      const audit = execSync('pnpm audit --json', { encoding: 'utf8' });
-      const auditResults = JSON.parse(audit);
-      
-      if (auditResults.vulnerabilities && Object.keys(auditResults.vulnerabilities).length > 0) {
+      const auditResults = this.runPnpmJson(['audit', '--prod', '--json']);
+      const advisories = Object.values(auditResults.advisories || {});
+
+      if (advisories.length > 0) {
         this.issues.push('Security vulnerabilities found');
-        this.log('error', `${Object.keys(auditResults.vulnerabilities).length} vulnerabilities found`);
-        
+        this.log('error', `${advisories.length} vulnerabilities found`);
+
         // Log high severity vulnerabilities
-        Object.values(auditResults.vulnerabilities).forEach(vuln => {
+        advisories.forEach(vuln => {
           if (vuln.severity === 'high' || vuln.severity === 'critical') {
-            this.log('error', `High severity: ${vuln.name} - ${vuln.title}`);
+            this.log(
+              'error',
+              `High severity: ${vuln.module_name} - ${vuln.title}`
+            );
           }
         });
       } else {
         this.log('info', 'No security vulnerabilities found');
       }
     } catch (error) {
-      this.log('error', 'Failed to run security audit');
+      this.issues.push('Unable to run security audit');
+      this.log('error', `Failed to run security audit: ${error.message}`);
     }
   }
 
   async checkSecurityHeaders() {
     this.log('info', 'Checking security headers in HTML...');
-    
-    const htmlFile = path.join(__dirname, '../index.html');
-    if (fs.existsSync(htmlFile)) {
-      const htmlContent = fs.readFileSync(htmlFile, 'utf8');
-      
-      const requiredHeaders = [
-        'Content-Security-Policy',
-        'X-Content-Type-Options',
-        'X-Frame-Options',
-        'X-XSS-Protection'
-      ];
-      
-      requiredHeaders.forEach(header => {
-        if (!htmlContent.includes(header)) {
-          this.warnings.push(`Missing security header: ${header}`);
-          this.log('warn', `Missing security header: ${header}`);
-        }
-      });
+
+    const configFile = path.join(__dirname, '../vercel.json');
+    if (!fs.existsSync(configFile)) {
+      this.warnings.push('Missing deployment security header configuration');
+      this.log('warn', 'Missing deployment security header configuration');
+      return;
     }
+
+    const config = JSON.parse(fs.readFileSync(configFile, 'utf8'));
+    const configuredHeaders = new Set(
+      (config.headers || [])
+        .filter(route => route.source === '/(.*)')
+        .flatMap(route => route.headers || [])
+        .map(header => header.key.toLowerCase())
+    );
+    const requiredHeaders = [
+      'content-security-policy',
+      'referrer-policy',
+      'strict-transport-security',
+      'x-content-type-options',
+      'x-frame-options',
+    ];
+
+    requiredHeaders.forEach(header => {
+      if (!configuredHeaders.has(header)) {
+        this.warnings.push(`Missing security header: ${header}`);
+        this.log('warn', `Missing security header: ${header}`);
+      }
+    });
   }
 
   async checkEnvironmentVariables() {
     this.log('info', 'Checking for exposed secrets...');
-    
+
     const filesToCheck = [
       '.env',
       '.env.local',
       '.env.production',
-      'vercel.json'
+      'vercel.json',
     ];
-    
+
     filesToCheck.forEach(file => {
       const filePath = path.join(__dirname, '..', file);
       if (fs.existsSync(filePath)) {
         const content = fs.readFileSync(filePath, 'utf8');
-        
+
         // Check for common secret patterns
         const secretPatterns = [
           /api[_-]?key\s*[:=]\s*['"][^'"]+['"]/gi,
           /secret\s*[:=]\s*['"][^'"]+['"]/gi,
           /password\s*[:=]\s*['"][^'"]+['"]/gi,
-          /token\s*[:=]\s*['"][^'"]+['"]/gi
+          /token\s*[:=]\s*['"][^'"]+['"]/gi,
         ];
-        
+
         secretPatterns.forEach(pattern => {
           if (pattern.test(content)) {
             this.warnings.push(`Potential secret found in ${file}`);
@@ -125,22 +189,26 @@ class SecurityChecker {
 
   async checkFilePermissions() {
     this.log('info', 'Checking file permissions...');
-    
-    const sensitiveFiles = [
-      'package.json',
-      'pnpm-lock.yaml',
-      'vercel.json'
-    ];
-    
+
+    if (process.platform === 'win32') {
+      this.log('info', 'Skipping POSIX permission checks on Windows');
+      return;
+    }
+
+    const sensitiveFiles = ['package.json', 'pnpm-lock.yaml', 'vercel.json'];
+
     sensitiveFiles.forEach(file => {
       const filePath = path.join(__dirname, '..', file);
       if (fs.existsSync(filePath)) {
         const stats = fs.statSync(filePath);
         const mode = stats.mode & parseInt('777', 8);
-        
+
         if (mode > parseInt('644', 8)) {
           this.warnings.push(`File ${file} has overly permissive permissions`);
-          this.log('warn', `File ${file} has overly permissive permissions (${mode.toString(8)})`);
+          this.log(
+            'warn',
+            `File ${file} has overly permissive permissions (${mode.toString(8)})`
+          );
         }
       }
     });
@@ -148,7 +216,7 @@ class SecurityChecker {
 
   async generateReport() {
     this.log('info', 'Generating security report...');
-    
+
     const report = {
       timestamp: new Date().toISOString(),
       issues: this.issues,
@@ -156,16 +224,21 @@ class SecurityChecker {
       summary: {
         totalIssues: this.issues.length,
         totalWarnings: this.warnings.length,
-        status: this.issues.length > 0 ? 'FAILED' : this.warnings.length > 0 ? 'WARNING' : 'PASSED'
-      }
+        status:
+          this.issues.length > 0
+            ? 'FAILED'
+            : this.warnings.length > 0
+              ? 'WARNING'
+              : 'PASSED',
+      },
     };
-    
+
     const reportPath = path.join(__dirname, '../security-report.json');
     fs.writeFileSync(reportPath, JSON.stringify(report, null, 2));
-    
+
     this.log('info', `Security report generated: ${reportPath}`);
     this.log('info', `Status: ${report.summary.status}`);
-    
+
     if (this.issues.length > 0) {
       this.log('error', `Found ${this.issues.length} security issues`);
       process.exit(1);
@@ -178,7 +251,7 @@ class SecurityChecker {
 
   async run() {
     this.log('info', 'Starting security check...');
-    
+
     await this.checkDependencies();
     await this.checkVulnerabilities();
     await this.checkSecurityHeaders();

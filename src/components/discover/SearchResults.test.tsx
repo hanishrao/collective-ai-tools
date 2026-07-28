@@ -5,19 +5,51 @@ import { SearchResults } from './SearchResults';
 import type { DiscoverGroup } from './types';
 
 const groups: DiscoverGroup[] = [
-  { type: 'tool', label: 'Tools', seeAllHref: '/tools', status: 'success', items: [
-    { id: 't1', type: 'tool', title: 'LangChain', subtitle: 'd', tags: [], href: 'https://x', external: true },
-  ] },
-  { type: 'mcp', label: 'MCP Servers', seeAllHref: '/mcp-catalog', status: 'error', items: [] },
-  { type: 'prompt', label: 'Prompts', seeAllHref: '/prompts', status: 'empty', items: [] },
+  {
+    type: 'tool',
+    label: 'Tools',
+    seeAllHref: '/tools',
+    status: 'success',
+    items: [
+      {
+        id: 't1',
+        type: 'tool',
+        title: 'LangChain',
+        subtitle: 'd',
+        tags: [],
+        href: 'https://x',
+        external: true,
+      },
+    ],
+  },
+  {
+    type: 'mcp',
+    label: 'MCP Servers',
+    seeAllHref: '/mcp-catalog',
+    status: 'error',
+    items: [],
+  },
+  {
+    type: 'prompt',
+    label: 'Prompts',
+    seeAllHref: '/prompts',
+    status: 'empty',
+    items: [],
+  },
 ];
 
-vi.mock('./useDiscoverSearch', () => ({ useDiscoverSearch: () => ({ groups, isLoading: false }) }));
+vi.mock('./useDiscoverSearch', () => ({
+  useDiscoverSearch: () => ({ groups, isLoading: false }),
+}));
 vi.mock('@/lib/analytics', () => ({ captureEvent: vi.fn() }));
 
 describe('SearchResults', () => {
   it('renders a success group with count, card, and see-all link', () => {
-    render(<MemoryRouter><SearchResults query="lang" /></MemoryRouter>);
+    render(
+      <MemoryRouter>
+        <SearchResults query='lang' />
+      </MemoryRouter>
+    );
     expect(screen.getByText(/Tools/)).toBeInTheDocument();
     expect(screen.getByText('LangChain')).toBeInTheDocument();
     const toolsSection = screen.getByText('LangChain').closest('section')!;
@@ -26,12 +58,20 @@ describe('SearchResults', () => {
   });
 
   it('shows an inline error for a failed group', () => {
-    render(<MemoryRouter><SearchResults query="lang" /></MemoryRouter>);
+    render(
+      <MemoryRouter>
+        <SearchResults query='lang' />
+      </MemoryRouter>
+    );
     expect(screen.getByText(/couldn't load mcp servers/i)).toBeInTheDocument();
   });
 
   it('shows quiet empty copy for an empty group', () => {
-    render(<MemoryRouter><SearchResults query="lang" /></MemoryRouter>);
+    render(
+      <MemoryRouter>
+        <SearchResults query='lang' />
+      </MemoryRouter>
+    );
     expect(screen.getByText(/no prompts match/i)).toBeInTheDocument();
   });
 });

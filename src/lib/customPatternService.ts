@@ -17,18 +17,18 @@ export const CustomPatternService = {
   savePattern(pattern: FabricPattern): void {
     const patterns = this.getPatterns();
     const existingIndex = patterns.findIndex(p => p.id === pattern.id);
-    
+
     if (existingIndex >= 0) {
       patterns[existingIndex] = pattern;
     } else {
       patterns.push(pattern);
     }
-    
+
     localStorage.setItem(STORAGE_KEY, JSON.stringify(patterns));
   },
 
   deletePattern(id: string): void {
     const patterns = this.getPatterns().filter(p => p.id !== id);
     localStorage.setItem(STORAGE_KEY, JSON.stringify(patterns));
-  }
+  },
 };

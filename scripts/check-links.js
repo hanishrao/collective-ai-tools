@@ -81,8 +81,14 @@ async function main() {
     const results = await Promise.all(chunk.map(checkLink));
     for (const result of results) {
       if (result.broken) {
-        broken.push({ ...result.link, status: result.status, error: result.error });
-        console.error(`Broken: [${result.link.title}](${result.link.url}) - ${result.status ?? result.error}`);
+        broken.push({
+          ...result.link,
+          status: result.status,
+          error: result.error,
+        });
+        console.error(
+          `Broken: [${result.link.title}](${result.link.url}) - ${result.status ?? result.error}`
+        );
       } else if (result.warning) {
         warnings.push({ ...result.link, status: result.warning });
       } else {
@@ -91,8 +97,17 @@ async function main() {
     }
   }
 
-  console.log(`\n\nChecked ${links.length} links: ${broken.length} broken, ${warnings.length} bot-blocked (not counted as dead).`);
-  fs.writeFileSync(REPORT_PATH, JSON.stringify({ checkedAt: new Date().toISOString(), broken, warnings }, null, 2));
+  console.log(
+    `\n\nChecked ${links.length} links: ${broken.length} broken, ${warnings.length} bot-blocked (not counted as dead).`
+  );
+  fs.writeFileSync(
+    REPORT_PATH,
+    JSON.stringify(
+      { checkedAt: new Date().toISOString(), broken, warnings },
+      null,
+      2
+    )
+  );
 
   if (broken.length > 0) process.exitCode = 1;
 }

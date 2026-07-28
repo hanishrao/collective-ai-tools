@@ -5,25 +5,54 @@ import { DiscoverCard } from './DiscoverCard';
 
 vi.mock('@/lib/analytics', () => ({ captureEvent: vi.fn() }));
 
-const base = { id: '1', title: 'LangChain', subtitle: 'LLM framework', tags: ['llm'], meta: 'Developer' };
+const base = {
+  id: '1',
+  title: 'LangChain',
+  subtitle: 'LLM framework',
+  tags: ['llm'],
+  meta: 'Developer',
+};
 
 function renderCard(item: any) {
-  return render(<MemoryRouter><DiscoverCard item={item} /></MemoryRouter>);
+  return render(
+    <MemoryRouter>
+      <DiscoverCard item={item} />
+    </MemoryRouter>
+  );
 }
 
 describe('DiscoverCard', () => {
   it('renders an external anchor with safe rel for external items', () => {
-    renderCard({ ...base, type: 'tool', href: 'https://langchain.com', external: true });
+    renderCard({
+      ...base,
+      type: 'tool',
+      href: 'https://langchain.com',
+      external: true,
+    });
     const link = screen.getByRole('link', { name: /LangChain/i });
-    expect(link).toHaveAttribute('href', expect.stringContaining('https://langchain.com'));
-    expect(link).toHaveAttribute('href', expect.stringContaining('utm_source=collectiveai.tools'));
+    expect(link).toHaveAttribute(
+      'href',
+      expect.stringContaining('https://langchain.com')
+    );
+    expect(link).toHaveAttribute(
+      'href',
+      expect.stringContaining('utm_source=collectiveai.tools')
+    );
     expect(link).toHaveAttribute('rel', 'noopener noreferrer');
     expect(link).toHaveAttribute('target', '_blank');
   });
 
   it('renders an internal router link for internal items', () => {
-    renderCard({ ...base, type: 'mcp', href: '/mcp-catalog/x', external: false });
-    expect(screen.getByRole('link', { name: /LangChain/i })).toHaveAttribute('href', '/mcp-catalog/x');
+    renderCard({
+      ...base,
+      type: 'mcp',
+      href: '/mcp-catalog/x',
+      external: false,
+    });
+    expect(screen.getByRole('link', { name: /LangChain/i })).toHaveAttribute(
+      'href',
+      '/mcp-catalog/x'
+    );
   });
 
   it('shows the type badge and meta', () => {

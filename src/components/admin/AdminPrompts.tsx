@@ -41,43 +41,45 @@ const AdminPrompts = () => {
   };
 
   const handleSync = async () => {
-    const confirmSync = window.confirm("This will sync ALL static prompts from Fabric and Anthropic to the database. Continue?");
+    const confirmSync = window.confirm(
+      'This will sync ALL static prompts from Fabric and Anthropic to the database. Continue?'
+    );
     if (!confirmSync) return;
 
     setSyncing(true);
     try {
-        const payload = [
-            ...STATIC_PATTERNS.map(p => ({
-                title: p.title,
-                content: p.systemPrompt,
-                description: p.description,
-                source: 'fabric',
-                tags: ['fabric', 'ai', 'system'],
-                rating: 0
-            })),
-            ...ANTHROPIC_PROMPTS.map(p => ({
-                title: p.title,
-                content: p.systemPrompt,
-                description: p.description,
-                source: 'anthropic',
-                tags: ['anthropic', 'claude'],
-                rating: 0
-            }))
-        ];
+      const payload = [
+        ...STATIC_PATTERNS.map(p => ({
+          title: p.title,
+          content: p.systemPrompt,
+          description: p.description,
+          source: 'fabric',
+          tags: ['fabric', 'ai', 'system'],
+          rating: 0,
+        })),
+        ...ANTHROPIC_PROMPTS.map(p => ({
+          title: p.title,
+          content: p.systemPrompt,
+          description: p.description,
+          source: 'anthropic',
+          tags: ['anthropic', 'claude'],
+          rating: 0,
+        })),
+      ];
 
-        const res = await fetch('/api/prompts/sync', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ prompts: payload })
-        });
+      const res = await fetch('/api/prompts/sync', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ prompts: payload }),
+      });
 
-        const data = await res.json();
-        alert(data.message || 'Sync successful');
+      const data = await res.json();
+      alert(data.message || 'Sync successful');
     } catch (err) {
-        console.error("Sync failed", err);
-        alert('Sync failed check console');
+      console.error('Sync failed', err);
+      alert('Sync failed check console');
     } finally {
-        setSyncing(false);
+      setSyncing(false);
     }
   };
 
@@ -86,7 +88,7 @@ const AdminPrompts = () => {
       const res = await fetch(`/api/prompts/${id}/status`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ status })
+        body: JSON.stringify({ status }),
       });
 
       if (res.ok) {
@@ -100,63 +102,69 @@ const AdminPrompts = () => {
   if (loading) return <div>Loading...</div>;
 
   return (
-    <div className="space-y-6">
-      <div className="flex justify-between items-center bg-card p-6 rounded-lg border shadow-xs">
+    <div className='space-y-6'>
+      <div className='flex justify-between items-center bg-card p-6 rounded-lg border shadow-xs'>
         <div>
-            <h2 className="text-2xl font-bold tracking-tight">Prompt Moderation</h2>
-            <p className="text-muted-foreground text-sm">Review pending submissions or sync ecosystem prompts.</p>
+          <h2 className='text-2xl font-bold tracking-tight'>
+            Prompt Moderation
+          </h2>
+          <p className='text-muted-foreground text-sm'>
+            Review pending submissions or sync ecosystem prompts.
+          </p>
         </div>
-        <div className="flex gap-4">
-             <Button variant="outline" onClick={handleSync} disabled={syncing}>
-                <RefreshCw className={`w-4 h-4 mr-2 ${syncing ? 'animate-spin' : ''}`} />
-                {syncing ? 'Syncing...' : 'Sync Ecosystem'}
-             </Button>
-             <Badge variant="secondary" className="px-3 py-1 h-9 text-md">
-                Pending: {prompts.length}
-             </Badge>
+        <div className='flex gap-4'>
+          <Button variant='outline' onClick={handleSync} disabled={syncing}>
+            <RefreshCw
+              className={`w-4 h-4 mr-2 ${syncing ? 'animate-spin' : ''}`}
+            />
+            {syncing ? 'Syncing...' : 'Sync Ecosystem'}
+          </Button>
+          <Badge variant='secondary' className='px-3 py-1 h-9 text-md'>
+            Pending: {prompts.length}
+          </Badge>
         </div>
       </div>
 
-      <div className="grid gap-4">
+      <div className='grid gap-4'>
         {prompts.length === 0 ? (
-            <div className="text-center py-12 text-muted-foreground bg-muted/20 rounded-lg">
-                No pending prompts to review.
-            </div>
+          <div className='text-center py-12 text-muted-foreground bg-muted/20 rounded-lg'>
+            No pending prompts to review.
+          </div>
         ) : (
-            prompts.map(prompt => (
+          prompts.map(prompt => (
             <Card key={prompt._id}>
-                <CardHeader className="flex flex-row items-start justify-between pb-2">
+              <CardHeader className='flex flex-row items-start justify-between pb-2'>
                 <div>
-                    <CardTitle className="text-lg">{prompt.title}</CardTitle>
-                    <div className="text-sm text-muted-foreground mt-1">
-                        by {prompt.userId?.name} ({prompt.userId?.email})
-                    </div>
+                  <CardTitle className='text-lg'>{prompt.title}</CardTitle>
+                  <div className='text-sm text-muted-foreground mt-1'>
+                    by {prompt.userId?.name} ({prompt.userId?.email})
+                  </div>
                 </div>
-                <Badge variant="outline">{prompt.status}</Badge>
-                </CardHeader>
-                <CardContent>
-                <div className="bg-muted p-3 rounded-md text-sm font-mono whitespace-pre-wrap max-h-40 overflow-y-auto mb-4">
-                    {prompt.content}
+                <Badge variant='outline'>{prompt.status}</Badge>
+              </CardHeader>
+              <CardContent>
+                <div className='bg-muted p-3 rounded-md text-sm font-mono whitespace-pre-wrap max-h-40 overflow-y-auto mb-4'>
+                  {prompt.content}
                 </div>
-                <div className="flex justify-end gap-2">
-                    <Button 
-                        size="sm" 
-                        variant="destructive"
-                        onClick={() => updateStatus(prompt._id, 'rejected')}
-                    >
-                    <X className="w-4 h-4 mr-1" /> Reject
-                    </Button>
-                    <Button 
-                        size="sm" 
-                        className="bg-green-600 hover:bg-green-700"
-                        onClick={() => updateStatus(prompt._id, 'approved')}
-                    >
-                    <Check className="w-4 h-4 mr-1" /> Approve
-                    </Button>
+                <div className='flex justify-end gap-2'>
+                  <Button
+                    size='sm'
+                    variant='destructive'
+                    onClick={() => updateStatus(prompt._id, 'rejected')}
+                  >
+                    <X className='w-4 h-4 mr-1' /> Reject
+                  </Button>
+                  <Button
+                    size='sm'
+                    className='bg-green-600 hover:bg-green-700'
+                    onClick={() => updateStatus(prompt._id, 'approved')}
+                  >
+                    <Check className='w-4 h-4 mr-1' /> Approve
+                  </Button>
                 </div>
-                </CardContent>
+              </CardContent>
             </Card>
-            ))
+          ))
         )}
       </div>
     </div>

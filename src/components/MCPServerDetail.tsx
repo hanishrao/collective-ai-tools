@@ -10,12 +10,12 @@ import { withUtm } from '@/lib/outbound';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
 import { Button } from './ui/button';
-import { 
-  ArrowLeft, 
-  ExternalLink, 
-  Star, 
-  Code, 
-  Globe, 
+import {
+  ArrowLeft,
+  ExternalLink,
+  Star,
+  Code,
+  Globe,
   CheckCircle,
   AlertCircle,
   Calendar,
@@ -28,10 +28,13 @@ import {
   GitBranch,
   Copy,
   MessageSquare,
-  Plus
+  Plus,
 } from 'lucide-react';
 import SEO from './SEO';
-import { generateToolStructuredData, generateBreadcrumbStructuredData } from '@/lib/seoUtils';
+import {
+  generateToolStructuredData,
+  generateBreadcrumbStructuredData,
+} from '@/lib/seoUtils';
 import { fetchMCPServers, MCPServer } from '@/lib/api';
 import ReviewSection from './ReviewSection';
 import ReactMarkdown, { Components } from 'react-markdown';
@@ -39,74 +42,111 @@ import rehypeRaw from 'rehype-raw';
 import rehypeSanitize from 'rehype-sanitize';
 import remarkGfm from 'remark-gfm';
 
-const buildReadmeComponents = (resolveUrl: (url: string | undefined) => string): Components => ({
-  h1: (props) => <h1 className="text-2xl font-bold mt-6 mb-4" {...props} />,
-  h2: (props) => <h2 className="text-xl font-bold mt-5 mb-3" {...props} />,
-  h3: (props) => <h3 className="text-lg font-bold mt-4 mb-2" {...props} />,
-  p: (props) => <p className="mb-4 leading-relaxed" {...props} />,
-  ul: (props) => <ul className="list-disc pl-5 mb-4" {...props} />,
-  ol: (props) => <ol className="list-decimal pl-5 mb-4" {...props} />,
-  li: (props) => <li className="mb-1" {...props} />,
-  a: (props) => <a className="text-blue-600 hover:underline" {...props} />,
-  code: (props) => <code className="bg-gray-100 dark:bg-gray-800 rounded px-1 py-0.5 text-sm font-mono" {...props} />,
-  pre: (props) => <pre className="bg-gray-100 dark:bg-gray-800 rounded p-4 mb-4 overflow-x-auto text-sm font-mono" {...props} />,
-  blockquote: (props) => <blockquote className="border-l-4 border-gray-300 dark:border-gray-700 pl-4 italic my-4" {...props} />,
+const buildReadmeComponents = (
+  resolveUrl: (url: string | undefined) => string
+): Components => ({
+  h1: props => <h1 className='text-2xl font-bold mt-6 mb-4' {...props} />,
+  h2: props => <h2 className='text-xl font-bold mt-5 mb-3' {...props} />,
+  h3: props => <h3 className='text-lg font-bold mt-4 mb-2' {...props} />,
+  p: props => <p className='mb-4 leading-relaxed' {...props} />,
+  ul: props => <ul className='list-disc pl-5 mb-4' {...props} />,
+  ol: props => <ol className='list-decimal pl-5 mb-4' {...props} />,
+  li: props => <li className='mb-1' {...props} />,
+  a: props => <a className='text-blue-600 hover:underline' {...props} />,
+  code: props => (
+    <code
+      className='bg-gray-100 dark:bg-gray-800 rounded px-1 py-0.5 text-sm font-mono'
+      {...props}
+    />
+  ),
+  pre: props => (
+    <pre
+      className='bg-gray-100 dark:bg-gray-800 rounded p-4 mb-4 overflow-x-auto text-sm font-mono'
+      {...props}
+    />
+  ),
+  blockquote: props => (
+    <blockquote
+      className='border-l-4 border-gray-300 dark:border-gray-700 pl-4 italic my-4'
+      {...props}
+    />
+  ),
   img: ({ src, ...props }) => {
     const resolvedSrc = resolveUrl(src);
     const lowerSrc = resolvedSrc?.toLowerCase() || '';
     const isBadge = [
-      'shields.io', 'badgen.net', 'badge.svg', '/badge/', 'trendshift.io',
-      'goreportcard.com', 'coveralls.io', 'codecov.io',
-      'github.com/actions', 'workflow/status', 'travis-ci.org',
-      'circleci.com', 'api.visitorbadge.io', 'hitcounter'
+      'shields.io',
+      'badgen.net',
+      'badge.svg',
+      '/badge/',
+      'trendshift.io',
+      'goreportcard.com',
+      'coveralls.io',
+      'codecov.io',
+      'github.com/actions',
+      'workflow/status',
+      'travis-ci.org',
+      'circleci.com',
+      'api.visitorbadge.io',
+      'hitcounter',
     ].some(pattern => lowerSrc.includes(pattern));
     if (isBadge) return null;
-    return <img src={resolvedSrc} className="max-w-full h-auto my-4 rounded-lg" {...props} />;
+    return (
+      <img
+        src={resolvedSrc}
+        className='max-w-full h-auto my-4 rounded-lg'
+        {...props}
+      />
+    );
   },
   source: ({ srcSet, ...props }) => (
     <source srcSet={resolveUrl(srcSet)} {...props} />
   ),
-  div: (props) => <div {...props} />,
+  div: props => <div {...props} />,
 });
 
 const MCPServerSidebar: React.FC<{
   server: MCPServer;
   languageName: string | undefined;
 }> = ({ server, languageName }) => (
-  <div className="space-y-6">
+  <div className='space-y-6'>
     <Card>
       <CardHeader>
         <CardTitle>Quick Info</CardTitle>
       </CardHeader>
-      <CardContent className="space-y-4">
-        <div className="flex items-center justify-between">
-          <span className="text-gray-600 dark:text-gray-400">Author</span>
-          <span className="font-medium">{server.author}</span>
+      <CardContent className='space-y-4'>
+        <div className='flex items-center justify-between'>
+          <span className='text-gray-600 dark:text-gray-400'>Author</span>
+          <span className='font-medium'>{server.author}</span>
         </div>
-        <div className="flex items-center justify-between">
-          <span className="text-gray-600 dark:text-gray-400">Language</span>
-          <Badge variant="outline">{languageName}</Badge>
+        <div className='flex items-center justify-between'>
+          <span className='text-gray-600 dark:text-gray-400'>Language</span>
+          <Badge variant='outline'>{languageName}</Badge>
         </div>
-        <div className="flex items-center justify-between">
-          <span className="text-gray-600 dark:text-gray-400">Type</span>
-          <Badge variant="outline">{server.type}</Badge>
+        <div className='flex items-center justify-between'>
+          <span className='text-gray-600 dark:text-gray-400'>Type</span>
+          <Badge variant='outline'>{server.type}</Badge>
         </div>
-        <div className="flex items-center justify-between">
-          <span className="text-gray-600 dark:text-gray-400">Location</span>
-          <div className="flex items-center gap-1">
-            <Globe className="h-4 w-4" />
+        <div className='flex items-center justify-between'>
+          <span className='text-gray-600 dark:text-gray-400'>Location</span>
+          <div className='flex items-center gap-1'>
+            <Globe className='h-4 w-4' />
             <span>{server.location}</span>
           </div>
         </div>
-        <div className="flex items-center justify-between">
-          <span className="text-gray-600 dark:text-gray-400">License</span>
-          <span className="font-medium">{server.license}</span>
+        <div className='flex items-center justify-between'>
+          <span className='text-gray-600 dark:text-gray-400'>License</span>
+          <span className='font-medium'>{server.license}</span>
         </div>
-        <div className="flex items-center justify-between">
-          <span className="text-gray-600 dark:text-gray-400">Last Updated</span>
-          <div className="flex items-center gap-1">
-            <Clock className="h-4 w-4" />
-            <span>{server.lastUpdated ? new Date(server.lastUpdated).toLocaleDateString() : 'N/A'}</span>
+        <div className='flex items-center justify-between'>
+          <span className='text-gray-600 dark:text-gray-400'>Last Updated</span>
+          <div className='flex items-center gap-1'>
+            <Clock className='h-4 w-4' />
+            <span>
+              {server.lastUpdated
+                ? new Date(server.lastUpdated).toLocaleDateString()
+                : 'N/A'}
+            </span>
           </div>
         </div>
       </CardContent>
@@ -115,17 +155,19 @@ const MCPServerSidebar: React.FC<{
     {server.requirements && server.requirements.length > 0 && (
       <Card>
         <CardHeader>
-          <CardTitle className="flex items-center gap-2">
-            <Settings className="h-5 w-5" />
+          <CardTitle className='flex items-center gap-2'>
+            <Settings className='h-5 w-5' />
             Requirements
           </CardTitle>
         </CardHeader>
         <CardContent>
-          <ul className="space-y-2">
+          <ul className='space-y-2'>
             {(server.requirements || []).map((requirement, index) => (
-              <li key={index} className="flex items-center gap-2">
-                <AlertCircle className="h-4 w-4 text-orange-500 shrink-0" />
-                <span className="text-gray-700 dark:text-gray-300">{requirement}</span>
+              <li key={index} className='flex items-center gap-2'>
+                <AlertCircle className='h-4 w-4 text-orange-500 shrink-0' />
+                <span className='text-gray-700 dark:text-gray-300'>
+                  {requirement}
+                </span>
               </li>
             ))}
           </ul>
@@ -137,23 +179,25 @@ const MCPServerSidebar: React.FC<{
       <CardHeader>
         <CardTitle>Links</CardTitle>
       </CardHeader>
-      <CardContent className="space-y-3">
+      <CardContent className='space-y-3'>
         <Button
-          variant="outline"
-          className="w-full justify-start"
-          onClick={() => server.githubUrl && window.open(withUtm(server.githubUrl), '_blank')}
+          variant='outline'
+          className='w-full justify-start'
+          onClick={() =>
+            server.githubUrl && window.open(withUtm(server.githubUrl), '_blank')
+          }
           disabled={!server.githubUrl}
         >
-          <ExternalLink className="h-4 w-4 mr-2" />
+          <ExternalLink className='h-4 w-4 mr-2' />
           GitHub Repository
         </Button>
         {server.documentation && (
           <Button
-            variant="outline"
-            className="w-full justify-start"
+            variant='outline'
+            className='w-full justify-start'
             onClick={() => window.open(server.documentation, '_blank')}
           >
-            <FileText className="h-4 w-4 mr-2" />
+            <FileText className='h-4 w-4 mr-2' />
             Documentation
           </Button>
         )}
@@ -162,46 +206,71 @@ const MCPServerSidebar: React.FC<{
   </div>
 );
 
-const ContributorCTA: React.FC<{ serverName: string; githubUrl?: string }> = ({ serverName, githubUrl }) => (
-  <div className="mt-16 bg-linear-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-2xl p-8 border border-blue-200 dark:border-blue-800">
-    <div className="text-center">
-      <div className="flex items-center justify-center gap-3 mb-4">
-        <div className="p-2 bg-linear-to-r from-green-500 to-blue-500 rounded-lg">
-          <Heart className="h-6 w-6 text-white" />
+const ContributorCTA: React.FC<{ serverName: string; githubUrl?: string }> = ({
+  serverName,
+  githubUrl,
+}) => (
+  <div className='mt-16 bg-linear-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-2xl p-8 border border-blue-200 dark:border-blue-800'>
+    <div className='text-center'>
+      <div className='flex items-center justify-center gap-3 mb-4'>
+        <div className='p-2 bg-linear-to-r from-green-500 to-blue-500 rounded-lg'>
+          <Heart className='h-6 w-6 text-white' />
         </div>
-        <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Found this server helpful?</h3>
+        <h3 className='text-2xl font-bold text-gray-900 dark:text-white'>
+          Found this server helpful?
+        </h3>
       </div>
-      <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-2xl mx-auto">
-        Help improve the MCP ecosystem! Star the repository, share feedback, or contribute to make it even better.
+      <p className='text-gray-600 dark:text-gray-400 mb-6 max-w-2xl mx-auto'>
+        Help improve the MCP ecosystem! Star the repository, share feedback, or
+        contribute to make it even better.
       </p>
-      <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+      <div className='flex flex-col sm:flex-row items-center justify-center gap-4'>
         <Button
           onClick={() => githubUrl && window.open(withUtm(githubUrl), '_blank')}
-          className="flex items-center gap-2 bg-linear-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white"
+          className='flex items-center gap-2 bg-linear-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white'
           disabled={!githubUrl}
         >
-          <Star className="h-4 w-4" />
+          <Star className='h-4 w-4' />
           Star on GitHub
         </Button>
         <Button
-          onClick={() => window.open(`https://github.com/Hyraze/collective-ai-tools/issues/new?title=Feedback for ${serverName}&body=I'd like to share feedback about ${serverName}...`, '_blank')}
-          variant="outline"
-          className="flex items-center gap-2"
+          onClick={() =>
+            window.open(
+              `https://github.com/Hyraze/collective-ai-tools/issues/new?title=Feedback for ${serverName}&body=I'd like to share feedback about ${serverName}...`,
+              '_blank'
+            )
+          }
+          variant='outline'
+          className='flex items-center gap-2'
         >
-          <MessageSquare className="h-4 w-4" />
+          <MessageSquare className='h-4 w-4' />
           Share Feedback
         </Button>
         <Button
-          onClick={() => window.open('https://github.com/Hyraze/collective-ai-tools/issues/new?template=add-mcp-server.md', '_blank')}
-          variant="outline"
-          className="flex items-center gap-2"
+          onClick={() =>
+            window.open(
+              'https://github.com/Hyraze/collective-ai-tools/issues/new?template=add-mcp-server.md',
+              '_blank'
+            )
+          }
+          variant='outline'
+          className='flex items-center gap-2'
         >
-          <Plus className="h-4 w-4" />
+          <Plus className='h-4 w-4' />
           Add Similar Server
         </Button>
       </div>
-      <div className="mt-6 text-sm text-gray-500 dark:text-gray-500">
-        <p>💡 <strong>Tip:</strong> Found an issue or want to suggest improvements? <a href={`https://github.com/Hyraze/collective-ai-tools/issues/new?title=Issue with ${serverName}`} className="text-blue-600 hover:text-blue-700 underline">Open an issue</a></p>
+      <div className='mt-6 text-sm text-gray-500 dark:text-gray-500'>
+        <p>
+          💡 <strong>Tip:</strong> Found an issue or want to suggest
+          improvements?{' '}
+          <a
+            href={`https://github.com/Hyraze/collective-ai-tools/issues/new?title=Issue with ${serverName}`}
+            className='text-blue-600 hover:text-blue-700 underline'
+          >
+            Open an issue
+          </a>
+        </p>
       </div>
     </div>
   </div>
@@ -210,7 +279,7 @@ const ContributorCTA: React.FC<{ serverName: string; githubUrl?: string }> = ({ 
 const MCPServerDetail: React.FC = () => {
   const { serverId } = useParams<{ serverId: string }>();
   const navigate = useNavigate();
-  
+
   const [server, setServer] = useState<MCPServer | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
@@ -219,117 +288,138 @@ const MCPServerDetail: React.FC = () => {
 
   useEffect(() => {
     async function loadServer() {
-        if (!serverId) return;
-        setLoading(true);
-        try {
-            // Fetch by ID using the new API filter
-            const response = await fetchMCPServers({ id: serverId });
-            if (response.data && response.data.length > 0) {
-                const serverData = response.data[0];
-                setServer(serverData);
-                
-                if (
-                    serverData.githubUrl &&
-                    (() => {
-                        try {
-                            const host = new URL(serverData.githubUrl).hostname.toLowerCase();
-                            return host === 'github.com' || host.endsWith('.github.com');
-                        } catch {
-                            return false;
-                        }
-                    })()
-                ) {
-                    fetchGithubData(serverData.githubUrl);
-                }
-            } else {
-                setError('Server not found');
-            }
-        } catch (err) {
-            // eslint-disable-next-line no-console
-            console.error(err);
-            setError('Failed to load server details');
-        } finally {
-            setLoading(false);
+      if (!serverId) return;
+      setLoading(true);
+      try {
+        // Fetch by ID using the new API filter
+        const response = await fetchMCPServers({ id: serverId });
+        if (response.data && response.data.length > 0) {
+          const serverData = response.data[0];
+          setServer(serverData);
+
+          if (
+            serverData.githubUrl &&
+            (() => {
+              try {
+                const host = new URL(
+                  serverData.githubUrl
+                ).hostname.toLowerCase();
+                return host === 'github.com' || host.endsWith('.github.com');
+              } catch {
+                return false;
+              }
+            })()
+          ) {
+            fetchGithubData(serverData.githubUrl);
+          }
+        } else {
+          setError('Server not found');
         }
+      } catch (err) {
+        console.error(err);
+        setError('Failed to load server details');
+      } finally {
+        setLoading(false);
+      }
     }
     loadServer();
   }, [serverId]);
 
   async function fetchGithubData(githubUrl: string) {
-      try {
-        const parts = githubUrl.split('github.com/')[1].split('/');
-        const owner = parts[0];
-        const repo = parts[1];
-        
-        // Parallel fetch for Data and README
-        const [repoRes, readmeResMaster, readmeResMain] = await Promise.all([
-             fetch(`https://api.github.com/repos/${owner}/${repo}`),
-             fetch(`https://raw.githubusercontent.com/${owner}/${repo}/master/README.md`),
-             fetch(`https://raw.githubusercontent.com/${owner}/${repo}/main/README.md`)
-        ]);
+    try {
+      const parts = githubUrl.split('github.com/')[1].split('/');
+      const owner = parts[0];
+      const repo = parts[1];
 
-        // Update Metadata
-        if (repoRes.ok) {
-            const repoData = await repoRes.json();
-            setServer(prev => {
-                if (!prev) return null;
-                return {
-                    ...prev,
-                    stars: repoData.stargazers_count,
-                    license: repoData.license?.name || prev.license || 'Unknown',
-                    // If GitHub gives a language, use it (it's a string). The UI handles string or object.
-                    // We prefer the GitHub source of truth.
-                    language: repoData.language ? { name: repoData.language, _id: 'gh', slug: repoData.language.toLowerCase() } : prev.language,
-                    lastUpdated: repoData.pushed_at,
-                    author: repoData.owner?.login || prev.author
-                } as MCPServer;
-            });
-        }
+      // Parallel fetch for Data and README
+      const [repoRes, readmeResMaster, readmeResMain] = await Promise.all([
+        fetch(`https://api.github.com/repos/${owner}/${repo}`),
+        fetch(
+          `https://raw.githubusercontent.com/${owner}/${repo}/master/README.md`
+        ),
+        fetch(
+          `https://raw.githubusercontent.com/${owner}/${repo}/main/README.md`
+        ),
+      ]);
 
-        // Update README and Base URL
-        if (readmeResMaster.ok) {
-            setReadmeContent(await readmeResMaster.text());
-            setReadmeBaseUrl(`https://raw.githubusercontent.com/${owner}/${repo}/master/`);
-        } else if (readmeResMain.ok) {
-            setReadmeContent(await readmeResMain.text());
-            setReadmeBaseUrl(`https://raw.githubusercontent.com/${owner}/${repo}/main/`);
-        }
-
-      } catch (err) {
-          // eslint-disable-next-line no-console
-          console.error("Failed to fetch from GitHub", err);
+      // Update Metadata
+      if (repoRes.ok) {
+        const repoData = await repoRes.json();
+        setServer(prev => {
+          if (!prev) return null;
+          return {
+            ...prev,
+            stars: repoData.stargazers_count,
+            license: repoData.license?.name || prev.license || 'Unknown',
+            // If GitHub gives a language, use it (it's a string). The UI handles string or object.
+            // We prefer the GitHub source of truth.
+            language: repoData.language
+              ? {
+                  name: repoData.language,
+                  _id: 'gh',
+                  slug: repoData.language.toLowerCase(),
+                }
+              : prev.language,
+            lastUpdated: repoData.pushed_at,
+            author: repoData.owner?.login || prev.author,
+          } as MCPServer;
+        });
       }
+
+      // Update README and Base URL
+      if (readmeResMaster.ok) {
+        setReadmeContent(await readmeResMaster.text());
+        setReadmeBaseUrl(
+          `https://raw.githubusercontent.com/${owner}/${repo}/master/`
+        );
+      } else if (readmeResMain.ok) {
+        setReadmeContent(await readmeResMain.text());
+        setReadmeBaseUrl(
+          `https://raw.githubusercontent.com/${owner}/${repo}/main/`
+        );
+      }
+    } catch (err) {
+      console.error('Failed to fetch from GitHub', err);
+    }
   }
 
   // Helper to resolve relative URLs to GitHub Raw
   const resolveUrl = (url: string | undefined) => {
-      if (!url) return '';
-      if (url.startsWith('http') || url.startsWith('//') || url.startsWith('data:')) return url;
-      if (!readmeBaseUrl) return url;
-      // Remove leading slash if present to join cleanly
-      const cleanUrl = url.startsWith('/') ? url.slice(1) : url;
-      return `${readmeBaseUrl}${cleanUrl}`;
+    if (!url) return '';
+    if (
+      url.startsWith('http') ||
+      url.startsWith('//') ||
+      url.startsWith('data:')
+    )
+      return url;
+    if (!readmeBaseUrl) return url;
+    // Remove leading slash if present to join cleanly
+    const cleanUrl = url.startsWith('/') ? url.slice(1) : url;
+    return `${readmeBaseUrl}${cleanUrl}`;
   };
 
   if (loading) {
     return (
-        <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-6 sm:py-8 pt-24 min-h-screen flex justify-center items-center">
-             <div className="animate-spin rounded-full h-8 w-8 border-2 border-gray-300 dark:border-gray-600 border-t-blue-600"></div>
-        </div>
+      <div className='max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-6 sm:py-8 pt-24 min-h-screen flex justify-center items-center'>
+        <div className='animate-spin rounded-full h-8 w-8 border-2 border-gray-300 dark:border-gray-600 border-t-blue-600'></div>
+      </div>
     );
   }
 
   if (error || !server) {
     return (
-      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-6 sm:py-8 pt-24">
-        <div className="text-center py-20">
-          <div className="text-8xl mb-6">⚠️</div>
-          <h1 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Server Not Found</h1>
-          <p className="text-gray-600 dark:text-gray-400 mb-8">
-            The MCP server you&rsquo;re looking for doesn&rsquo;t exist or has been removed.
+      <div className='max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-6 sm:py-8 pt-24'>
+        <div className='text-center py-20'>
+          <div className='text-8xl mb-6'>⚠️</div>
+          <h1 className='text-3xl font-bold mb-4 text-gray-900 dark:text-white'>
+            Server Not Found
+          </h1>
+          <p className='text-gray-600 dark:text-gray-400 mb-8'>
+            The MCP server you&rsquo;re looking for doesn&rsquo;t exist or has
+            been removed.
           </p>
-          <Button onClick={() => navigate('/mcp-catalog')} variant="outline">
-            <ArrowLeft className="h-4 w-4 mr-2" />
+          <Button onClick={() => navigate('/mcp-catalog')} variant='outline'>
+            <ArrowLeft className='h-4 w-4 mr-2' />
             Back to MCP Catalog
           </Button>
         </div>
@@ -342,14 +432,16 @@ const MCPServerDetail: React.FC = () => {
     name: server.name,
     description: server.description,
     tags: server.tags || [],
-    icon: <Code className="h-6 w-6" />
+    icon: <Code className='h-6 w-6' />,
   });
-  const breadcrumbData = generateBreadcrumbStructuredData(['MCP Catalog', server.name]);
+  const breadcrumbData = generateBreadcrumbStructuredData([
+    'MCP Catalog',
+    server.name,
+  ]);
 
   // Safe checks for populated fields
   const languageName = server.language?.name;
   const categoryName = server.category?.name;
-
 
   return (
     <>
@@ -358,44 +450,47 @@ const MCPServerDetail: React.FC = () => {
         description={server.description}
         keywords={`${server.name}, ${(server.tags || []).join(', ')}, MCP server, Model Context Protocol, AI tool`}
         url={`https://collectiveai.tools/mcp-catalog/${server.id}`}
-        type="article"
+        type='article'
         structuredData={[toolStructuredData, breadcrumbData]}
       />
-      
-      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-6 sm:py-8 pt-24">
+
+      <div className='max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-6 sm:py-8 pt-24'>
         {/* Back Button */}
         <Button
-          variant="outline"
+          variant='outline'
           onClick={() => navigate('/mcp-catalog')}
-          className="mb-6"
+          className='mb-6'
         >
-          <ArrowLeft className="h-4 w-4 mr-2" />
+          <ArrowLeft className='h-4 w-4 mr-2' />
           Back to MCP Catalog
         </Button>
 
         {/* Header */}
-        <div className="mb-8">
-          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 mb-6">
-            <div className="flex items-center gap-4 flex-1">
-              <div className="p-4 bg-linear-to-br from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900 rounded-2xl text-blue-600 dark:text-blue-400 shadow-lg">
-                <Code className="h-10 w-10" />
+        <div className='mb-8'>
+          <div className='flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 mb-6'>
+            <div className='flex items-center gap-4 flex-1'>
+              <div className='p-4 bg-linear-to-br from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900 rounded-2xl text-blue-600 dark:text-blue-400 shadow-lg'>
+                <Code className='h-10 w-10' />
               </div>
-              <div className="flex-1">
-                <h1 className="text-3xl sm:text-4xl font-bold bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
+              <div className='flex-1'>
+                <h1 className='text-3xl sm:text-4xl font-bold bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2'>
                   {server.name}
                 </h1>
-                <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
+                <p className='text-lg text-gray-600 dark:text-gray-400 leading-relaxed'>
                   {server.description}
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-3">
+            <div className='flex items-center gap-3'>
               <Button
-                onClick={() => server.githubUrl && window.open(withUtm(server.githubUrl), '_blank')}
-                className="flex items-center gap-2 bg-linear-to-r from-gray-800 to-gray-900 hover:from-gray-900 hover:to-black text-white"
+                onClick={() =>
+                  server.githubUrl &&
+                  window.open(withUtm(server.githubUrl), '_blank')
+                }
+                className='flex items-center gap-2 bg-linear-to-r from-gray-800 to-gray-900 hover:from-gray-900 hover:to-black text-white'
                 disabled={!server.githubUrl}
               >
-                <GitBranch className="h-4 w-4" />
+                <GitBranch className='h-4 w-4' />
                 View on GitHub
               </Button>
               <Button
@@ -405,94 +500,114 @@ const MCPServerDetail: React.FC = () => {
                     // You could add a toast notification here
                   }
                 }}
-                variant="outline"
-                className="flex items-center gap-2"
+                variant='outline'
+                className='flex items-center gap-2'
                 disabled={!server.githubUrl}
               >
-                <Copy className="h-4 w-4" />
+                <Copy className='h-4 w-4' />
                 Copy URL
               </Button>
             </div>
           </div>
 
           {/* Badges */}
-          <div className="flex flex-wrap gap-2 mb-6">
+          <div className='flex flex-wrap gap-2 mb-6'>
             {server.isOfficial && (
-              <Badge variant="default" className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
-                <CheckCircle className="h-3 w-3 mr-1" />
+              <Badge
+                variant='default'
+                className='bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200'
+              >
+                <CheckCircle className='h-3 w-3 mr-1' />
                 Official
               </Badge>
             )}
-            <Badge variant="outline">{languageName}</Badge>
-            <Badge variant="outline">{server.type}</Badge>
-            <Badge variant="outline">{categoryName}</Badge>
-            <Badge variant="outline">{server.location}</Badge>
+            <Badge variant='outline'>{languageName}</Badge>
+            <Badge variant='outline'>{server.type}</Badge>
+            <Badge variant='outline'>{categoryName}</Badge>
+            <Badge variant='outline'>{server.location}</Badge>
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="p-6 text-center">
-                <div className="flex items-center justify-center gap-2 mb-3">
-                  <Star className="h-6 w-6 text-yellow-500" />
-                  <span className="text-3xl font-bold">{server.rating}</span>
+          <div className='grid grid-cols-1 md:grid-cols-4 gap-4 mb-8'>
+            <Card className='hover:shadow-lg transition-shadow'>
+              <CardContent className='p-6 text-center'>
+                <div className='flex items-center justify-center gap-2 mb-3'>
+                  <Star className='h-6 w-6 text-yellow-500' />
+                  <span className='text-3xl font-bold'>{server.rating}</span>
                 </div>
-                <p className="text-sm text-gray-600 dark:text-gray-400 font-medium">Rating</p>
+                <p className='text-sm text-gray-600 dark:text-gray-400 font-medium'>
+                  Rating
+                </p>
               </CardContent>
             </Card>
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="p-6 text-center">
-                <div className="flex items-center justify-center gap-2 mb-3">
-                  <Users className="h-6 w-6 text-green-500" />
-                  <span className="text-3xl font-bold">{((server.stars || 0) / 1000).toFixed(1)}K</span>
-                </div>
-                <p className="text-sm text-gray-600 dark:text-gray-400 font-medium">GitHub Stars</p>
-              </CardContent>
-            </Card>
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="p-6 text-center">
-                <div className="flex items-center justify-center gap-2 mb-3">
-                  <Calendar className="h-6 w-6 text-purple-500" />
-                  <span className="text-3xl font-bold">
-                    {new Date(server.addedDate || Date.now()).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })}
+            <Card className='hover:shadow-lg transition-shadow'>
+              <CardContent className='p-6 text-center'>
+                <div className='flex items-center justify-center gap-2 mb-3'>
+                  <Users className='h-6 w-6 text-green-500' />
+                  <span className='text-3xl font-bold'>
+                    {((server.stars || 0) / 1000).toFixed(1)}K
                   </span>
                 </div>
-                <p className="text-sm text-gray-600 dark:text-gray-400 font-medium">Added</p>
+                <p className='text-sm text-gray-600 dark:text-gray-400 font-medium'>
+                  GitHub Stars
+                </p>
               </CardContent>
             </Card>
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="p-6 text-center">
-                <div className="flex items-center justify-center gap-2 mb-3">
-                  <Heart className="h-6 w-6 text-red-500" />
-                  <span className="text-3xl font-bold">
+            <Card className='hover:shadow-lg transition-shadow'>
+              <CardContent className='p-6 text-center'>
+                <div className='flex items-center justify-center gap-2 mb-3'>
+                  <Calendar className='h-6 w-6 text-purple-500' />
+                  <span className='text-3xl font-bold'>
+                    {new Date(
+                      server.addedDate || Date.now()
+                    ).toLocaleDateString('en-US', {
+                      month: 'short',
+                      year: 'numeric',
+                    })}
+                  </span>
+                </div>
+                <p className='text-sm text-gray-600 dark:text-gray-400 font-medium'>
+                  Added
+                </p>
+              </CardContent>
+            </Card>
+            <Card className='hover:shadow-lg transition-shadow'>
+              <CardContent className='p-6 text-center'>
+                <div className='flex items-center justify-center gap-2 mb-3'>
+                  <Heart className='h-6 w-6 text-red-500' />
+                  <span className='text-3xl font-bold'>
                     {server.isOfficial ? 'Official' : 'Community'}
                   </span>
                 </div>
-                <p className="text-sm text-gray-600 dark:text-gray-400 font-medium">Status</p>
+                <p className='text-sm text-gray-600 dark:text-gray-400 font-medium'>
+                  Status
+                </p>
               </CardContent>
             </Card>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-8'>
           {/* Main Content */}
-          <div className="lg:col-span-2 space-y-8">
+          <div className='lg:col-span-2 space-y-8'>
             {/* Description */}
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <FileText className="h-5 w-5" />
+                <CardTitle className='flex items-center gap-2'>
+                  <FileText className='h-5 w-5' />
                   Description
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="prose dark:prose-invert max-w-none text-gray-700 dark:text-gray-300">
+                <div className='prose dark:prose-invert max-w-none text-gray-700 dark:text-gray-300'>
                   <ReactMarkdown
                     rehypePlugins={[rehypeRaw, rehypeSanitize]}
                     remarkPlugins={[remarkGfm]}
                     components={buildReadmeComponents(resolveUrl)}
                   >
-                    {readmeContent || server.longDescription || server.description}
+                    {readmeContent ||
+                      server.longDescription ||
+                      server.description}
                   </ReactMarkdown>
                 </div>
               </CardContent>
@@ -500,24 +615,26 @@ const MCPServerDetail: React.FC = () => {
 
             {/* Features */}
             {server.features && server.features.length > 0 && (
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Zap className="h-5 w-5" />
-                  Features
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                  {(server.features || []).map((feature, index) => (
-                    <div key={index} className="flex items-center gap-2">
-                      <CheckCircle className="h-4 w-4 text-green-500 shrink-0" />
-                      <span className="text-gray-700 dark:text-gray-300">{feature}</span>
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle className='flex items-center gap-2'>
+                    <Zap className='h-5 w-5' />
+                    Features
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
+                    {(server.features || []).map((feature, index) => (
+                      <div key={index} className='flex items-center gap-2'>
+                        <CheckCircle className='h-4 w-4 text-green-500 shrink-0' />
+                        <span className='text-gray-700 dark:text-gray-300'>
+                          {feature}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
             )}
 
             {/* Tags */}
@@ -526,9 +643,9 @@ const MCPServerDetail: React.FC = () => {
                 <CardTitle>Tags</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="flex flex-wrap gap-2">
-                  {(server.tags || []).map((tag) => (
-                    <Badge key={tag} variant="outline" className="text-sm">
+                <div className='flex flex-wrap gap-2'>
+                  {(server.tags || []).map(tag => (
+                    <Badge key={tag} variant='outline' className='text-sm'>
                       {tag}
                     </Badge>
                   ))}
@@ -542,12 +659,15 @@ const MCPServerDetail: React.FC = () => {
         </div>
 
         {/* Reviews Section */}
-        <div className="mt-8">
-            <Card>
-                <CardContent className="p-6">
-                    <ReviewSection targetId={server._id || server.id} targetType="mcp" />
-                </CardContent>
-            </Card>
+        <div className='mt-8'>
+          <Card>
+            <CardContent className='p-6'>
+              <ReviewSection
+                targetId={server._id || server.id}
+                targetType='mcp'
+              />
+            </CardContent>
+          </Card>
         </div>
 
         {/* Contributor Section */}

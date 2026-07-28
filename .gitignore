@@ -108,6 +108,7 @@ secrets.json
 test-results/
 playwright-report/
 test-results.xml
+security-report.json
 
 # Backend (Separate Git Repo)
 server/

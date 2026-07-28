@@ -16,13 +16,13 @@ export default tseslint.config(
     },
     plugins: {
       'react-hooks': reactHooks,
-      'react': react,
+      react: react,
       'jsx-a11y': jsxA11y,
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
       ...react.configs.recommended.rules,
-      
+
       // React specific rules
       'react/react-in-jsx-scope': 'off',
       'react/prop-types': 'off',
@@ -30,14 +30,21 @@ export default tseslint.config(
       'react/jsx-uses-vars': 'error',
 
       // TypeScript specific rules
-      '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', varsIgnorePattern: '^_', ignoreRestSiblings: true }],
+      '@typescript-eslint/no-unused-vars': [
+        'error',
+        {
+          argsIgnorePattern: '^_',
+          varsIgnorePattern: '^_',
+          ignoreRestSiblings: true,
+        },
+      ],
       '@typescript-eslint/no-explicit-any': 'warn',
       '@typescript-eslint/explicit-function-return-type': 'off',
       '@typescript-eslint/explicit-module-boundary-types': 'off',
       '@typescript-eslint/no-non-null-assertion': 'warn',
 
       // General rules
-      'no-console': 'warn',
+      'no-console': ['warn', { allow: ['warn', 'error'] }],
       'no-debugger': 'error',
       'prefer-const': 'error',
       'no-var': 'error',
@@ -50,9 +57,16 @@ export default tseslint.config(
       'jsx-a11y/no-static-element-interactions': 'warn',
     },
     settings: {
-        react: {
-            version: 'detect',
-        },
+      react: {
+        version: 'detect',
+      },
     },
   },
+  {
+    files: ['**/*.test.{ts,tsx}', '**/*.d.ts'],
+    rules: {
+      '@typescript-eslint/no-explicit-any': 'off',
+      '@typescript-eslint/no-non-null-assertion': 'off',
+    },
+  }
 );

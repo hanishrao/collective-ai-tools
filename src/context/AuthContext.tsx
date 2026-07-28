@@ -1,4 +1,4 @@
-    import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect } from 'react';
 
 interface User {
   id: string;
@@ -73,10 +73,17 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     const text = await res.text();
     let data;
     try {
-        data = text ? JSON.parse(text) : {};
+      data = text ? JSON.parse(text) : {};
     } catch {
-        console.error('Login response parse error. Status:', res.status, 'Body:', text);
-        throw new Error(`Server returned invalid response (${res.status}). See console.`);
+      console.error(
+        'Login response parse error. Status:',
+        res.status,
+        'Body:',
+        text
+      );
+      throw new Error(
+        `Server returned invalid response (${res.status}). See console.`
+      );
     }
 
     if (!res.ok) {

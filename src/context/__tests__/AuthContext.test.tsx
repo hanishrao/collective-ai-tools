@@ -12,7 +12,9 @@ const fetchMock = vi.mocked(global.fetch);
 
 function Probe() {
   const { loading, user } = useAuth();
-  return <div>{loading ? 'loading' : user ? `user:${user.email}` : 'anonymous'}</div>;
+  return (
+    <div>{loading ? 'loading' : user ? `user:${user.email}` : 'anonymous'}</div>
+  );
 }
 
 describe('AuthContext session gating', () => {
@@ -26,10 +28,12 @@ describe('AuthContext session gating', () => {
     render(
       <AuthProvider>
         <Probe />
-      </AuthProvider>,
+      </AuthProvider>
     );
 
-    await waitFor(() => expect(screen.getByText('anonymous')).toBeInTheDocument());
+    await waitFor(() =>
+      expect(screen.getByText('anonymous')).toBeInTheDocument()
+    );
     expect(fetchMock).not.toHaveBeenCalled();
   });
 
@@ -44,10 +48,12 @@ describe('AuthContext session gating', () => {
     render(
       <AuthProvider>
         <Probe />
-      </AuthProvider>,
+      </AuthProvider>
     );
 
-    await waitFor(() => expect(screen.getByText('user:a@b.co')).toBeInTheDocument());
+    await waitFor(() =>
+      expect(screen.getByText('user:a@b.co')).toBeInTheDocument()
+    );
     expect(fetchMock).toHaveBeenCalledWith('/api/auth/me');
   });
 
@@ -62,10 +68,12 @@ describe('AuthContext session gating', () => {
     render(
       <AuthProvider>
         <Probe />
-      </AuthProvider>,
+      </AuthProvider>
     );
 
-    await waitFor(() => expect(screen.getByText('anonymous')).toBeInTheDocument());
+    await waitFor(() =>
+      expect(screen.getByText('anonymous')).toBeInTheDocument()
+    );
     expect(removeItem).toHaveBeenCalledWith(AUTH_HINT_KEY);
   });
 });

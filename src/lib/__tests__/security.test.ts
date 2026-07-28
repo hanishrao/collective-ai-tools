@@ -149,10 +149,12 @@ describe('security', () => {
         "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
         "font-src 'self' https://fonts.gstatic.com",
         "img-src 'self' data: https:",
-        "connect-src 'self' https://www.google-analytics.com",
+        "connect-src 'self' https:",
         "frame-ancestors 'none'",
+        "object-src 'none'",
         "base-uri 'self'",
         "form-action 'self'",
+        'upgrade-insecure-requests',
       ]);
     });
   });

@@ -51,7 +51,7 @@ describe('analytics', () => {
     expect(initMock).toHaveBeenCalledTimes(1);
     expect(initMock).toHaveBeenCalledWith(
       'phc_test',
-      expect.objectContaining({ persistence: 'memory' }),
+      expect.objectContaining({ persistence: 'memory' })
     );
     expect(captureMock).toHaveBeenCalledWith('tool_click', { tool: 'x' });
   });
@@ -65,14 +65,16 @@ describe('analytics', () => {
 
     expect(captureMock).toHaveBeenCalledWith(
       '$pageview',
-      expect.objectContaining({ path: '/tools' }),
+      expect.objectContaining({ path: '/tools' })
     );
   });
 
   it('inits only once across multiple calls', async () => {
     vi.stubEnv('DEV', false);
     vi.stubEnv('VITE_POSTHOG_KEY', 'phc_test');
-    const { initAnalytics, captureEvent, capturePageview } = await import('../analytics');
+    const { initAnalytics, captureEvent, capturePageview } = await import(
+      '../analytics'
+    );
 
     initAnalytics();
     await captureEvent('a');

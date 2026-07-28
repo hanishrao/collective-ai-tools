@@ -1,17 +1,23 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import AdminDataTable from '../AdminDataTable';
 
 export default function AdminTiers() {
   const [data, setData] = useState([]);
-  const [pagination, setPagination] = useState({ page: 1, limit: 10, total: 0, pages: 0 });
+  const [pagination, setPagination] = useState({
+    page: 1,
+    limit: 10,
+    total: 0,
+    pages: 0,
+  });
   const [loading, setLoading] = useState(true);
-  const [params, setParams] = useState({ page: 1, search: '', sortBy: 'name', order: 'asc' });
+  const [params, setParams] = useState({
+    page: 1,
+    search: '',
+    sortBy: 'name',
+    order: 'asc',
+  });
 
-  useEffect(() => {
-    fetchData();
-  }, [params]);
-
-  async function fetchData() {
+  const fetchData = useCallback(async () => {
     setLoading(true);
     try {
       const query = new URLSearchParams({
@@ -19,7 +25,7 @@ export default function AdminTiers() {
         limit: '10',
         search: params.search,
         sortBy: params.sortBy,
-        order: params.order
+        order: params.order,
       });
       const res = await fetch(`/api/admin/tiers?${query}`);
       const result = await res.json();
@@ -30,24 +36,34 @@ export default function AdminTiers() {
     } finally {
       setLoading(false);
     }
-  }
+  }, [params]);
+
+  useEffect(() => {
+    void fetchData();
+  }, [fetchData]);
 
   const columns = [
     { key: 'name', label: 'Name', sortable: true },
     { key: 'slug', label: 'Slug', sortable: true },
-    { key: 'icon', label: 'Icon' }
+    { key: 'icon', label: 'Icon' },
   ];
 
   return (
     <AdminDataTable
-      title="Pricing Tiers"
+      title='Pricing Tiers'
       columns={columns}
       data={data}
       pagination={pagination}
       isLoading={loading}
-      onPageChange={(p) => setParams(prev => ({ ...prev, page: p }))}
-      onSearch={(q) => setParams(prev => ({ ...prev, search: q, page: 1 }))}
-      onSort={(key) => setParams(prev => ({ ...prev, sortBy: key, order: prev.order === 'asc' ? 'desc' : 'asc' }))}
+      onPageChange={p => setParams(prev => ({ ...prev, page: p }))}
+      onSearch={q => setParams(prev => ({ ...prev, search: q, page: 1 }))}
+      onSort={key =>
+        setParams(prev => ({
+          ...prev,
+          sortBy: key,
+          order: prev.order === 'asc' ? 'desc' : 'asc',
+        }))
+      }
       onAdd={() => alert('Add functionality coming next!')}
     />
   );

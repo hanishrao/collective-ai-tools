@@ -4,32 +4,57 @@ import userEvent from '@testing-library/user-event';
 import { MemoryRouter } from 'react-router-dom';
 import { DiscoverBrowse } from './DiscoverBrowse';
 
-const renderBrowse = () => render(<DiscoverBrowse />, { wrapper: MemoryRouter });
+const renderBrowse = () =>
+  render(<DiscoverBrowse />, { wrapper: MemoryRouter });
 
 vi.mock('./sources', () => ({
   SOURCES: [
     {
-      type: 'tool', label: 'Tools', seeAllHref: '/tools',
+      type: 'tool',
+      label: 'Tools',
+      seeAllHref: '/tools',
       searchItems: async () => [],
       browseItems: async (_signal: AbortSignal, sort: string) => ({
         items: [
-          { id: 't1', type: 'tool', title: sort === 'newest' ? 'Tool New' : 'Tool One', subtitle: '', tags: [], href: '#', external: true },
+          {
+            id: 't1',
+            type: 'tool',
+            title: sort === 'newest' ? 'Tool New' : 'Tool One',
+            subtitle: '',
+            tags: [],
+            href: '#',
+            external: true,
+          },
         ],
         total: 1,
       }),
     },
     {
-      type: 'repo', label: 'Repos', seeAllHref: '/trending',
+      type: 'repo',
+      label: 'Repos',
+      seeAllHref: '/trending',
       searchItems: async () => [],
       browseItems: async () => ({
-        items: [{ id: 'r1', type: 'repo', title: 'Repo One', subtitle: '', tags: [], href: '#', external: true }],
+        items: [
+          {
+            id: 'r1',
+            type: 'repo',
+            title: 'Repo One',
+            subtitle: '',
+            tags: [],
+            href: '#',
+            external: true,
+          },
+        ],
         total: 1,
       }),
     },
   ],
 }));
 
-vi.mock('./DiscoverCard', () => ({ DiscoverCard: ({ item }: any) => <div>card:{item.title}</div> }));
+vi.mock('./DiscoverCard', () => ({
+  DiscoverCard: ({ item }: any) => <div>card:{item.title}</div>,
+}));
 vi.mock('@/lib/analytics', () => ({ captureEvent: vi.fn() }));
 
 describe('DiscoverBrowse', () => {

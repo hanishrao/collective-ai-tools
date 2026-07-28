@@ -8,18 +8,18 @@ export default function AdminGuard() {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        <Loader2 className="h-8 w-8 animate-spin text-blue-600" />
+      <div className='min-h-screen flex items-center justify-center'>
+        <Loader2 className='h-8 w-8 animate-spin text-blue-600' />
       </div>
     );
   }
 
   if (!user) {
-    return <Navigate to="/login" state={{ from: location.pathname }} replace />;
+    return <Navigate to='/login' state={{ from: location.pathname }} replace />;
   }
 
   if (user.role !== 'admin') {
-    return <Navigate to="/" replace />;
+    return <Navigate to='/' replace />;
   }
 
   return <Outlet />;

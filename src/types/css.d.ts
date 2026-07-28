@@ -2,7 +2,7 @@
  * @license
  * MIT
  * Collective AI Tools (https://collectiveai.tools)
- * 
+ *
  * CSS module declarations
  */
 

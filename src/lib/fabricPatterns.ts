@@ -14,14 +14,29 @@ export interface FabricItem {
   url: string;
 }
 
-const GITHUB_API_BASE = 'https://api.github.com/repos/danielmiessler/Fabric/contents/data';
-const RAW_CONTENT_BASE = 'https://raw.githubusercontent.com/danielmiessler/Fabric/main/data';
+interface GitHubContentItem {
+  name: string;
+  path: string;
+  type: 'dir' | 'file';
+  url: string;
+}
+
+interface FabricStrategy {
+  prompt?: string;
+  content?: string;
+}
+
+const GITHUB_API_BASE =
+  'https://api.github.com/repos/danielmiessler/Fabric/contents/data';
+const RAW_CONTENT_BASE =
+  'https://raw.githubusercontent.com/danielmiessler/Fabric/main/data';
 
 export const STATIC_PATTERNS: FabricPattern[] = [
   {
     id: 'extract_wisdom',
     title: 'Extract Wisdom',
-    description: 'Extracts surprising, insightful, and interesting information from long text content.',
+    description:
+      'Extracts surprising, insightful, and interesting information from long text content.',
     userPromptTemplate: 'Paste the content (article, transcript, etc.) here...',
     type: 'pattern',
     systemPrompt: `# IDENTITY and PURPOSE
@@ -82,8 +97,8 @@ Take a step back and think step-by-step about how to achieve the best possible r
 
 # INPUT
 
-INPUT:`
-  }
+INPUT:`,
+  },
 ];
 
 export const FabricService = {
@@ -92,8 +107,8 @@ export const FabricService = {
     try {
       const response = await fetch(`${GITHUB_API_BASE}/patterns`);
       if (!response.ok) throw new Error('Failed to fetch patterns');
-      const data = await response.json();
-      return data.filter((item: any) => item.type === 'dir');
+      const data = (await response.json()) as GitHubContentItem[];
+      return data.filter(item => item.type === 'dir');
     } catch (error) {
       console.error('Error fetching patterns:', error);
       return [];
@@ -105,8 +120,10 @@ export const FabricService = {
     try {
       const response = await fetch(`${GITHUB_API_BASE}/strategies`);
       if (!response.ok) throw new Error('Failed to fetch strategies');
-      const data = await response.json();
-      return data.filter((item: any) => item.type === 'file' && item.name.endsWith('.json'));
+      const data = (await response.json()) as GitHubContentItem[];
+      return data.filter(
+        item => item.type === 'file' && item.name.endsWith('.json')
+      );
     } catch (error) {
       console.error('Error fetching strategies:', error);
       return [];
@@ -116,7 +133,9 @@ export const FabricService = {
   // Fetch content for a specific pattern (system.md)
   async getPatternContent(patternName: string): Promise<string> {
     try {
-      const response = await fetch(`${RAW_CONTENT_BASE}/patterns/${patternName}/system.md`);
+      const response = await fetch(
+        `${RAW_CONTENT_BASE}/patterns/${patternName}/system.md`
+      );
       if (!response.ok) throw new Error('Failed to fetch pattern content');
       return await response.text();
     } catch (error) {
@@ -128,13 +147,15 @@ export const FabricService = {
   // Fetch content for a specific strategy (.json)
   async getStrategyContent(strategyName: string): Promise<string> {
     try {
-      const response = await fetch(`${RAW_CONTENT_BASE}/strategies/${strategyName}`);
+      const response = await fetch(
+        `${RAW_CONTENT_BASE}/strategies/${strategyName}`
+      );
       if (!response.ok) throw new Error('Failed to fetch strategy content');
-      const data = await response.json();
+      const data = (await response.json()) as FabricStrategy;
       return data.prompt || data.content || JSON.stringify(data, null, 2);
     } catch (error) {
       console.error('Error fetching strategy content:', error);
       return '';
     }
-  }
+  },
 };
