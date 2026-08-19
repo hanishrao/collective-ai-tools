@@ -546,6 +546,7 @@ Use these hashtags in search to filter out the tools
 - [Dive into Deep Learning](https://d2l.ai/) - Interactive book with Jupyter and PyTorch. `#free`
 - [Education CoPilot](https://educationcopilot.com/) - AI tool helps teachers design their curriculum, lesson plans and activities, and track the progress of their students. `#freemium`
 - [Elements of AI](https://www.elementsofai.com/) - Knowledge popularization for different backgrounds. `#free`
+- [English Speaking App](https://englishspeakingapp.com/english-speaking-practice) - AI speaking practice for interviews, meetings, and everyday conversations with live voice feedback. `#freemium`
 - [fast.ai](https://www.fast.ai/) - Simplifies deep learning via the fastai library. `#free`
 - [Gradescope](https://www.gradescope.com/) - AI-powered grading and assessment tool. `#freemium`
 - [Huxli.ai](https://huxli.ai/) - Elevate Your Writing, Supercharge Your Productivity `#freemium`
