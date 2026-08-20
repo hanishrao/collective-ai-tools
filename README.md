@@ -412,6 +412,7 @@ Use these hashtags in search to filter out the tools
 - [Aider](https://aider.chat/) - AI pair programmer that edits code in your local git repo `#free`
 - [Airops](https://www.airops.com/) - Task-specific AI Apps that go beyond Chat-GPT—run NLP, generate-data-informed content, draft/fix/optimize SQL queries, and more `#free`
 - [AirOps](https://airops.com/) - Large language model LLM workflows for SEO. ``
+- [AI Router](https://ai-router.dev) - Hosted OpenAI-compatible API relay with unified multi-model access, personal API keys, and per-key usage visibility. `#freemium`
 - [aiXcoder](https://www.aixcoder.com/) - Chinese deep learning software dev assistant. ``
 - [AskCodi](https://www.askcodi.com/) - Code generation and refactoring assistant. `#free`
 - [Augment Code](https://augmentcode.com/) - Industry-leading context engine for developers. ``
