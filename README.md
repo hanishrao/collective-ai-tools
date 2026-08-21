@@ -1112,6 +1112,7 @@ Use these hashtags in search to filter out the tools
 
 ## Translation
 
+- [SelectTranslate](https://selecttranslate.com/en) - AI translation extension for bilingual webpages, PDFs, video subtitles, images, online meetings, and eBooks, powered by 20+ AI models. `#freemium`
 - [Alibaba Translate](https://www.alibabagroup.com/) - Vertical engines for e-commerce, medical, and finance. ``
 - [Baidu AI Assistant](https://www.baidu.com/) - Mobile app for voice, photo, and interpretation. `#free`
 - [Baidu Translate](https://fanyi.baidu.com/) - AI large model supporting 203 languages. `#free`
