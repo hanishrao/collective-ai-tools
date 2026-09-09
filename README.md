@@ -792,7 +792,7 @@ Use these hashtags in search to filter out the tools
 - [Stable Diffusion Online](https://stablediffusionweb.com/#ai-image-generator) - text-to-image diffusion model capable of generating photo-realistic images given any text input, cultivates autonomous freedom to produce incredible imagery, empowers billions of people to create stunning art within seconds. `#opensource`
 - [stockimg.ai](https://stockimg.ai/) - Stockimg is an all in one design and content creation tool powered by AI. You can easily generate logo, illustration, wallpaper, poster and more. `#freemium`
 - [Top VS Best](https://topvsbest.com/aiimagecreator/) - Effortlessly craft mesmerizing and exclusive images through our AI-powered image generation. `#free`
-- [Vivify GPT Image 2.5](https://vivify.video/models/gpt-image-2-5) - Generate product visuals and edit reference images with Flare or Sunburst in a browser. `#paid` `#design`
+- [Vivify GPT Image 2.5](https://vivify.video/models/gpt-image-2-5) - Generate product visuals and edit reference images with Flare or Sunburst in a browser. `#paid`
 - [Wepik AI](https://wepik.com/ai) - Text to Image Converter `#free`
 - [Seedream AI Studio](https://seedream4.video/) - Multi-model AI image generation using ByteDance Seedream 5.0/4.5/4.0, with one-click image-to-video animation via Kling 2.1. `#freemium`
 
@@ -1175,12 +1175,11 @@ Use these hashtags in search to filter out the tools
 - [JiMeng AI](https://jimeng.jianying.com/) - 2K high-definition art and shot generation. `#freemium`
 - [Kling AI Video](https://kling.kuaishou.com/) - High-quality video generation with realistic motion and physics `#freemium`
 - [LensGo](https://lensgo.ai/) - character style transfer tool (Shutdown 2025). `#free`
-- [LiveFaceSwap AI](https://livefaceswap.ai/) - Cloud-based live webcam transformations with face, outfit, and style references plus desktop virtual-camera output. `#paid` `#video`
+- [LiveFaceSwap AI](https://livefaceswap.ai/) - Cloud-based live webcam transformations with face, outfit, and style references plus desktop virtual-camera output. `#paid`
 - [LTX Studio](https://ltx.studio/) - Film production platform for story control. `#free`
 - [Luma AI](https://lumalabs.ai/) - AI-powered 3D capture and video generation from text prompts. `#freemium`
 - [Luma Dream Machine](https://lumalabs.ai/dream-machine) - Advanced AI video generation with cinematic quality `#freemium`
 - [LumiYing](https://lumiying.com/) - Generates videos and images from text and visual references using multiple AI models in one workspace. `#paid`
-
 - [Medeo](https://medeo.ai/) - Integrates ChatGPT, Kling, and ElevenLabs. `#freemium`
 - [MetaMirror](https://metamirror.io/) - transforms scripts into videos viaSymbiosis engine. `#paid`
 - [Moonvalley](https://moonvalley.ai/) - AI-powered video generation with advanced editing capabilities `#freemium`
