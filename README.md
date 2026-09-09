@@ -1173,6 +1173,7 @@ Use these hashtags in search to filter out the tools
 - [JiMeng AI](https://jimeng.jianying.com/) - 2K high-definition art and shot generation. `#freemium`
 - [Kling AI Video](https://kling.kuaishou.com/) - High-quality video generation with realistic motion and physics `#freemium`
 - [LensGo](https://lensgo.ai/) - character style transfer tool (Shutdown 2025). `#free`
+- [LiveFaceSwap AI](https://livefaceswap.ai/) - Cloud-based live webcam transformations with face, outfit, and style references plus desktop virtual-camera output. `#paid` `#video`
 - [LTX Studio](https://ltx.studio/) - Film production platform for story control. `#free`
 - [Luma AI](https://lumalabs.ai/) - AI-powered 3D capture and video generation from text prompts. `#freemium`
 - [Luma Dream Machine](https://lumalabs.ai/dream-machine) - Advanced AI video generation with cinematic quality `#freemium`
