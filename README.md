@@ -542,6 +542,7 @@ Use these hashtags in search to filter out the tools
 
 ## Education
 
+- [10xhuman](https://10xhuman.net/?lang=en) - AI-guided project learning in Korean, English and Japanese, with a free project brief and downloadable workbook to get started. `#education`
 - [AI University Hall](https://www.aidaxue.com/) - iFlytek programming and AI training platform. `#free`
 - [Alibaba Cloud Path](https://www.alibabagroup.com/) - 871 class hours and 26 free courses. `#free`
 - [ClassPoint AI](https://www.classpoint.io/) - AI tool for teachers to generate questions out of any PowerPoint slide. `#free`
