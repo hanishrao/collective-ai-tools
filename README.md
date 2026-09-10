@@ -1055,6 +1055,7 @@ Use these hashtags in search to filter out the tools
 
 - [ATS Resume Checker](https://hugounoclaw.github.io/ats-checker/) - Free, open-source resume checker that scores your resume against a job description (0–100), flags missing ATS keywords, and runs fully in-browser so nothing is uploaded. `#free` `#opensource`
 - [Resume Roaster](https://resume.roastlabai.com/) - AI-powered resume critique with ATS scoring and keyword gap analysis. Upload your resume, get brutally honest feedback on what a recruiter sees, and identify keyword gaps against any job description. `#freemium`
+- [ResumeAI](https://withresumeai.com/) - Free ATS checker (3/day anonymous, 10/day free account) and AI resume builder; State of ATS 2026 (738 employers, Workday 37.9%). `#freemium`
 - [CVExpert](https://cvexpert.com/) - Free, no-sign-up CV health and CV–job keyword checks that run in the browser without uploading or saving pasted text. `#free`
 - [LoopCV](https://www.loopcv.pro/) - Upload your CV, Select the type of Job You Want, and Press Start! Loopcv will Mass Apply on your behalf Every Single Day `#freemium`
 - [resumA.I.](https://www.resumai.com/) - resumA.I. is a next generation intelligent resume builder for enabling more effective job applications `#freemium`
