@@ -1146,6 +1146,7 @@ Use these hashtags in search to filter out the tools
 ## Video
 
 - [AVCLabs](https://www.avclabs.com/) - 100% free automatic video background remover. `#free`
+- [C2Anime](https://c2anime.com/) - AI Anime Agent that turns stories into animated short films with voices and sound. `#paid` `#animation`
 - [Captions](https://www.captions.ai/) - AI creative studio application for creators. `#freemium`
 - [Chromox](https://chromox.alkaidvision.com/) - Transforming Ideas into Visual Stories. `#free`
 - [Clipfly](https://www.clipfly.com/) - Integrated video generation and enhancement. `#freemium`
