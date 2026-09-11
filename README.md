@@ -473,6 +473,7 @@ Use these hashtags in search to filter out the tools
 - [Ollama](https://ollama.com/) - Run LLMs locally with GPU acceleration. Llama, Mistral, DeepSeek, Gemma and more. `#free` `#opensource`
 - [n8n](https://n8n.io/) - Open-source workflow automation with AI agent nodes, MCP support, and 400+ integrations. `#freemium` `#opensource`
 - [OpenCode](https://github.com/anomalyco/opencode) - Open-source terminal AI coding agent with skills, MCP, and custom workflows. `#free` `#opensource`
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a coding-agent run and replays it back to the agent with no model called, or forks a checkpoint onto other models to compare. `#free`
 - [Plandex](https://plandex.ai/) - Terminal AI agent for large-scale projects. `#free`
 - [QueryCraft](https://querycraft.ai/) - AI-Powered Data Query Generator `#free`
 - [Quest AI](https://www.quest.ai/) - Intelligent Q&A and info retrieval for dev. `#freemium`
