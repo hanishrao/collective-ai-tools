@@ -199,6 +199,7 @@ Use these hashtags in search to filter out the tools
 - [Sidekick](https://www.jigso.io/lp-sidekick) - Get answers from your apps using natural language. `#free`
 - [V7 labs](https://www.v7labs.com/) - AI-powered platform for creating, labeling, and iterating high-quality training data for computer vision models. It streamlines the annotation process with intelligent tools and automation to help teams build vision models faster and more accurately. `#paid`
 - [Wand AI](https://wand.ai/) - An AI operating system to build, manage, and collaborate with autonomous agents that automate business processes for a hybrid human+AI workforce. `#freemium`
+- [Statsnet](https://statsnet.co) - Background check any company in the world: registration, executives, courts and finances. MCP: `https://statsnet.co/mcp` `#freemium`
 
 **[⬆️ Back to Top](#table-of-contents)**
 
