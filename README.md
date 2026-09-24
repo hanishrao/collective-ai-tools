@@ -410,7 +410,7 @@ Use these hashtags in search to filter out the tools
 
 - [AI Code Reviewer](https://ai-code-reviewer.com/) - Efficient automated code review solution. ``
 - [Agent Island](https://github.com/tristan666666/agent-island) - Free, MIT-licensed native companion for Claude, Codex, Antigravity, Grok, and Cursor, with local session status, your-turn alerts, and provider usage views. `#free` `#opensource`
-- [agent-qa](https://github.com/vostride/agent-qa) - Self-improving QA agent for web and mobile apps with natural-language tests, run memory, and regression detection. `#opensource`
+- [agent-qa](https://github.com/vostride/agent-qa) - Self-improving QA agent for web and mobile apps with natural-language tests, run memory, and regression detection. `#testing`
 - [Aider](https://aider.chat/) - AI pair programmer that edits code in your local git repo `#free`
 - [Airops](https://www.airops.com/) - Task-specific AI Apps that go beyond Chat-GPT—run NLP, generate-data-informed content, draft/fix/optimize SQL queries, and more `#free`
 - [AirOps](https://airops.com/) - Large language model LLM workflows for SEO. `#freemium`
