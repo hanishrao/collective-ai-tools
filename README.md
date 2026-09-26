@@ -461,6 +461,7 @@ Use these hashtags in search to filter out the tools
 - [Groq](https://groq.com/) - Ultra-fast LLM inference API with free tier for Llama, Mixtral, and Gemma models. `#freemium`
 - [HeyCLI](https://heycli.com/) - Natural language execution for Linux terminals. `#paid`
 - [Hocoos](https://hocoos.com/) - AI-driven no-code website construction tool. `#paid`
+- [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - Developer-alpha Rust knowledge store with encrypted, append-only records and an MCP server for agent access through scoped, expiring grants. `#free` `#opensource`
 - [Imgcook](https://www.imgcook.com/) - Taobao design-to-code intelligent tool. `#free`
 - [JamGPT](https://jam.dev/) - Automated error reporting and fixing assistant. `#free`
 - [Junie](https://www.jetbrains.com/junie/) - JetBrains context-aware IDE assistant. `#paid`
