@@ -1026,6 +1026,7 @@ Use these hashtags in search to filter out the tools
 ## Real Estate
 
 - [Altyst](https://altyst.ai/) - Turns a commercial property's address, listing link, or offering memorandum into a full editable underwriting model with cash flows, IRR, and DSCR. `#paid`
+- [CoworkingView MCP](https://coworkingview.com/en/mcp) - Hosted MCP server and REST API that let AI assistants search and compare coworking spaces and private offices in Europe and the UAE, with operator-published prices. `#free` `#mcp`
 - [HomeByte](https://homebyte.com/) - Find your dream home with the most advanced home search on the planet. `#free`
 - [IACrea](https://iacrea.com/) - AI-powered Home Staging Solution `#paid`
 - [InteriorAI](https://interiorai.com/) - Interior design ideas using Artificial Intelligence `#paid`
