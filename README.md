@@ -848,6 +848,7 @@ Use these hashtags in search to filter out the tools
 - [SE Visible (visible.seranking.com)](https://visible.seranking.com/) - AI brand visibility tracker for search/LLM result coverage. `#paid`
 - [Socialmon](https://www.socialmon.ai/) - Find viral marketing examples and trends across topics and industries. `#paid`
 - [Sparkiz.ai](https://sparkiz.ai) - Turn a product link into a ready-to-launch AI video ad (avatars, voiceover, captions) in 60 seconds. `#freemium`
+- [ThreadFox](https://threadfox.vip) - Reddit outreach run by Claude or Codex in your own Chrome: reads each subreddit's rules, drafts posts and replies you approve, posts once and rechecks each post. `#paid`
 - [TikTokalyzer](https://tiktokalyzer.ai/) - TikTok analytics and insights for content performance and trends. `#paid`
 - [Virbo](https://virbo.wondershare.com/) - digital human customization for personal IP. `#freemium`
 - [We-Connect](https://we-connect.io/) - LinkedIn outreach automation with multi-touch sequences and post remixing. `#paid`
