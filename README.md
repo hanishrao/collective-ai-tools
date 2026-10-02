@@ -391,6 +391,7 @@ Use these hashtags in search to filter out the tools
 - [ProcessOn](https://www.processon.com/) - Professional online diagramming (Gantt, UML). `#free`
 - [svg.io](https://svg.io) - The power of AI with our Free Text-to-SVG Generator! Effortlessly convert your text prompts into stunning SVG images using our advanced AI technology. `#free`
 - [Taskade](https://www.taskade.com/) - AI agents for remote task and project management. `#free`
+- [Tesla Wrap Generator](https://teslawrapgenerator.com/) - Turn a prompt or photo into a Tesla Paint Shop custom wrap for your exact model, preview it in 3D and download the PNG. `#freemium`
 - [TreeMind](https://shuxintu.com/) - Split-screen collaborative AI mind mapping. `#free`
 - [Whimsical](https://whimsical.com/) - All-in-one workspace for fast-paced teams. `#freemium`
 - [Xmind Copilot](https://xmind.ai/) - AI mind map and one-click slide generation. `#free`
