@@ -1094,6 +1094,7 @@ Use these hashtags in search to filter out the tools
 - [Frase](https://www.frase.io/) - Content optimization tool that helps businesses create SEO-friendly content quickly and easily. `#paid`
 - [Frizerly](https://www.thefrizerly.com/) - AI agent that learns your business and competitors to automatically publish SEO blogs. `#paid`
 - [GrowthBar](https://www.growthbarseo.com/) - SEO tool designed to help marketers, bloggers, and content teams create SEO-friendly content. `#paid`
+- [LogNorm](https://lognorm.com/) - SEO and GEO growth backlog worked by AI agents (Claude Code, Codex, Cursor) via MCP. `#freemium` `#seo`
 - [Serplux](https://serplux.com/) - AI Growth Agents to Boost Traffic, Rankings & Sales - 24/7 `#paid`
 - [Surfer SEO](https://surferseo.com/) - SEO tool that helps users optimize their content for better search engine rankings. `#paid`
 
