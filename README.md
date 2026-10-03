@@ -1008,6 +1008,7 @@ Use these hashtags in search to filter out the tools
 - [Screenpipe](https://screenpipe.com/) - Captures screen text and audio transcripts locally, making computer history searchable for people and AI assistants through MCP and a local API. `#freemium` `#productivity`
 - [Soda Office](https://soda.office/) - Comprehensive navigation for office and life tools. `#free`
 - [Supermanage AI](https://supermanage.ai/) - Effortless prep for your 1-on-1 `#free`
+- [Tale](https://tale.dev/) - Open-source project workspace where teams assign tasks to AI agents in persistent sandboxes and review their reports and deliverables together. `#opensource` `#productivity`
 - [Taskade](https://www.taskade.com/) - Taskade elegantly unifies your team tasks, notes, and mind, stripping away the noise to reveal the essence of productivity. `#freemium`
 - [TinyWow](https://tinywow.com/) - Free PDF, image, and video processing tool hub. `#free`
 - [Uizard](https://uizard.io) - With this AI tool you can create a beautiful website and app `#paid`
