@@ -620,8 +620,9 @@ Use these hashtags in search to filter out the tools
 - [DressMeAI](https://dressmeai.com/) - AI virtual try-on from a person photo and clothing image. `#paid`
 - [Dressrious](https://www.dressrious.com/) - Offers personalized daily outfit recommendations based on users' wardrobe items, weather conditions, occasions, and color preferences. `#free`
 - [Intelistyle](https://www.intelistyle.com/) -  offers personalized styling and virtual try-on features for a better online shopping experience. `#paid`
-- [Zyler](https://business.zyler.com/) - Enables customers to virtually try on clothes, offering a personalized shopping experience. `#paid`
 - [Outfit Roast](https://outfit.roastlabai.com/) - AI-powered outfit analysis that rates your look for any occasion, gives honest style feedback, and tells you exactly what to change. Upload a photo and get scored. `#freemium`
+- [RealFun Color](https://color.realfun.online/?utm_source=collective_ai_tools&utm_medium=directory&utm_campaign=fashion_listing_2026_10_04) - Provides selfie-based personal color analysis and checks clothing colors against a personal color profile. `#freemium`
+- [Zyler](https://business.zyler.com/) - Enables customers to virtually try on clothes, offering a personalized shopping experience. `#paid`
 
 **[⬆️ Back to Top](#table-of-contents)**
 
