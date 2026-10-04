@@ -1165,6 +1165,7 @@ Use these hashtags in search to filter out the tools
 - [MonkeyEatingMango](https://monkeyeatingmango.com/) - Your complete trip, planned in minutes with routes, attractions, budgets, and food guide. `#free`
 - [PLAN by Ixigo](https://www.ixigo.com/) - Your AI-Powered Travel Planning Companion `#free`
 - [Roam Around](https://www.roamaround.io/) - Find interesting and fun places to visit `#free`
+- [SkyAccess MCP](https://github.com/sky-access/skyaccess-mcp) - Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key. `#free` `#mcp`
 - [Travelnaut](https://travelnaut.com/) - Find travel information on attractions, food, culture, and more in one place to prepare the next trip of your dreams `#free`
 - [WanderGenie](https://www.wandergenie.app/) - Transform the way you explore the world. `#free`
 - [WonderPlan](https://wonderplan.ai/) - Your personal trip planner and travel curator, creating custom itineraries tailored to your interests and budget. `#free`
