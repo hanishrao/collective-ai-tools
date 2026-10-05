@@ -622,6 +622,7 @@ Use these hashtags in search to filter out the tools
 - [Intelistyle](https://www.intelistyle.com/) -  offers personalized styling and virtual try-on features for a better online shopping experience. `#paid`
 - [Outfit Roast](https://outfit.roastlabai.com/) - AI-powered outfit analysis that rates your look for any occasion, gives honest style feedback, and tells you exactly what to change. Upload a photo and get scored. `#freemium`
 - [RealFun Color](https://color.realfun.online/) - Provides selfie-based personal color analysis and checks clothing colors against a personal color profile. `#freemium`
+- [TryOnSwap](https://tryonswap.com/en) - Creates AI fashion previews from model photos and garment references, with single-item or up-to-five-piece outfits; paid credit packs and introductory credits after email verification. `#paid`
 - [Zyler](https://business.zyler.com/) - Enables customers to virtually try on clothes, offering a personalized shopping experience. `#paid`
 
 **[⬆️ Back to Top](#table-of-contents)**
@@ -923,6 +924,7 @@ Use these hashtags in search to filter out the tools
 - [Boomy](https://boomy.com/) - Create and share AI-generated music in seconds `#freemium`
 - [Mubert](https://mubert.com/) - AI-generated music for content creators and businesses `#freemium`
 - [Riffusion](https://www.riffusion.com/) - Create music from text with styles, instruments, modifiers and genres. `#free`
+- [Songifted](https://songifted.com/) - Creates personalized AI song gifts from names and memories, with lyrics approval before recording, a free 45-second preview, and paid full songs. `#paid`
 - [Soundraw](https://soundraw.io/) - AI music generator with customizable styles and moods `#freemium`
 - [Suno AI](https://suno.ai/) - AI-powered music creation platform that generates complete songs from text prompts `#freemium`
 - [Udio](https://udio.com/) - Advanced AI music generator with high-quality audio output and style control `#freemium`
