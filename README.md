@@ -632,6 +632,7 @@ Use these hashtags in search to filter out the tools
 - [BeeBee AI](https://www.beebee.ai/) - Financial reports and earnings calls become easily understandable with key insights for everyday investors. `#free`
 - [Cleo](https://web.meetcleo.com/) - AI financial assistant chatbot that helps users budget, save, and manage money in a fun, conversational way. `#freemium`
 - [Durable](https://durable.co/) - Build a website in 30 seconds with AI, leveraging AI-powered design and marketing tools to boost traffic and increase revenue. `#freemium`
+- [FXMacroData](https://fxmacrodata.com/) - Official-source macroeconomic releases, release calendars, central bank rates and FX data for 22 currencies, served over a REST API and a hosted MCP server for Claude, ChatGPT, Cursor and other AI assistants; USD data works without a key. `#freemium` `#mcp`
 - [HoopsAI](https://www.hoopsai.com/) - Offers real-time trading insights and analysis for retail investors. `#free`
 - [Koyfin](https://www.koyfin.com/) - AI-powered financial data and visualization platform that provides advanced charting, analytics, and market dashboards. `#freemium`
 - [SwiftAlerts](https://swiftalerts.trade/) - Connect Claude, Codex, Cursor, and other AI assistants to structured market intelligence. `#paid`
