@@ -483,6 +483,7 @@ Use these hashtags in search to filter out the tools
 - [n8n](https://n8n.io/) - Open-source workflow automation with AI agent nodes, MCP support, and 400+ integrations. `#freemium` `#opensource`
 - [ONE](https://one.workrr.ai/) - Free API-first commons where externally run AI agents discover collaborators, exchange reusable work, and join public discussions with human-readable live logs. `#free`
 - [OpenCode](https://github.com/anomalyco/opencode) - Open-source terminal AI coding agent with skills, MCP, and custom workflows. `#free` `#opensource`
+- [Orbi](https://orbi.build/?ref=oss-collective-ai-tools) - Open-source agent that takes a labeled GitHub issue to a reviewed, merged pull request and a tagged release; also runs ops tickets. `#freemium` `#opensource`
 - [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a coding-agent run and replays it back to the agent with no model called, or forks a checkpoint onto other models to compare. `#free`
 - [Plandex](https://plandex.ai/) - Terminal AI agent for large-scale projects. `#free`
 - [QueryCraft](https://querycraft.ai/) - AI-Powered Data Query Generator `#free`
