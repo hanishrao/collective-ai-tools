@@ -1127,6 +1127,7 @@ Use these hashtags in search to filter out the tools
 - [Jev Social](https://socai-io.github.io/jev-social/) - Local-first social research agent that uses Jev and socai to capture Instagram, TikTok, and LinkedIn evidence in Chrome. `#opensource`
 - [Piggy Magic](https://piggy.to/magic) - Piggy Magic - Social Story Maker `#free`
 - [StoriAI](https://storiai.com/) - Elevate Your Brand's Social Presence with StoriAI `#paid`
+- [Unsora](https://tryunsora.com/) - Generates AI images, video, music and voiceovers and schedules or publishes posts to YouTube, TikTok, Instagram, LinkedIn and other connected accounts. `#paid` `#opensource`
 
 **[⬆️ Back to Top](#table-of-contents)**
 
