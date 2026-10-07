@@ -1231,6 +1231,7 @@ Use these hashtags in search to filter out the tools
 - [Runway](https://runwayml.com/) - With Runway AI, you have the power to create videos using text prompts in so many incredible ways `#free`
 - [Runway Gen-3](https://runwayml.com/) - Latest generation of AI video creation with improved realism and control `#freemium`
 - [Runway ML](https://runwayml.com/) - AI-powered video editing and generation platform with advanced features. `#freemium`
+- [ScaleReach](https://www.scalereach.ai/) - Turns long YouTube and other videos into 9:16 short clips with AI captions and face-tracking crop. `#freemium`
 - [shortshort](https://www.shortshort.io/) - Turns one long talk, podcast or course into up to 20 vertical 9:16 shorts with word-by-word captions. `#freemium`
 - [SkyReels](https://skyreels.ai/) - One-click text-to-animation platform. `#freemium`
 - [Sora](https://openai.com/sora) - OpenAI's revolutionary text-to-video generation model with high-quality results `#freemium`
