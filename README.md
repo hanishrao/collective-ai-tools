@@ -1115,6 +1115,7 @@ Use these hashtags in search to filter out the tools
 
 ## Search Engine
 
+- [AI Compare](https://www.aicompare.ninja/en/) - Free editorial AI-tool search and comparison with sourced pricing, limits, and an LLM API cost calculator. `#free` `#research`
 - [Andi](https://andisearch.com/) - Andi is a generative AI-powered search engine `#free`
 - [Anse](https://anse.app/) - Your Elegant AI Answer Companion `#paid`
 - [BestAIFor.com](https://bestaifor.com/) - A curated directory of the best AI tools, organized by use case. `#free`
