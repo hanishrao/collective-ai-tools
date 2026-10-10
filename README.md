@@ -511,6 +511,7 @@ Use these hashtags in search to filter out the tools
 - [v0](https://v0.dev/) - AI-powered UI component generator by Vercel. `#free`
 - [Vend](https://extract.paypercall.dev) - Pay-per-call web intel and data-extraction API: IP geolocation, domain WHOIS/DNS/SSL checks, URL health, web search, and page content extraction. Settled in Nano (XNO), no signup or API key needed. `#paid`
 - [Vercel AI SDK](https://sdk.vercel.ai/) - TypeScript toolkit for building AI-powered applications with streaming, agents, and tool calling. `#free` `#opensource`
+- [VideoGen API](https://videogen.io/videogen-api) - REST API with TypeScript and Python SDKs for creating editable marketing videos from storyboards, scripts and voiceovers, then editing and exporting projects; a VideoGen account and paid generation credits are required. `#paid` `#api`
 - [Warp](https://www.warp.dev/) - Parallel agent operation for fast completion. `#paid`
 - [Windsurf](https://codeium.com/windsurf) - AI-powered IDE with built-in code generation and chat `#freemium`
 - [Windsurf (Codeium)](https://codeium.com/windsurf)%20AI%20Tool) - Multi-step collaborative Cascade technology. `#free`
@@ -1264,6 +1265,7 @@ Use these hashtags in search to filter out the tools
 - [Video Background Remover](https://www.videobgremover.org/) - AI tool to remove video backgrounds online and export background-free clips. `#free`
 - [Video Ocean](https://videoocean.com/) - Text-to-video scene simulation platform. `#free`
 - [Video Watermark Remover](https://www.videowatermarkremover.org/) - AI video watermark remover for MP4, AVI, and MOV with online export. `#free`
+- [VideoGen](https://videogen.io/) - Creates editable product and marketing videos from storyboards, scripts and voiceovers in a browser editor with captions and exports; paid generation credits are required. `#paid` `#video`
 - [videos.social](https://videos.social/) - Turns blogs, PDFs, and prompts into editable faceless videos. 1 free render. Packs from $10. 1 credit = 1 render. `#freemium`
 - [VidLux AI](https://vidlux.ai/) - An all-in-one AI video creation platform for generating and editing videos from text, images, videos, and audio references. `#freemium`
 - [Vidnoz](https://www.vidnoz.com/) - Use Vidnoz AI and Vidnoz Flex to make winning videos! `#freemium`
