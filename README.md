@@ -235,6 +235,7 @@ Use these hashtags in search to filter out the tools
 - [GPT-4o](https://openai.com/gpt-4o) - OpenAI's flagship model with vision, audio, and text capabilities in a single model `#freemium`
 - [GPTGeminiGrok.AI](https://trygrokai.asia/) - Browser workspace for GPT, Gemini, Grok, Claude, and AI image workflows. `#free`
 - [Groq](https://groq.com/) - Lightning-fast AI inference platform with real-time response capabilities `#freemium`
+- [Honer AI](https://xoner4.github.io/) - Android assistant for AI conversations, writing, translation, and web search with sources, with Russian and English interfaces. `#free`
 - [Huawei Xiaoyi](https://consumer.huawei.com/en/ai/) - PC and mobile assistant with DeepSeek-R1. 56 `#free`
 - [HuggingChat](https://huggingface.co/chat) - Open-source AI chat interface powered by Hugging Face models. `#free`
 - [iFlytek Spark](https://xinghuo.xfyun.cn/) - Cognitive intelligence for complex logic tasks. 60 `#free`
