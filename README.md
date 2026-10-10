@@ -1179,7 +1179,7 @@ Use these hashtags in search to filter out the tools
 
 ## Video
 
-- [AIVG](https://ai-video-generators.com/image-to-video) - Animate a photo into a short video with a choice of AI video models. `#paid` `#video`
+- [AIVG](https://ai-video-generators.com/image-to-video) - Animate a photo into a short video with a choice of AI video models. `#paid`
 - [AVCLabs](https://www.avclabs.com/) - 100% free automatic video background remover. `#free`
 - [C2Anime](https://c2anime.com/) - AI Anime Agent that turns stories into animated short films with voices and sound. `#paid` `#animation`
 - [Captions](https://www.captions.ai/) - AI creative studio application for creators. `#freemium`
@@ -1191,6 +1191,7 @@ Use these hashtags in search to filter out the tools
 - [Daydream](https://daydream.ai/) - professional-level video from input stories. `#free`
 - [Decohere](https://decohere.ai/) - High-precision extremely fast AI generator. `#free`
 - [Descript](https://www.descript.com/) - Edit videos and podcasts by typing text. `#free`
+- [DoneCut](https://donecut.com/) - Upload raw footage and an AI editor returns a finished YouTube video or Shorts with captions, motion graphics and music. `#paid`
 - [DomoAI](https://domoai.app/) - Video-to-animation and style conversion tool. `#free`
 - [Dream Machine](https://lumalabs.ai/dream-machine) - Luma AI high-resolution video generator. `#freemium`
 - [DreamFace](https://dreamface.ai/) - High-quality videos/photos from audio/text. `#paid`
@@ -1219,7 +1220,7 @@ Use these hashtags in search to filter out the tools
 - [Luma AI](https://lumalabs.ai/) - AI-powered 3D capture and video generation from text prompts. `#freemium`
 - [Luma Dream Machine](https://lumalabs.ai/dream-machine) - Advanced AI video generation with cinematic quality `#freemium`
 - [LumiYing](https://lumiying.com/) - Generates videos and images from text and visual references using multiple AI models in one workspace. `#paid`
-- [Magic Hour](https://magichour.ai/) - AI video creation platform for text-to-video, image-to-video, lip sync, face swap, and production APIs. `#freemium` `#video`
+- [Magic Hour](https://magichour.ai/) - AI video creation platform for text-to-video, image-to-video, lip sync, face swap, and production APIs. `#freemium`
 - [Medeo](https://medeo.ai/) - Integrates ChatGPT, Kling, and ElevenLabs. `#freemium`
 - [MetaMirror](https://metamirror.io/) - transforms scripts into videos viaSymbiosis engine. `#paid`
 - [Moonvalley](https://moonvalley.ai/) - AI-powered video generation with advanced editing capabilities `#freemium`
