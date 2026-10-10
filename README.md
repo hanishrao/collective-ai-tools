@@ -454,7 +454,7 @@ Use these hashtags in search to filter out the tools
 - [Devassistant.ai](https://devassistant.ai/) - Your AI Co-Programmer for Efficient Development `#paid`
 - [Devin](https://www.cognition.ai/devin) - Autonomous AI software engineer for end-to-end tasks. `#paid`
 - [Doubao AI Prog](https://www.doubao.com/) - Assistant for beginners to master concepts. `#free`
-- [ERIUS PHONE](https://eriusphone.com/) - Hosted Android phones that an AI agent controls over an HTTP API or an open-source MCP server to use and test apps: read the screen, tap, type, swipe, install APKs, and pull crash logs. Early access. `#testing` `#paid` `#opensource`
+- [ERIUS PHONE](https://eriusphone.com/) - Hosted Android phones that an AI agent controls over an HTTP API or an open-source MCP server to use and test apps: read the screen, tap, type, swipe, install APKs, and pull crash logs. Early access.`#paid` `#testing` `#opensource`
 - [Fig](https://fig.io/) - Terminal auto-completion (Shutdown 2024). `#free`
 - [Firebase Studio](https://firebase.google.com/) - Google backend and front-end AI integration. `#free`
 - [Fitten Code](https://code.fitten.com/) - Jittor framework high-speed completion tool. `#free`
