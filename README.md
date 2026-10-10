@@ -323,6 +323,7 @@ Use these hashtags in search to filter out the tools
 - [Baidu GBI](https://www.baidu.com/) - Generative BI and data visualization tool. `#paid`
 - [ChatExcel](https://chatexcel.co/) - Chat-style spreadsheet processing and analysis. `#free`
 - [CSV-GPT](https://getluminal.com/) - Enables users to ask natural language questions about their data and receive instant analysis and insights. `#free`
+- [Datacircle](https://datacircle.dev/) - Query your favorite B2B data APIs through us. Same request, same price, no markup. Use it from Claude, ChatGPT or Cursor: add api.datacircle.dev/mcp as an MCP server. `#freemium` `#mcp`
 - [Dataspot](https://dataspot.com/) - Understand any data instantly using AI `#freemium`
 - [Excel Formula Bot](https://excelformulabot.com/) - Create Excel formulas in seconds with AI-powered formula generators. `#freemium`
 - [Excelly-AI](https://excelly-ai.io/) - Text-to-formula for Excel and Google Sheets. `#free`
