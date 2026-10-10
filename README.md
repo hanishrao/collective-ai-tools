@@ -235,6 +235,7 @@ Use these hashtags in search to filter out the tools
 - [GPT-4o](https://openai.com/gpt-4o) - OpenAI's flagship model with vision, audio, and text capabilities in a single model `#freemium`
 - [GPTGeminiGrok.AI](https://trygrokai.asia/) - Browser workspace for GPT, Gemini, Grok, Claude, and AI image workflows. `#free`
 - [Groq](https://groq.com/) - Lightning-fast AI inference platform with real-time response capabilities `#freemium`
+- [Honer AI](https://xoner4.github.io/) - Android assistant for AI conversations, writing, translation, and web search with sources, with Russian and English interfaces. `#free`
 - [Huawei Xiaoyi](https://consumer.huawei.com/en/ai/) - PC and mobile assistant with DeepSeek-R1. 56 `#free`
 - [HuggingChat](https://huggingface.co/chat) - Open-source AI chat interface powered by Hugging Face models. `#free`
 - [iFlytek Spark](https://xinghuo.xfyun.cn/) - Cognitive intelligence for complex logic tasks. 60 `#free`
@@ -804,6 +805,7 @@ Use these hashtags in search to filter out the tools
 - [Kling AI](https://kling.kuaishou.com/) - Advanced video and image generation with realistic motion `#freemium`
 - [Leonardo](https://leonardo.ai) - Text-to-image Create production-quality visual assets for your projects with unprecedented quality, speed, and style-consistency `#free`
 - [Midjourney v6](https://www.midjourney.com/) - Latest version with enhanced photorealism and prompt understanding `#paid`
+- [MyPhotoAI](https://myphotoai.io/) - Turn your selfies into AI headshots and portraits. `#paid`
 - [NightCafe](https://creator.nightcafe.studio/) - A popular AI art platform that generates images from text prompts in multiple artistic styles. It offers daily free credits, community challenges, and style customization for creative projects. `#freemium`
 - [Novita.ai](https://novita.ai/) - Novita is your go-to solution for fast and affordable AI image generation. `#paid`
 - [PhotoGenerAI](https://photogenerai.com) - Free AI photo generator and editor — create and edit photos in the browser, no sign-up required. `#freemium`
@@ -1011,9 +1013,10 @@ Use these hashtags in search to filter out the tools
 - [Raycast AI](https://www.raycast.com/ai) - Mac-native operating system AI extension. `#freemium`
 - [Reclaim AI](https://reclaim.ai/) - AI-powered calendar management and time blocking. `#freemium`
 - [Releases Notes](https://www.releasesnotes.dev/) - Effortless Release Notes with Automation. `#free`
-- [Screenpipe](https://screenpipe.com/) - Captures screen text and audio transcripts locally, making computer history searchable for people and AI assistants through MCP and a local API. `#freemium` `#productivity`
+- [Screenpipe](https://screenpipe.com/) - Captures screen text and audio transcripts locally, making computer history searchable for people and AI assistants through MCP and a local API. `#freemium`
 - [Soda Office](https://soda.office/) - Comprehensive navigation for office and life tools. `#free`
 - [Supermanage AI](https://supermanage.ai/) - Effortless prep for your 1-on-1 `#free`
+- [Tale](https://tale.dev/) - Open-source project workspace where teams assign tasks to AI agents in persistent sandboxes and review their reports and deliverables together. `#free` `#opensource`
 - [Taskade](https://www.taskade.com/) - Taskade elegantly unifies your team tasks, notes, and mind, stripping away the noise to reveal the essence of productivity. `#freemium`
 - [TinyWow](https://tinywow.com/) - Free PDF, image, and video processing tool hub. `#free`
 - [Uizard](https://uizard.io) - With this AI tool you can create a beautiful website and app `#paid`
@@ -1132,6 +1135,7 @@ Use these hashtags in search to filter out the tools
 - [Jev Social](https://socai-io.github.io/jev-social/) - Local-first social research agent that uses Jev and socai to capture Instagram, TikTok, and LinkedIn evidence in Chrome. `#opensource`
 - [Piggy Magic](https://piggy.to/magic) - Piggy Magic - Social Story Maker `#free`
 - [StoriAI](https://storiai.com/) - Elevate Your Brand's Social Presence with StoriAI `#paid`
+- [Unsora](https://tryunsora.com/) - Generates AI images, video, music and voiceovers and schedules or publishes posts to YouTube, TikTok, Instagram, LinkedIn and other connected accounts. `#paid` `#opensource`
 
 **[⬆️ Back to Top](#table-of-contents)**
 
@@ -1179,7 +1183,7 @@ Use these hashtags in search to filter out the tools
 
 ## Video
 
-- [AIVG](https://ai-video-generators.com/image-to-video) - Animate a photo into a short video with a choice of AI video models. `#paid` `#video`
+- [AIVG](https://ai-video-generators.com/image-to-video) - Animate a photo into a short video with a choice of AI video models. `#paid`
 - [AVCLabs](https://www.avclabs.com/) - 100% free automatic video background remover. `#free`
 - [C2Anime](https://c2anime.com/) - AI Anime Agent that turns stories into animated short films with voices and sound. `#paid` `#animation`
 - [Captions](https://www.captions.ai/) - AI creative studio application for creators. `#freemium`
@@ -1191,6 +1195,7 @@ Use these hashtags in search to filter out the tools
 - [Daydream](https://daydream.ai/) - professional-level video from input stories. `#free`
 - [Decohere](https://decohere.ai/) - High-precision extremely fast AI generator. `#free`
 - [Descript](https://www.descript.com/) - Edit videos and podcasts by typing text. `#free`
+- [DoneCut](https://donecut.com/) - Upload raw footage and an AI editor returns a finished YouTube video or Shorts with captions, motion graphics and music. `#paid`
 - [DomoAI](https://domoai.app/) - Video-to-animation and style conversion tool. `#free`
 - [Dream Machine](https://lumalabs.ai/dream-machine) - Luma AI high-resolution video generator. `#freemium`
 - [DreamFace](https://dreamface.ai/) - High-quality videos/photos from audio/text. `#paid`
@@ -1219,7 +1224,7 @@ Use these hashtags in search to filter out the tools
 - [Luma AI](https://lumalabs.ai/) - AI-powered 3D capture and video generation from text prompts. `#freemium`
 - [Luma Dream Machine](https://lumalabs.ai/dream-machine) - Advanced AI video generation with cinematic quality `#freemium`
 - [LumiYing](https://lumiying.com/) - Generates videos and images from text and visual references using multiple AI models in one workspace. `#paid`
-- [Magic Hour](https://magichour.ai/) - AI video creation platform for text-to-video, image-to-video, lip sync, face swap, and production APIs. `#freemium` `#video`
+- [Magic Hour](https://magichour.ai/) - AI video creation platform for text-to-video, image-to-video, lip sync, face swap, and production APIs. `#freemium`
 - [Medeo](https://medeo.ai/) - Integrates ChatGPT, Kling, and ElevenLabs. `#freemium`
 - [MetaMirror](https://metamirror.io/) - transforms scripts into videos viaSymbiosis engine. `#paid`
 - [Moonvalley](https://moonvalley.ai/) - AI-powered video generation with advanced editing capabilities `#freemium`
@@ -1238,6 +1243,7 @@ Use these hashtags in search to filter out the tools
 - [Runway Gen-3](https://runwayml.com/) - Latest generation of AI video creation with improved realism and control `#freemium`
 - [Runway ML](https://runwayml.com/) - AI-powered video editing and generation platform with advanced features. `#freemium`
 - [SeedanceCheap](https://seedancecheap.com/) - Independent Seedance 2.5 studio for 30-second video requests with free prompt planners, one-time paid packs, an eligibility-limited first trial, and an account-scoped generation API. `#paid`
+- [ScaleReach](https://www.scalereach.ai/) - Turns long YouTube and other videos into 9:16 short clips with AI captions and face-tracking crop. `#paid`
 - [shortshort](https://www.shortshort.io/) - Turns one long talk, podcast or course into up to 20 vertical 9:16 shorts with word-by-word captions. `#freemium`
 - [SkyReels](https://skyreels.ai/) - One-click text-to-animation platform. `#freemium`
 - [Sora](https://openai.com/sora) - OpenAI's revolutionary text-to-video generation model with high-quality results `#freemium`
@@ -1290,6 +1296,7 @@ Use these hashtags in search to filter out the tools
 - [Bimuyu](https://bimuyu.com/) - Cloud-based English paper aid for researchers. 124 `#freemium`
 - [Caiyun Xiaomeng](https://xiaomeng.caiyunapp.com/) - Novel continuation and daily story scenarios. 113 `#free`
 - [Cosmos AI](https://cosmos.ai/) - Grammar correction and professional assistant. 133 `#free`
+- [Dearovo](https://www.dearovo.com/) - AI relationship message writer with context, tone, and length controls. `#freemium`
 - [Dragon Fruit Writing](https://pitaya.ai/) - Typo and grammar assistance software. 119 `#free`
 - [FlowUs AI](https://flowus.cn/) - Collaborative documents and knowledge management. 93 `#free`
 - [Free Essay Generator](https://academichelp.net/free-essay-generator/) - Assists students and writers in creating high-quality essays effortlessly. `#free`
