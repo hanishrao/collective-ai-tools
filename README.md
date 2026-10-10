@@ -1191,6 +1191,7 @@ Use these hashtags in search to filter out the tools
 - [Daydream](https://daydream.ai/) - professional-level video from input stories. `#free`
 - [Decohere](https://decohere.ai/) - High-precision extremely fast AI generator. `#free`
 - [Descript](https://www.descript.com/) - Edit videos and podcasts by typing text. `#free`
+- [DoneCut](https://donecut.com/) - Upload raw footage and an AI editor returns a finished YouTube video or Shorts with captions, motion graphics and music. `#paid` `#video`
 - [DomoAI](https://domoai.app/) - Video-to-animation and style conversion tool. `#free`
 - [Dream Machine](https://lumalabs.ai/dream-machine) - Luma AI high-resolution video generator. `#freemium`
 - [DreamFace](https://dreamface.ai/) - High-quality videos/photos from audio/text. `#paid`
