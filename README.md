@@ -917,6 +917,7 @@ Use these hashtags in search to filter out the tools
 ## Models
 
 - [AI/ML API](https://aimlapi.com) - One API, 100+ AI Models, Accessible 24/7. `#freemium`
+- [ArtificialWatch](https://artificialwatch.com/) - AI model release tracker that checks provider APIs every 60 seconds and alerts you by email, push, SMS or phone call when a new model goes live. `#freemium`
 - [Bloom](https://huggingface.co/docs/transformers/model_doc/bloom) - BLOOM by Hugging Face is a model similar to GPT-3 `#free`
 - [Chatbot Arena](https://chat.lmsys.org/) - Crowdsourced model "battle" leaderboard. `#free`
 - [Claude 2](https://claude.ai/) - Talk to Claude, an AI assistant from Anthropic. `#paid`
