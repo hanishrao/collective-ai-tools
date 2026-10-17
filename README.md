@@ -511,6 +511,7 @@ Use these hashtags in search to filter out the tools
 - [Supermaven](https://supermaven.com/) - Fast AI code completion with 300k token context window. `#freemium`
 - [Tabby](https://tabbyml.com/) - Self-hosted Rust-based Copilot alternative. `#free`
 - [Tabnine](https://www.tabnine.com/) - AI code completion tool that learns from your code patterns. `#freemium`
+- [The Enso Method](https://github.com/EnsoDynamics/enso-method) - Agent skills for Claude Code and Codex that record business assumptions with evidence and confidence, and preserve requirements as the source of truth. `#free` `#opensource`
 - [TinyTools](https://tinytools-smoky.vercel.app/) - Free single-purpose browser-based utilities (AI Background Remover that runs locally, OG Image Generator, AI Robots.txt Generator, SEO Meta Tag Generator, AI Cost Calculator, AI Content Disclosure for EU AI Act, favicon and color palette generators, domain name generator). Open source, no signup. `#free` `#opensource`
 - [Trae](https://trae.ai/) - AI-native IDE with Builder patterns. `#free`
 - [Together AI](https://together.ai/) - Fast inference platform for open-source models with developer APIs and fine-tuning. `#freemium`
