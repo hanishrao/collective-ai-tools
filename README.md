@@ -173,7 +173,6 @@ Use these hashtags in search to filter out the tools
 ## Avatars
 
 - [iFlytek Virtual Human](https://www.xfyun.cn/services/virtual_human) - Full-stack cloning and customization platform. `#paid`
-- [Muse Me](https://muse-me-avatar-beta.zhangwei798879.chatgpt.site) - Turns one authorized photo into an original anime-style social avatar without requiring an account. `#free`
 - [Never AI](https://www.never.tech) - Unlock Your Imagination with Never's Hyper-Realistic AI Images. `#paid`
 - [Qimiao Wen](https://wen.mobvoi.com/) - Interactive digital employee generation platform. `#free`
 - [Staf](https://www.staf.ai/) - Streamline Your Business with Curated AI Solutions `#paid`
@@ -817,6 +816,7 @@ Use these hashtags in search to filter out the tools
 - [Kling AI](https://kling.kuaishou.com/) - Advanced video and image generation with realistic motion `#freemium`
 - [Leonardo](https://leonardo.ai) - Text-to-image Create production-quality visual assets for your projects with unprecedented quality, speed, and style-consistency `#free`
 - [Midjourney v6](https://www.midjourney.com/) - Latest version with enhanced photorealism and prompt understanding `#paid`
+- [Muse Studio](https://muse-me-avatar-beta.zhangwei798879.chatgpt.site/create) - Generates static ad concepts from text with editable headline, offer and CTA, and PNG export. Limited free beta; ChatGPT sign-in; no card. `#free` `#design`
 - [MyPhotoAI](https://myphotoai.io/) - Turn your selfies into AI headshots and portraits. `#paid`
 - [NightCafe](https://creator.nightcafe.studio/) - A popular AI art platform that generates images from text prompts in multiple artistic styles. It offers daily free credits, community challenges, and style customization for creative projects. `#freemium`
 - [Novita.ai](https://novita.ai/) - Novita is your go-to solution for fast and affordable AI image generation. `#paid`
