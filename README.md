@@ -739,6 +739,7 @@ Use these hashtags in search to filter out the tools
 
 - [Allowly Hiring Evidence](https://allowly.ai/solutions/hiring/) - Applies approved employment-screening policies to selected fields, records linked reviews and corrections, and exports signed Hiring Decision Packs. `#freemium`
 - [Baigua Interview](https://baigua.ai/) - Safe technical interview code-writing assistant. `#free`
+- [CareJobs.Now](https://carejobs.now) - Free AI job search for US healthcare workers: describe the job you want in plain words and it matches you to 170,000+ hospital and clinic jobs with posted pay. `#free`
 - [Cover Letter Copilot](https://coverlettercopilot.ai/) - Your AI-Powered Cover Letter Generator `#freemium`
 - [Deepbrain AI](https://www.deepbrain.io/) - Innovate HR Process with AI Interview. `#paid`
 - [Interview Cat](https://mianshiya.com/) - Answer suggestions based on real-time listening. ``
