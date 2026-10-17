@@ -1157,6 +1157,7 @@ Use these hashtags in search to filter out the tools
 
 - [Autoposting MCP](https://autoposting.ai/) - MCP server for social content creation, drafts, scheduling and publishing to connected accounts; hosted backend is paid SaaS. `#paid` `#mcp`
 - [Jev Social](https://socai-io.github.io/jev-social/) - Local-first social research agent that uses Jev and socai to capture Instagram, TikTok, and LinkedIn evidence in Chrome. `#opensource`
+- [OpenSparta](https://opensparta.com/) - AI-enabled Telegram workspace for audience discovery, account management, and streamlined engagement. `#freemium` `#social-media`
 - [Piggy Magic](https://piggy.to/magic) - Piggy Magic - Social Story Maker `#free`
 - [StoriAI](https://storiai.com/) - Elevate Your Brand's Social Presence with StoriAI `#paid`
 - [Unsora](https://tryunsora.com/) - Generates AI images, video, music and voiceovers and schedules or publishes posts to YouTube, TikTok, Instagram, LinkedIn and other connected accounts. `#paid` `#opensource`
