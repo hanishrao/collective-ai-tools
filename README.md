@@ -1117,6 +1117,7 @@ Use these hashtags in search to filter out the tools
 
 - [Adaptify](https://www.adaptify.ai/) - Empower Business Success with AI-Powered ChatGPT `#paid`
 - [AIRanked](https://geochecktool.com/) - Free AI visibility checker for tracking brand mentions across ChatGPT, Perplexity, and Google AI Overview. `#free` `#seo`
+- [AltoRank](https://altorank.co/) - Open-source SEO content software that researches what your buyers search for and drafts sourced articles; self-host it free or use the hosted version. `#freemium` `#seo` `#opensource`
 - [AutoBlogging Pro](https://autoblogging.pro/) - AI-Powered Content Automation for WordPress Blogs `#freemium`
 - [Blawgy](https://blawgy.com/) - Writes and publishes SEO blog posts to WordPress, Shopify, Webflow, Wix, Framer, Ghost and Duda, with an MCP server so any AI agent can research keywords, manage the plan and publish. `#paid` `#seo`
 - [Frase](https://www.frase.io/) - Content optimization tool that helps businesses create SEO-friendly content quickly and easily. `#paid`
