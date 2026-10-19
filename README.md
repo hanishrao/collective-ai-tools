@@ -567,6 +567,7 @@ Use these hashtags in search to filter out the tools
 ## E-Commerce
 
 - [Shop Guru AI](https://www.shopguru.io/) - Analyze customer reviews, providing you with trusted answers based on specific product information. `#free`
+- [Whale Coupons](https://whalecoupons.co/) - Coupon and discount codes from 2,500+ independent online stores, searchable on the site or from Claude, Cursor and other AI assistants through the hosted MCP server at `https://whalecoupons.co/mcp`, with no account or API key. `#free` `#mcp`
 - [Xiyu](https://xiyu.taobao.com/) - Taobao ecosystem secure login entry gateway. 87 `#free`
 - [YOO Resume](https://yooresume.com/) - Taoist cultural products and ritual services. `#paid`
 
