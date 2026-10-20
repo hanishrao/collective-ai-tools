@@ -1263,6 +1263,7 @@ Use these hashtags in search to filter out the tools
 - [pika.art](https://pika.art/) - An idea-to-video platform that brings your creativity to motion. `#freemium`
 - [Pixmax](https://www.pixmax.ai/) - All-in-one AI platform for generating videos and images with leading models and visual workflows. `#freemium`
 - [PixVerse](https://pixverse.ai/) - Text-to-realistic, anime, and 3D videos. `#free`
+- [Pixwit](https://pixwit.ai/) - Text-to-video, image-to-video and AI image generation with multiple models in one workspace. `#freemium`
 - [Pollo AI](https://pollo.ai/) - Singapore-based image and video creative hub. `#freemium`
 - [Quickads](https://www.quickads.ai/) - AI Ad Creation Platform for all your Ad Campaigns. `#freemium`
 - [Rask](https://rask.ai/) - Localization tool for 130 languages with API. `#free`
