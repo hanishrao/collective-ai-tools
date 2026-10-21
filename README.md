@@ -1262,6 +1262,7 @@ Use these hashtags in search to filter out the tools
 - [Pika](https://pika.art/) - Platform to transform creativity into videos. `#freemium`
 - [Pika Labs 2.0](https://pika.art/) - Next-generation video creation with enhanced motion and style control `#freemium`
 - [pika.art](https://pika.art/) - An idea-to-video platform that brings your creativity to motion. `#freemium`
+- [pitchboom.io](https://pitchboom.io) - Turns a product URL or a short brief into motion-design video ads with script, storyboard, voice-over and music, in 16:9, 9:16, 1:1, 4:5 and 3:4. `#paid`
 - [Pixmax](https://www.pixmax.ai/) - All-in-one AI platform for generating videos and images with leading models and visual workflows. `#freemium`
 - [PixVerse](https://pixverse.ai/) - Text-to-realistic, anime, and 3D videos. `#free`
 - [Pixwit](https://pixwit.ai/) - Text-to-video, image-to-video and AI image generation with multiple models in one workspace. `#freemium`
