@@ -468,6 +468,7 @@ Use these hashtags in search to filter out the tools
 - [Fig](https://fig.io/) - Terminal auto-completion (Shutdown 2024). `#free`
 - [Firebase Studio](https://firebase.google.com/) - Google backend and front-end AI integration. `#free`
 - [Fitten Code](https://code.fitten.com/) - Jittor framework high-speed completion tool. `#free`
+- [Frink](https://frink.dev) - Desktop-first, open-source (MIT) application for running parallel agents, and multi-step custom workflows triggered by schedules, webhooks or events from tools like Linear and Sentry, across your already-used providers. `#free` `#opensource`
 - [Fronty](https://fronty.com/) - Converts image/screenshots to HTML/CSS. `#freemium`
 - [Genie](https://genie.ai/) - Simulating human engineer cognitive processes. `#paid`
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google's open-source AI coding agent for the terminal with Gemini models. `#free` `#opensource`
