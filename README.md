@@ -1295,6 +1295,7 @@ Use these hashtags in search to filter out the tools
 - [VideoGen](https://videogen.io/) - Creates editable product and marketing videos from storyboards, scripts and voiceovers in a browser editor with captions and exports; paid generation credits are required. `#paid` `#video`
 - [videos.social](https://videos.social/) - Turns blogs, PDFs, and prompts into editable faceless videos. 1 free render. Packs from $10. 1 credit = 1 render. `#freemium`
 - [VidLux AI](https://vidlux.ai/) - An all-in-one AI video creation platform for generating and editing videos from text, images, videos, and audio references. `#freemium`
+- [Vidney](https://vidney.ai/) - Multi-model AI video and image generator that runs 40+ models, including Kling, Veo, Seedance, Wan, Grok Imagine and Nano Banana, on one credit balance. `#freemium`
 - [Vidnoz](https://www.vidnoz.com/) - Use Vidnoz AI and Vidnoz Flex to make winning videos! `#freemium`
 - [Vidu](https://www.vidu.studio/) - Long-duration video large model (Tsinghua). `#free`
 - [Viggle](https://viggle.ai/) - Driven by 3D basic model to move characters. `#free`
