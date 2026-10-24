@@ -516,6 +516,7 @@ Use these hashtags in search to filter out the tools
 - [Safurai](https://www.safurai.com/) - The AI Code Assistant that really helps developers. `#free`
 - [SandBase CLI](https://github.com/sandbaseai/cli) - Open-source CLI and MCP bridge for OpenAI-compatible access to 2,000+ AI models through usage-based pricing and a free plan. `#freemium` `#opensource`
 - [ShellWire](https://shellwire.com/) - Software discovery directory with explainable utility rankings, source-backed tool comparisons, and a remote Streamable HTTP MCP server for AI assistants. `#free`
+- [SitePatent](https://sitepatent.com/) - Discovery directory for newly launched startups, SaaS tools and online products, with a free read-only remote MCP server (https://sitepatent.com/api/mcp) that lets AI assistants search listings, read full profiles and find alternatives, no API key. `#free` `#mcp`
 - [Sizzle AI](https://web.szl.ai/) - AI-powered tutor for math and coding problems. `#free`
 - [Solo](https://soloist.ai/) - Free AI website creation and domain hosting. `#free`
 - [Sourcegraph Cody](https://sourcegraph.com/cody) - AI coding assistant with deep codebase context, for VS Code, JetBrains and web. `#freemium`
