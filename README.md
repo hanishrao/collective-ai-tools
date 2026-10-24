@@ -451,6 +451,7 @@ Use these hashtags in search to filter out the tools
 - [CodeRabbit](https://coderabbit.ai/) - AI-powered code review assistant that provides intelligent feedback `#freemium`
 - [CodeRider](https://coderider.ai/) - Enterprise-exclusive DevOps platform for PC. `#free`
 - [CodeSnippets](https://codesnippets.ai/) - Secure chat library for team user management. `#free`
+- [CodeTrendy](https://codetrendy.com/) - Curated directory of newly launched startups, SaaS and AI tools, with a free read-only remote MCP server (https://codetrendy.com/api/mcp) that lets AI assistants search listings, read profiles and find alternatives, no API key. `#free` `#mcp`
 - [Codiga](https://www.codiga.io/) - Customizable real-time static code analysis. `#free`
 - [CodiumAI (Qodo)](https://www.qodo.ai/)%20AI%20Tool) - Quality agent platform for organizational standards. `#paid`
 - [Continue](https://continue.dev/) - Open-source AI code assistant that works with any LLM `#free`
