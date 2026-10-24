@@ -370,6 +370,7 @@ Use these hashtags in search to filter out the tools
 - [Adobe Firefly](https://www.adobe.com/products/firefly.html) - AI-powered creative tools for image generation and editing. `#freemium`
 - [AI Site Builder](https://library.relume.io/ai-site-builder) - Create a marketing website for any company in minutes using systems you already love. `#freemium`
 - [AmyMind](https://amymind.com/) - Markdown and document to mind map converter. `#free`
+- [APPLORE](https://applore.app/ai-app-icon-generator) - AI app icon generator plus a library of 18,000+ real App Store and Google Play icons for reference. `#freemium` `#design`
 - [Book Witch](https://bookwitch.io/) - Use the power of AI to create complete e-books with just one click! `#freemium`
 - [Canva](https://www.canva.com/) - Use it to create social media posts, presentations, posters, videos, logos and more. `#freemium`
 - [Canva AI](https://www.canva.com/ai-image-generator/) - AI-powered design platform with image generation and editing tools. `#freemium`
