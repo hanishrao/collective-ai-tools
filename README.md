@@ -1032,6 +1032,7 @@ Use these hashtags in search to filter out the tools
 - [Multi Gen](https://aimultigen.com/) - Multi-Gen: All-in-one AI platform for content and productivity solutions. `#free`
 - [Notion](https://www.notion.so/product/ai/) - Access the limitless power of AI, right inside Notion. Work faster. Write better. Think bigger. `#paid`
 - [Notion AI](https://www.notion.so/product/ai) - AI-powered workspace with writing, planning, and organization features. `#freemium`
+- [Orkas](https://orkas.ai/?source=gh_collective&lang=en) - Turns project goals and local files into reports, presentations and code with a coordinated AI team in an open-source, local-first desktop workspace, using managed models or supported own-provider access. `#opensource`
 - [Otter.ai](https://otter.ai/) - AI-powered transcription and meeting assistant. `#freemium`
 - [Posylanki](https://www.posylanki.live/) - Streamline Web Content Management & Enhance Browsing Experience `#free`
 - [Raycast AI](https://www.raycast.com/ai) - Mac-native operating system AI extension. `#freemium`
