@@ -1166,6 +1166,7 @@ Use these hashtags in search to filter out the tools
 ## Social Media
 
 - [Autoposting MCP](https://autoposting.ai/) - MCP server for social content creation, drafts, scheduling and publishing to connected accounts; hosted backend is paid SaaS. `#paid` `#mcp`
+- [BulkPublish](https://www.bulkpublish.com/) - Schedule and publish posts to 15 social platforms from one dashboard, API or hosted MCP server for AI agents. `#freemium` `#mcp`
 - [Jev Social](https://socai-io.github.io/jev-social/) - Local-first social research agent that uses Jev and socai to capture Instagram, TikTok, and LinkedIn evidence in Chrome. `#opensource`
 - [OpenSparta](https://opensparta.com/) - Discover relevant audiences, manage Telegram accounts, and streamline engagement from one workspace. `#freemium` `#social-media`
 - [Piggy Magic](https://piggy.to/magic) - Piggy Magic - Social Story Maker `#free`
