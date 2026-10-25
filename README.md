@@ -367,6 +367,7 @@ Use these hashtags in search to filter out the tools
 
 ## Design
 
+- [BountyGuard](https://github.com/doomsday-network/bounty-guard) - Autonomous AI code-audit and on-chain crypto bounty escrow engine for GitHub repositories. `#opensource` `#free`
 - [Adobe Firefly](https://www.adobe.com/products/firefly.html) - AI-powered creative tools for image generation and editing. `#freemium`
 - [AI Site Builder](https://library.relume.io/ai-site-builder) - Create a marketing website for any company in minutes using systems you already love. `#freemium`
 - [AmyMind](https://amymind.com/) - Markdown and document to mind map converter. `#free`
