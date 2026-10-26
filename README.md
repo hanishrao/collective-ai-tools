@@ -528,6 +528,7 @@ Use these hashtags in search to filter out the tools
 - [Trae](https://trae.ai/) - AI-native IDE with Builder patterns. `#free`
 - [Together AI](https://together.ai/) - Fast inference platform for open-source models with developer APIs and fine-tuning. `#freemium`
 - [Twinny](https://github.com/twinnydotdev/twinny) - Privacy-first AI extension for local models. `#free`
+- [UI Verify](https://uiverify.ai/) - Visual regression testing for coding agents: screenshots your Storybook, Playwright or Vitest tests on each pull request, an AI judge labels each change, and an MCP server lets Claude Code, Cursor or Codex review the diffs. `#freemium` `#testing`
 - [v0](https://v0.dev/) - AI-powered UI component generator by Vercel. `#free`
 - [Vend](https://extract.paypercall.dev) - Pay-per-call web intel and data-extraction API: IP geolocation, domain WHOIS/DNS/SSL checks, URL health, web search, and page content extraction. Settled in Nano (XNO), no signup or API key needed. `#paid`
 - [Vercel AI SDK](https://sdk.vercel.ai/) - TypeScript toolkit for building AI-powered applications with streaming, agents, and tool calling. `#free` `#opensource`
