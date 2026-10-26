@@ -167,6 +167,7 @@ Use these hashtags in search to filter out the tools
 - [VideoDubber](https://videodubber.ai) - Offers free video translation, dubbing,  cloning, and text-to-speech services. `#freemium`
 - [VideoToBlog](https://www.videotoblog.ai/) - Convert YouTube videos to blog content in one click `#free`
 - [Voqusa](https://www.voqusa.com/) - Turns TikTok, YouTube, Instagram and other social videos into accurate transcripts and subtitles in seconds, no signup required. `#freemium` `#transcription`
+- [WalkAITalkie](https://walkaitalkie.com/) - Menu bar dictation for Apple Silicon Macs, with local speech recognition and text cleanup that work offline after model download. `#freemium`
 
 **[⬆️ Back to Top](#table-of-contents)**
 
