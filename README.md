@@ -533,6 +533,7 @@ Use these hashtags in search to filter out the tools
 - [Vercel AI SDK](https://sdk.vercel.ai/) - TypeScript toolkit for building AI-powered applications with streaming, agents, and tool calling. `#free` `#opensource`
 - [VideoGen API](https://videogen.io/videogen-api) - REST API with TypeScript and Python SDKs for creating editable marketing videos from storyboards, scripts and voiceovers, then editing and exporting projects; a VideoGen account and paid generation credits are required. `#paid` `#api`
 - [Warp](https://www.warp.dev/) - Parallel agent operation for fast completion. `#paid`
+- [WebExtract](https://webextract.dev/) - Turns one web page into Markdown or structured JSON, as a REST API or a remote MCP server (`https://api.webextract.dev/mcp`); the first 20 calls a day per IP are free, then pay per call in USDC over x402 or with prepaid credits. `#freemium` `#api` `#mcp`
 - [Windsurf](https://codeium.com/windsurf) - AI-powered IDE with built-in code generation and chat `#freemium`
 - [Windsurf (Codeium)](https://codeium.com/windsurf)%20AI%20Tool) - Multi-step collaborative Cascade technology. `#free`
 - [YingTu](https://yingtu.ai/en) - Browser playground for testing AI image and video API routes, prompts, reference inputs, task status, and downloads before integration. `#free`
