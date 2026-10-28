@@ -961,6 +961,7 @@ Use these hashtags in search to filter out the tools
 - [Songifted](https://songifted.com/) - Creates personalized AI song gifts from names and memories, with lyrics approval before recording, a free 45-second preview, and paid full songs. `#paid`
 - [Soundraw](https://soundraw.io/) - AI music generator with customizable styles and moods `#freemium`
 - [Suno AI](https://suno.ai/) - AI-powered music creation platform that generates complete songs from text prompts `#freemium`
+- [Tera Studio](https://terastudio.co/) - Learns your singing voice from about a minute of singing, then sings any song you upload back in your voice, in any language. `#freemium`
 - [Udio](https://udio.com/) - Advanced AI music generator with high-quality audio output and style control `#freemium`
 
 **[⬆️ Back to Top](#table-of-contents)**
