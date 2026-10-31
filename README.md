@@ -1222,6 +1222,7 @@ Use these hashtags in search to filter out the tools
 - [Sogou Translate](https://fanyi.sogou.com/) - Fast instant translation for 50+ languages. `#free`
 - [Tencent TranSmart](https://www.tencent.com/) - Human-machine interactive AI translation. `#free`
 - [Volcano Translate](https://translate.volcengine.com/) - ByteDance's low-latency machine translation API. `#free`
+- [VoxSail](https://voxsail.com/en/) - Localizes uploaded video and audio with translated subtitles, AI dubbing, and browser-based review; paid plans with one-time starter credits. `#paid` `#translation` `#dubbing`
 
 **[⬆️ Back to Top](#table-of-contents)**
 
