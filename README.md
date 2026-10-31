@@ -574,6 +574,7 @@ Use these hashtags in search to filter out the tools
 
 ## E-Commerce
 
+- [PackScena](https://packscena.com/) - AI product-photo backgrounds and scenes through an invitation trial, with product details requiring human review (AI-assisted listing submitted on behalf of the project). `#trial` `#product-photography`
 - [Shop Guru AI](https://www.shopguru.io/) - Analyze customer reviews, providing you with trusted answers based on specific product information. `#free`
 - [Xiyu](https://xiyu.taobao.com/) - Taobao ecosystem secure login entry gateway. 87 `#free`
 - [YOO Resume](https://yooresume.com/) - Taoist cultural products and ritual services. `#paid`
