@@ -894,6 +894,7 @@ Use these hashtags in search to filter out the tools
 - [Elaris by Solsten](https://elaris.new/) - Understand audience psychology and get actionable insights for marketing and product decisions. `#paid`
 - [HighReach](https://highreach.ai/) - Generates platform-ready video, image, and UGC ad creatives from product URLs for Meta, TikTok, and Google. `#paid`
 - [HubSpot](https://www.hubspot.com/) - CRM with AI features for lead tracking, sequences, and automation. `#freemium`
+- [MarketMirror](https://github.com/DarkWorldCoder/market-mirror) - Tests ads, prices, emails and sales pitches on simulated buyers and returns a go / iterate / no-go report; runs locally from coding agents as an MCP server. `#free` `#opensource`
 - [MentionDesk](https://mentiondesk.com/) - Tools to optimize being quoted or referenced within AI responses and track mentions. `#paid`
 - [Qimi](https://qimi.ai/) - Game industry ad production and placement. `#free`
 - [SE Visible (visible.seranking.com)](https://visible.seranking.com/) - AI brand visibility tracker for search/LLM result coverage. `#paid`
