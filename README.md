@@ -788,6 +788,7 @@ Use these hashtags in search to filter out the tools
 - [BulkPicTools](https://bulkpictools.com/) - Free browser-based bulk image workspace. Upload once, chain 40+ tools (compress, convert, crop, background removal, face blur) without re-uploading. Files never leave your device. `#free`
 - [Crisp](https://crisp.photos/) - Free AI photo upscaler that runs entirely in your browser. No upload, no signup, no watermark. Includes a dedicated anime upscaler. `#free`
 - [Cutout.Pro](https://www.cutout.pro/) - Creative visual platform and automated tasks. `#free`
+- [DishVivid](https://dishvivid.com/) - Restaurant-photo editing with free local manual controls and optional sign-in/allowance-based AI, with food details requiring human review (AI-assisted listing submitted on behalf of the project). `#photo-editing`
 - [igly.ai](https://igly.ai/) - Browser-based AI image editor for background removal, inpainting, upscaling, and generative fill. `#freemium`
 - [Image Candy](https://imagecandy.com/) - Online Image Editor - Image Candy `#free`
 - [Img.Upscaler](https://imgupscaler.com/) - Img.Upscaler uses AI to enlarge your jpg, png, webp images by 200% or 400% without losing quality. `#freemium`
