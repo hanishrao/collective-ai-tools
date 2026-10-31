@@ -648,6 +648,7 @@ Use these hashtags in search to filter out the tools
 - [DressMeAI](https://dressmeai.com/) - AI virtual try-on from a person photo and clothing image. `#paid`
 - [Dressrious](https://www.dressrious.com/) - Offers personalized daily outfit recommendations based on users' wardrobe items, weather conditions, occasions, and color preferences. `#free`
 - [Intelistyle](https://www.intelistyle.com/) -  offers personalized styling and virtual try-on features for a better online shopping experience. `#paid`
+- [NailMoodLab](https://nailmoodlab.com/) - AI nail-design references and hand-photo try-on previews, with sign-in and monthly free-plan limits (AI-assisted listing submitted on behalf of the project). `#freemium` `#nail-design`
 - [Outfit Roast](https://outfit.roastlabai.com/) - AI-powered outfit analysis that rates your look for any occasion, gives honest style feedback, and tells you exactly what to change. Upload a photo and get scored. `#freemium`
 - [RealFun Color](https://color.realfun.online/) - Provides selfie-based personal color analysis and checks clothing colors against a personal color profile. `#freemium`
 - [TryOnSwap](https://tryonswap.com/en) - Creates AI fashion previews from model photos and garment references, with single-item or up-to-five-piece outfits; paid credit packs and introductory credits after email verification. `#paid`
