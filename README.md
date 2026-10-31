@@ -1188,6 +1188,7 @@ Use these hashtags in search to filter out the tools
 - [ORANO](https://oranoai.com) - Turns saved Reels, TikToks, YouTube videos, articles and PDFs into searchable summaries and step-by-step plans. `#freemium`
 - [Quill](https://apps.apple.com/us/app/quill-news-digest/id1669557131) - The AI Way to Stay Informed `#free`
 - [Recall](https://www.recall.wiki/) - Summarize YouTube videos, blog posts, PDFs, articles or any other online content. `#freemium`
+- [SummarizAI](https://summarizai.ink/) - Chrome extension that adds an AI summary, chapters, chat, and Study flashcards to the YouTube watch page. `#freemium`
 - [SummaryTube](https://summarytube.com/) - AI Youtube Video Summarizer. Get key AI insights, extract key moments and transcription. `#freemium`
 - [Too Long](https://toolongapp.com/) - Your Article Summarization Companion `#free`
 
