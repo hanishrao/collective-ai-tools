@@ -1241,20 +1241,34 @@ Use these hashtags in search to filter out the tools
 
 ## Video
 
+- [airapvideo](https://ai-rap-video.asia/) - Vocals + photo to 9:16 lip-sync rap video; packs from $8.88. `#paid`
 - [AIVG](https://ai-video-generators.com/image-to-video) - Animate a photo into a short video with a choice of AI video models. `#paid`
+- [Alors on Danse AI](https://tryalorsondanse.video/) - Two photos to ~15s white-studio duo dance; packs from $8.88. `#paid`
 - [AVCLabs](https://www.avclabs.com/) - 100% free automatic video background remover. `#free`
+- [Bad Times AI](https://badtimesai.cc/) - One photo to ~15s quarrel or lip-sync dance; packs from $8.88. `#paid`
+- [bbywowguy AI](https://bbywowguyai.cc/) - One photo to ~10s quince/concha meme video; packs from $8.88. `#paid`
+- [Burning Bridges AI](https://burningbridgesvideoai.com/) - 1-2 photos to a party template clip; packs from $8.88. `#paid`
 - [C2Anime](https://c2anime.com/) - AI Anime Agent that turns stories into animated short films with voices and sound. `#paid` `#animation`
 - [Captions](https://www.captions.ai/) - AI creative studio application for creators. `#freemium`
+- [Cat in the Hat AI](https://catinthehat.cc/) - One photo to ~10s doorbell Halloween prank; packs from $8.88. `#paid`
+- [ChatGPT Millionaire AI](https://chatgptmillionaire.cc/) - One selfie to a ~10-13s Get a job meme short; packs from $8.88. `#paid`
+- [ChatGTT](https://chatgtt.cc/) - One photo to ~10-13s card-declined meme; packs from $8.88. `#paid`
+- [Cheba Man AI](https://chebamanai.cc/) - One full-body photo to ~15-17s red stage Tecktonik clip; packs from $8.88. `#paid`
+- [Choosin Texas AI](https://choosintexas.run/) - One photo to ~15s emo rooftop cover; packs from $8.88. `#paid`
 - [Chromox](https://chromox.alkaidvision.com/) - Transforming Ideas into Visual Stories. `#free`
+- [Chuttamalle Dance AI](https://trychuttamalle.app/) - Authorized portrait to ~15s generative dance clip; packs from $8.88. `#paid`
 - [Clipfly](https://www.clipfly.com/) - Integrated video generation and enhancement. `#freemium`
 - [Conch Video](https://hailuo.ai/) - MiniMax realistic video effects assistant. `#free`
+- [coralineai](https://coralineai.run/) - One selfie to ~10s button-eyes doll reveal; packs from $8.88. `#paid`
+- [Corpse Bride AI](https://corpsebride.cc/) - One photo to ~10s ghost bride/groom cemetery dance; packs from $8.88. `#paid`
 - [Cutout.Pro](https://www.cutout.pro/) - AI-based video background removal tool. `#free`
 - [D-ID](https://www.d-id.com/) - D-ID is a platform to generate videos. `#freemium`
 - [Daydream](https://daydream.ai/) - professional-level video from input stories. `#free`
 - [Decohere](https://decohere.ai/) - High-precision extremely fast AI generator. `#free`
 - [Descript](https://www.descript.com/) - Edit videos and podcasts by typing text. `#free`
-- [DoneCut](https://donecut.com/) - Upload raw footage and an AI editor returns a finished YouTube video or Shorts with captions, motion graphics and music. `#paid`
+- [Devil Wears Prada AI](https://pradaai.cc/) - One photo to ~15s street glow-up video; packs from $8.88. `#paid`
 - [DomoAI](https://domoai.app/) - Video-to-animation and style conversion tool. `#free`
+- [DoneCut](https://donecut.com/) - Upload raw footage and an AI editor returns a finished YouTube video or Shorts with captions, motion graphics and music. `#paid`
 - [Dream Machine](https://lumalabs.ai/dream-machine) - Luma AI high-resolution video generator. `#freemium`
 - [DreamFace](https://dreamface.ai/) - High-quality videos/photos from audio/text. `#paid`
 - [Duojia Tool](https://duojia.baidu.com/) - Baidu's one-stop AIGC creation platform. `#free`
@@ -1265,6 +1279,7 @@ Use these hashtags in search to filter out the tools
 - [Fliki.ai](https://fliki.ai/) - Your AI partner for video creation. Create a video from text, voice or image. `#freemium`
 - [Flow AI Video](https://www.flowaivideo.org/) - AI video generation workspace for text-to-video and image-to-video creative workflows. `#freemium`
 - [Flow Studio](https://flowstudio.ai/) - Chat characters, robots, and prompt management. `#free`
+- [Flying Roadster AI](https://flyingcarai.cc/) - One selfie to ~10-12s night ramp jet/flip short; packs from $8.88. `#paid`
 - [Gemini Omni AI](https://geminiomni.co/) - Craft cinematic AI videos with Gemini Omni, the unified omni-model — generate, edit, and remix clips in native 4K with built-in audio and Director's Mode. `#freemium`
 - [Genve.ai](https://www.genve.ai/) - A tool to dub and translate videos with voice cloning. `#free`
 - [Google Vids](https://workspace.google.com/products/vids/) - Integrated Workspace creation and scripts. `#paid`
@@ -1272,9 +1287,13 @@ Use these hashtags in search to filter out the tools
 - [Hedra](https://hedra.com/) - Multimodal personal AI creation studio. `#free`
 - [Heygen](https://www.heygen.com/) - Create videos from text in minutes with AI-generated avatars and voices. `#freemium`
 - [HeyVid](https://heyvid.ai/) - An all-in-one AI video and image generator. `#freemium`
+- [Hotel Lobby AI](https://tryhotellobby.app/) - Two photos to ~15s hotel lobby booth duo; packs from $8.88. `#paid`
+- [Hug In Heaven AI](https://huginheaven.cc/) - Two photos to ~12-15s stairway reunion memorial short (18+); packs from $8.88. `#paid`
 - [Invideo](https://invideo.io/) - InVideo simplifies video creation with ready-made templates. `#freemium`
 - [Invideo AI](https://invideo.io/) - Transforms ideas into shareable videos (no skills). `#free`
+- [JeanPhilAI](https://jeanphilai.cc/) - One photo to ~12-15s blond bob + moustache clip; packs from $8.88. `#paid`
 - [JiMeng AI](https://jimeng.jianying.com/) - 2K high-definition art and shot generation. `#freemium`
+- [Kiss Cam AI](https://coldplayaffairai.cc/) - 1-2 photos to ~10s stadium kiss-cam clip; packs from $8.88. `#paid`
 - [Kling AI Video](https://kling.kuaishou.com/) - High-quality video generation with realistic motion and physics `#freemium`
 - [LensGo](https://lensgo.ai/) - character style transfer tool (Shutdown 2025). `#free`
 - [LiveFaceSwap AI](https://livefaceswap.ai/) - Cloud-based live webcam transformations with face, outfit, and style references plus desktop virtual-camera output. `#paid`
@@ -1298,16 +1317,20 @@ Use these hashtags in search to filter out the tools
 - [Pixwit](https://pixwit.ai/) - Text-to-video, image-to-video and AI image generation with multiple models in one workspace. `#freemium`
 - [Pollo AI](https://pollo.ai/) - Singapore-based image and video creative hub. `#freemium`
 - [Quickads](https://www.quickads.ai/) - AI Ad Creation Platform for all your Ad Campaigns. `#freemium`
+- [Raindance AI](https://raindanceai.click/) - Two photos to ~15s pier/dock sequence; packs from $8.88. `#paid`
 - [Rask](https://rask.ai/) - Localization tool for 130 languages with API. `#free`
+- [RemixMeme](https://remixmeme.com/) - AI meme video generator from photos with dance, pet and funny templates. `#paid`
+- [Rumpelstiltskin Dance AI](https://rumpelstiltskindance.video/) - 1-2 photos to a barn tip-toe dance short; packs from $8.88. `#paid`
 - [Runway](https://runwayml.com/) - With Runway AI, you have the power to create videos using text prompts in so many incredible ways `#free`
 - [Runway Gen-3](https://runwayml.com/) - Latest generation of AI video creation with improved realism and control `#freemium`
 - [Runway ML](https://runwayml.com/) - AI-powered video editing and generation platform with advanced features. `#freemium`
-- [SeedanceCheap](https://seedancecheap.com/) - Independent Seedance 2.5 video studio with motion guidance, free prompt planners and Brand Canvas text branding with PNG/ZIP export; generation uses one-time credit packs. `#paid`
 - [ScaleReach](https://www.scalereach.ai/) - Turns long YouTube and other videos into 9:16 short clips with AI captions and face-tracking crop. `#paid`
+- [SeedanceCheap](https://seedancecheap.com/) - Independent Seedance 2.5 video studio with motion guidance, free prompt planners and Brand Canvas text branding with PNG/ZIP export; generation uses one-time credit packs. `#paid`
+- [ShanShenBu AI](https://shanshenbuai.cc/) - One photo to ~13-15s flash-step dance; packs from $8.88. `#paid`
 - [shortshort](https://www.shortshort.io/) - Turns one long talk, podcast or course into up to 20 vertical 9:16 shorts with word-by-word captions. `#freemium`
 - [SkyReels](https://skyreels.ai/) - One-click text-to-animation platform. `#freemium`
-- [Sora2 Hub](https://sora2hub.org/) - AI image and video generation platform for text-to-video, image-to-video and text-to-image in one workspace. `#freemium`
 - [Sora](https://openai.com/sora) - OpenAI's revolutionary text-to-video generation model with high-quality results `#freemium`
+- [Sora2 Hub](https://sora2hub.org/) - AI image and video generation platform for text-to-video, image-to-video and text-to-image in one workspace. `#freemium`
 - [Spikes Studio](https://spikes.studio/) - identifies segments for social media short-form. `#free`
 - [Step Video](https://step.ai/) - Multi-theme creation and description optimizer. `#free`
 - [Syllaby.io](https://ai.syllaby.io) - AI Video Script Generator, Syllaby shows you how to create a content strategy for social media in minute `#paid`
@@ -1316,9 +1339,13 @@ Use these hashtags in search to filter out the tools
 - [Tencent Zhiying](https://www.tencent.com/) - Cloud-based video editor with rich copyright info. `#free`
 - [Thumbnail Ai](https://thumbnail-ai.ybouane.com/) - Will provide reviews of youtube thumbnails using AI `#free`
 - [Tongyi Wanxiang AI](https://wanxiang.aliyun.com/) - Alibaba high-definition film-quality videos. `#free`
+- [Unforgettable Car AI](https://unforgettablecarai.cc/) - One selfie to ~10s 24 card car reveal; packs from $8.88. `#paid`
 - [Unscreen](https://www.unscreen.com/) - 100% automatic online background removal. `#free`
 - [Veed Background](https://www.veed.io/tools/background-remover) - Online background removal and green-screen. `#free`
+- [Venom Car AI](https://venomcarai.cc/) - One car photo to ~15s goo garage-build short; packs from $8.88. `#paid`
+- [venommakeup AI](https://venommakeup.cc/) - One photo to ~10s Halloween half-face goo video; packs from $8.88. `#paid`
 - [Veo](https://deepmind.google/models/veo/) - Google DeepMind's text-to-video model (currently Veo 3.1), generates cinematic video with synchronized audio and realistic physics. `#paid`
+- [Victoria Secret AI](https://victoriasecretai.cc/) - One photo to ~10s angel-wing runway walk; packs from $8.88. `#paid`
 - [Video Background Remover](https://www.videobgremover.org/) - AI tool to remove video backgrounds online and export background-free clips. `#free`
 - [Video Ocean](https://videoocean.com/) - Text-to-video scene simulation platform. `#free`
 - [Video Watermark Remover](https://www.videowatermarkremover.org/) - AI video watermark remover for MP4, AVI, and MOV with online export. `#free`
@@ -1331,13 +1358,15 @@ Use these hashtags in search to filter out the tools
 - [Viggle](https://viggle.ai/) - Driven by 3D basic model to move characters. `#free`
 - [Vizard](https://vizard.ai/) - identifies highlights to create short social clips. `#free`
 - [Vozo](https://www.vozo.ai/) - Video localization and natural voice dubbing. `#free`
+- [White Chicks AI](https://whitechicks.cc/) - 1-2 photos to ~10-12s night convertible sing video; packs from $8.88. `#paid`
 - [WinkStudio](https://wink.meitu.com/) - Meitu image restoration and portrait retouch. `#free`
+- [wywmysweetie AI](https://wywmysweetie.run/) - One photo to ~13s jersey-club dance; packs from $8.88. `#paid`
 - [Xiling Digital Human](https://xiling.baidu.com/) - Marketing promotion and content output avatars. `#free`
+- [ZombieHug](https://aizombie.app/) - Two photos to a vertical zombie love-story video; packs from $9.99. `#paid`
 - [ZOOOP](https://zooop.ai/) - AI-native filmmaking workstation for text/image-to-video, lip-sync, and storyboarding on an infinite canvas. `#freemium`
   
 
 **[⬆️ Back to Top](#table-of-contents)**
-
 ## Weather
 
 - [Atmo Global Forecast](https://earth.atmo.ai/) - Precision Weather Forecasting with AI `#free`
