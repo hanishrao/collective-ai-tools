@@ -388,6 +388,7 @@ Use these hashtags in search to filter out the tools
 - [Kittl](https://www.kittl.com/) - AI-powered graphic design tool with text-to-image and logo generation. `#freemium`
 - [LandscapioAI](https://www.landscapioai.com/) - AI landscape design generator that turns yard photos into outdoor redesign concepts and cost estimates. `#freemium`
 - [LogoAi](https://www.logoai.com/logo-maker) - AI-powered logo maker and online design tool. `#freemium`
+- [LogoMovo](https://logomovo.com/) - AI-assisted logo directions and SVG/PNG export, with sign-in and an active paid plan required (AI-assisted listing submitted on behalf of the project). `#paid` `#design`
 - [Looka](https://looka.com/) - Use Looka's AI-powered platform to design a logo and build a brand you love. `#free`
 - [Miaoban Board](https://miaoban.com/) - Online space for graphic drawing and brainstorming. `#free`
 - [Midjourney](https://www.midjourney.com/) - AI art generator that creates stunning images from text prompts. `#paid`
