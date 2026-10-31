@@ -264,6 +264,7 @@ Use these hashtags in search to filter out the tools
 - [Step AI](https://step.ai/) - General efficiency assistant for problem solving. `#free`
 - [Super Assistant](https://assistant.baidu.com/) - Wenxin-based plugin for task customization. `#free`
 - [Tencent Yuanbao](https://www.tencent.com/) - Hunyuan-based one-stop creation assistant. `#free`
+- [Throughline](https://getthroughline.ai/) - Hosted AI Self with distinct character, interests and shared history that users can inspect, correct, delete and export. `#freemium`
 - [Tiangong AI](https://www.tiangong.cn/) - DeepResearch office agent for professionals. 63 `#free`
 - [Tidio](https://www.tidio.com/) - Tidio Live Chat & AI Chatbots , Accelerate your growth with AI customer service `#freemium`
 - [Tongyi Xingchen](https://tongyi.aliyun.com/xingchen/) - Role-playing and scenario-based dialogue. `#free`
