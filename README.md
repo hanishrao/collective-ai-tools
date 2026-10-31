@@ -1010,6 +1010,7 @@ Use these hashtags in search to filter out the tools
 - [ChatPPT](https://chat-ppt.com/) - Command-style workplace office assistant. `#paid`
 - [Chronicle](https://chroniclehq.com/) - High-impact presentation tool for non-pros. `#free`
 - [Decktopus AI](https://decktopus.com/) - AI generator with a presenter coach and editor. `#freemium`
+- [EditableImage](https://editableimage.com/) - Turns a slide screenshot into an editable PowerPoint with real text boxes over a rebuilt background; also converts diagram pictures to draw.io and flat artwork to layered PSD. `#freemium`
 - [Gaoding PPT](https://ppt.gaoding.com/) - Design platform for non-professional designers. `#free`
 - [Instant PPT Gen](https://gamma.app/) - Content editing and intelligent typesetting tool. `#free`
 - [iSlide AIPPT](https://www.islide.cc/) - Plugin with over 8 million genuine pictures. `#free`
