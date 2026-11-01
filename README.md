@@ -580,7 +580,7 @@ Use these hashtags in search to filter out the tools
 
 ## E-Commerce
 
-- [EverAlice AI](https://everalice.studio/) - AI listing studio for Etsy and digital-product sellers that turns one artwork into listing copy, SEO tags, mockups, print files and a delivery ZIP. `#freemium`
+- [EverAlice AI](https://everalice.studio/) - All-in-one AI studio for Etsy and digital-product sellers: turns one artwork or idea into listing copy and SEO tags for 25 marketplaces, studio mockups, print-ready files, listing videos, a launch marketing pack and a customer delivery ZIP, with bulk runs of up to 100 products. `#freemium`
 - [Shop Guru AI](https://www.shopguru.io/) - Analyze customer reviews, providing you with trusted answers based on specific product information. `#free`
 - [Xiyu](https://xiyu.taobao.com/) - Taobao ecosystem secure login entry gateway. 87 `#free`
 - [YOO Resume](https://yooresume.com/) - Taoist cultural products and ritual services. `#paid`
