@@ -439,6 +439,7 @@ Use these hashtags in search to filter out the tools
 - [BLACKBOX AI](https://www.blackbox.ai/) - Trusted code auto-completion for enterprises. `#freemium`
 - [Bolt.new](https://bolt.new/) - AI-powered full-stack web development platform `#freemium`
 - [Boxy](https://boxy.ai/) - Logic understanding and error diagnosis tool. `#paid`
+- [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) - Open-source browser agent prompt modules and synthetic recovery examples for uncertain actions. `#free` `#opensource`
 - [Bugasura](https://bugasura.io/) - Bug tracker designed to streamline the reporting, tracking, and closing of bugs for modern technology teams. `#freemium`
 - [Clacky AI](https://clacky.ai/) - L3 Agentic AI cloud development environment. `#freemium`
 - [Claude](https://claude.ai/) - Anthropic's AI assistant with advanced reasoning capabilities. `#freemium`
