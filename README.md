@@ -1299,6 +1299,7 @@ Use these hashtags in search to filter out the tools
 - [Pollo AI](https://pollo.ai/) - Singapore-based image and video creative hub. `#freemium`
 - [Quickads](https://www.quickads.ai/) - AI Ad Creation Platform for all your Ad Campaigns. `#freemium`
 - [Rask](https://rask.ai/) - Localization tool for 130 languages with API. `#free`
+- [RefVid](https://refvid.com/) - Generates AI videos from 1–5 reference photos of a character or product, using the photos to help maintain character or product consistency. New accounts get one free 5-second clip, then paid credits or plans. `#paid`
 - [Runway](https://runwayml.com/) - With Runway AI, you have the power to create videos using text prompts in so many incredible ways `#free`
 - [Runway Gen-3](https://runwayml.com/) - Latest generation of AI video creation with improved realism and control `#freemium`
 - [Runway ML](https://runwayml.com/) - AI-powered video editing and generation platform with advanced features. `#freemium`
