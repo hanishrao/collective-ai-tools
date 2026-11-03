@@ -1169,6 +1169,7 @@ Use these hashtags in search to filter out the tools
 
 ## Sales
 
+- [AlphaOSINT LinkedIn Company Employees](https://alphaosint.com/sources/linkedin-company-employees-api/) - Lists the people who work at a company on LinkedIn, with titles and profile links, as an MCP tool for prospecting. `#mcp` `#paid`
 - [Feishu Multi-Table](https://www.feishu.cn/product/base) - Zero-code business system and infrastructure. `#paid`
 - [Sellesta](https://sellesta.ai/) - Revamp your Amazon business with Sellesta AI tools! Keyword Research, Listing Optimization, and Keyword Tracking. Start Free Now! `#freemium`
 
