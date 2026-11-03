@@ -908,6 +908,7 @@ Use these hashtags in search to filter out the tools
 - [AI TikTok Analyzer Pro](https://tiktok.poviai.com/) - Research public TikTok content: rank a creator's videos by plays, likes or comments, export comment threads to Excel or CSV, and generate AI transcripts with 9-language translation. `#freemium`
 - [Clay](https://www.clay.com/) - Automates outreach and contact workflows (cold email, LinkedIn DMs) based on buyer personas. `#freemium`
 - [Elaris by Solsten](https://elaris.new/) - Understand audience psychology and get actionable insights for marketing and product decisions. `#paid`
+- [Google Ads Transparency MCP](https://github.com/GeminiGeorge22/google-ads-transparency-mcp) - MCP server that gives AI assistants a competitor's Google ads from the Google Ads Transparency Center: new, running or stopped, with first and last shown dates; runs on your own Apify token. `#opensource` `#mcp`
 - [HighReach](https://highreach.ai/) - Generates platform-ready video, image, and UGC ad creatives from product URLs for Meta, TikTok, and Google. `#paid`
 - [HubSpot](https://www.hubspot.com/) - CRM with AI features for lead tracking, sequences, and automation. `#freemium`
 - [MarketMirror](https://github.com/DarkWorldCoder/market-mirror) - Tests ads, prices, emails and sales pitches on simulated buyers and returns a go / iterate / no-go report; runs locally from coding agents as an MCP server. `#free` `#opensource`
