@@ -1363,6 +1363,7 @@ Use these hashtags in search to filter out the tools
 - [Bimuyu](https://bimuyu.com/) - Cloud-based English paper aid for researchers. 124 `#freemium`
 - [Caiyun Xiaomeng](https://xiaomeng.caiyunapp.com/) - Novel continuation and daily story scenarios. 113 `#free`
 - [Cosmos AI](https://cosmos.ai/) - Grammar correction and professional assistant. 133 `#free`
+- [CoverNice](https://covernice.com/) - KDP cover studio: five directions, spine width from page count, 300 dpi wrap PDF. `#freemium`
 - [Dearovo](https://www.dearovo.com/) - AI relationship message writer with context, tone, and length controls. `#freemium`
 - [Dragon Fruit Writing](https://pitaya.ai/) - Typo and grammar assistance software. 119 `#free`
 - [FlowUs AI](https://flowus.cn/) - Collaborative documents and knowledge management. 93 `#free`
