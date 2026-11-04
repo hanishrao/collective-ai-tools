@@ -982,6 +982,7 @@ Use these hashtags in search to filter out the tools
 - [Riffusion](https://www.riffusion.com/) - Create music from text with styles, instruments, modifiers and genres. `#free`
 - [Songifted](https://songifted.com/) - Creates personalized AI song gifts from names and memories, with lyrics approval before recording, a free 45-second preview, and paid full songs. `#paid`
 - [Soundraw](https://soundraw.io/) - AI music generator with customizable styles and moods `#freemium`
+- [Spotify Play Count MCP](https://github.com/GeminiGeorge22/spotify-play-count-mcp) - MCP server that gives AI assistants Spotify play counts for any track, album, artist or playlist, plus artist monthly listeners and followers; runs on your own Apify token. `#opensource` `#mcp`
 - [Suno AI](https://suno.ai/) - AI-powered music creation platform that generates complete songs from text prompts `#freemium`
 - [Tera Studio](https://terastudio.co/) - Learns your singing voice from about a minute of singing, then sings any song you upload back in your voice, in any language. `#freemium`
 - [Udio](https://udio.com/) - Advanced AI music generator with high-quality audio output and style control `#freemium`
