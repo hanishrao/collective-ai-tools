@@ -530,6 +530,7 @@ Use these hashtags in search to filter out the tools
 - [Solo](https://soloist.ai/) - Free AI website creation and domain hosting. `#free`
 - [SoloPup Memory](https://github.com/OakcoderX/solopup-memory) - Native DeepSeek Harness text-memory beta with source references, project scope and correction history; requires Node >=24.9 and DSH >=0.2.1-rc.0 <0.3.0, and configured model APIs may charge. `#opensource` `#memory`
 - [Sourcegraph Cody](https://sourcegraph.com/cody) - AI coding assistant with deep codebase context, for VS Code, JetBrains and web. `#freemium`
+- [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory) - MCP server and CLI that gives coding agents recall over a folder of markdown notes, following `[[wikilinks]]` as a graph in one SQLite file. `#opensource` `#free` `#mcp`
 - [Supermaven](https://supermaven.com/) - Fast AI code completion with 300k token context window. `#freemium`
 - [Tabby](https://tabbyml.com/) - Self-hosted Rust-based Copilot alternative. `#free`
 - [Tabnine](https://www.tabnine.com/) - AI code completion tool that learns from your code patterns. `#freemium`
