@@ -1167,7 +1167,7 @@ Use these hashtags in search to filter out the tools
 ## SEO
 
 - [Adaptify](https://www.adaptify.ai/) - Empower Business Success with AI-Powered ChatGPT `#paid`
-- [AgentSEO](https://www.agentseo.dev/) - SEO API and MCP tools for keyword research, SERP analysis, rank tracking, and AI search visibility. `#freemium` `#seo` `#mcp`
+- [AgentSEO](https://www.agentseo.dev/) - SEO API and MCP tools for keyword research, SERP analysis, rank tracking, and AI search visibility. New accounts receive 100 one-time live credits, then ongoing use requires a paid plan. `#paid` `#seo` `#mcp`
 - [AIRanked](https://geochecktool.com/) - Free AI visibility checker for tracking brand mentions across ChatGPT, Perplexity, and Google AI Overview. `#free` `#seo`
 - [AltoRank](https://altorank.co/) - Open-source SEO content software that researches what your buyers search for and drafts sourced articles; self-host it free or use the hosted version. `#freemium` `#seo` `#opensource`
 - [AutoBlogging Pro](https://autoblogging.pro/) - AI-Powered Content Automation for WordPress Blogs `#freemium`
