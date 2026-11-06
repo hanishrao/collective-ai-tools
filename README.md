@@ -1324,6 +1324,7 @@ Use these hashtags in search to filter out the tools
 - [Runway](https://runwayml.com/) - With Runway AI, you have the power to create videos using text prompts in so many incredible ways `#free`
 - [Runway Gen-3](https://runwayml.com/) - Latest generation of AI video creation with improved realism and control `#freemium`
 - [Runway ML](https://runwayml.com/) - AI-powered video editing and generation platform with advanced features. `#freemium`
+- [Seedance Now](https://seedancenow.com/) - Multi-model text-to-video and image-to-video studio (Seedance 2.5, Kling 4.0, Wan 3.0), up to 30s at 1080p; independent, not affiliated with ByteDance. `#freemium` `#video`
 - [SeedanceCheap](https://seedancecheap.com/) - Independent Seedance 2.5 video studio with motion guidance, free prompt planners and Brand Canvas text branding with PNG/ZIP export; generation uses one-time credit packs. `#paid`
 - [ScaleReach](https://www.scalereach.ai/) - Turns long YouTube and other videos into 9:16 short clips with AI captions and face-tracking crop. `#paid`
 - [shortshort](https://www.shortshort.io/) - Turns one long talk, podcast or course into up to 20 vertical 9:16 shorts with word-by-word captions. `#freemium`
