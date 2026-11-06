@@ -1365,6 +1365,7 @@ Use these hashtags in search to filter out the tools
 - [Tongyi Wanxiang AI](https://wanxiang.aliyun.com/) - Alibaba high-definition film-quality videos. `#free`
 - [Unforgettable Car AI](https://unforgettablecarai.cc/) - One selfie to ~10s 24 card car reveal; packs from $8.88. `#paid`
 - [Unscreen](https://www.unscreen.com/) - 100% automatic online background removal. `#free`
+- [Valmera](https://valmera.io/) - Edits uploaded footage through natural-language instructions in a browser studio or a connected AI assistant over MCP, with cuts, captions, reframing, preview review and MP4 export. `#paid` `#video` `#mcp`
 - [Veed Background](https://www.veed.io/tools/background-remover) - Online background removal and green-screen. `#free`
 - [Venom Car AI](https://venomcarai.cc/) - One car photo to ~15s goo garage-build short; packs from $8.88. `#paid`
 - [venommakeup AI](https://venommakeup.cc/) - One photo to ~10s Halloween half-face goo video; packs from $8.88. `#paid`
