@@ -619,6 +619,7 @@ Use these hashtags in search to filter out the tools
 - [ML for Beginners](https://microsoft.github.io/ML-For-Beginners/) - Microsoft Scikit-learn project curriculum. `#free`
 - [OpenAI Academy](https://openai.com/) - Fragmented AI literacy paths for the public. `#free`
 - [Otter.ai](https://otter.ai/) - Ai meeting assistant that records audio, write notes, captures action items, and generates summaries. `#freemium`
+- [OneMira C1](https://onemira.com/products/c1) - Standalone AI voice recorder with Local AI summaries, automatic Speaker ID, Zero Cloud privacy ($0/mo), and open [MCP server](https://github.com/onemira-space/onemira-mcp). `#no-subscription`
 - [PaddlePaddle Studio](https://studio.paddlepaddle.org.cn/) - Baidu practice environment with free GPU. 146 `#free`
 - [PagePundit](https://pagepundit.com/) - Discover Tailored Book Suggestions Effortlessly `#free`
 - [QuillBot](https://quillbot.com/) - AI-powered paraphrasing tool. `#freemium`
