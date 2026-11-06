@@ -1213,6 +1213,7 @@ Use these hashtags in search to filter out the tools
 - [SummarizAI](https://summarizai.ink/) - Chrome extension that adds an AI summary, chapters, chat, and Study flashcards to the YouTube watch page. `#freemium`
 - [SummaryTube](https://summarytube.com/) - AI Youtube Video Summarizer. Get key AI insights, extract key moments and transcription. `#freemium`
 - [Too Long](https://toolongapp.com/) - Your Article Summarization Companion `#free`
+- [Watch YouTube Highlights](https://funcove.dev/watchhighlights/) - Chrome and Firefox extension for watching AI-selected passages from captioned YouTube videos, with timestamps, text summaries and current-video chat. `#freemium` `#video`
 
 **[⬆️ Back to Top](#table-of-contents)**
 
