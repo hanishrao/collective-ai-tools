@@ -671,6 +671,7 @@ Use these hashtags in search to filter out the tools
 
 - [BeeBee AI](https://www.beebee.ai/) - Financial reports and earnings calls become easily understandable with key insights for everyday investors. `#free`
 - [Cleo](https://web.meetcleo.com/) - AI financial assistant chatbot that helps users budget, save, and manage money in a fun, conversational way. `#freemium`
+- [DisconfirmAI](https://disconfirmai.com/en) - AI investment research and reading tool that looks for evidence against your thesis before you commit, with daily source reading, filings and earnings research, condition-based change alerts and a personal investment framework. `#freemium` `#research`
 - [Durable](https://durable.co/) - Build a website in 30 seconds with AI, leveraging AI-powered design and marketing tools to boost traffic and increase revenue. `#freemium`
 - [Equibles](https://equibles.com/) - US stock market data for ChatGPT, Claude and other AI assistants through a hosted MCP server and a REST API, covering SEC filings, financial statements, earnings call transcripts, insider and congressional trades and 13F holdings. `#freemium` `#mcp`
 - [Fair Value Calculator](https://www.fairvalue-calculator.com/) - Estimates the fair value and quality of 40,000+ listed stocks worldwide from 26 valuation models, with an AI chat and a hosted MCP server (`https://www.fairvalue-calculator.com/mcp`) for Claude, ChatGPT and Cursor; a free account is enough. `#freemium` `#mcp`
