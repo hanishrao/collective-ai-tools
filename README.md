@@ -1116,6 +1116,7 @@ Use these hashtags in search to filter out the tools
 - [InteriorVibes](https://interiorvibes.co/) - Virtual Staging with a couple of clicks `#paid`
 - [RealtyGenius](https://realtygenius.ai/) - Offers efficient document management and collaboration functionalities for real estate professionals. `#freemium`
 - [RealtyNinja](https://get.realtyninja.com/ai-listing-description-generator) - AI Listing Description Generator `#free`
+- [RoomLab.app](https://roomlab.app/) - AI virtual staging, decluttering, restyling and walkthrough videos from room photos `#freemium`
 - [Virtual House Flip](https://www.virtualhouseflip.com/) - Remodel homes using AI for stunning results `#paid`
 - [VirtualStagingAI](https://www.virtualstagingai.app/) - Virtually stage in one click `#paid`
 - [VirtualStagingExpert](https://virtualstagingexpert.com/) - Stunning AI Virtual Staging Photos In A Click `#paid`
