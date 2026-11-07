@@ -1094,6 +1094,7 @@ Use these hashtags in search to filter out the tools
 
 ## Prompts
 
+- [AgentCraft Nano Banana 2.1 Prompts](https://agentcraft.dev/en/prompts/image/nano-banana-2-1/) - 90 Nano Banana 2.1 image prompts, each shown with its output, in a free library of 2,473 image and video prompts that also covers Seedance 2.5 and Kling 4.0. `#free`
 - [AIPRM](https://www.aiprm.com/) - Verified library for SEO and ChatGPT. `#free`
 - [Geniea](https://geniea.com/) - Generated prompts for personal journeys. `#free`
 - [PromptFolder](https://promptfolder.com/) - Allows users to create, save, and explore innovative prompts with features like variables, organization, and sharing. `#free`
