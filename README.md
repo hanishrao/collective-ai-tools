@@ -460,6 +460,7 @@ Use these hashtags in search to filter out the tools
 - [CodeTrendy](https://codetrendy.com/) - Curated directory of newly launched startups, SaaS and AI tools, with a free read-only remote MCP server (https://codetrendy.com/api/mcp) that lets AI assistants search listings, read profiles and find alternatives, no API key. `#free` `#mcp`
 - [Codiga](https://www.codiga.io/) - Customizable real-time static code analysis. `#free`
 - [CodiumAI (Qodo)](https://www.qodo.ai/)%20AI%20Tool) - Quality agent platform for organizational standards. `#paid`
+- [Continua](https://continua-nu.vercel.app/) - Experimental macOS 13+ companion designed to resume interrupted Codex Desktop coding tasks after supported usage resets, with local task history; unsigned/not notarized, manual updates, and genuine unattended recovery unverified. `#free`
 - [Continue](https://continue.dev/) - Open-source AI code assistant that works with any LLM `#free`
 - [Copilot](https://github.com/features/copilot) - AI assistant that speeds up delivery and keeps your code safe `#paid`
 - [Cortex](https://github.com/cortex-docs/cortex) - Generates API documentation, typed SDKs, and MCP servers from API specifications and Markdown. `#free` `#opensource`
