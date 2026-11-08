@@ -487,6 +487,7 @@ Use these hashtags in search to filter out the tools
 - [HeyCLI](https://heycli.com/) - Natural language execution for Linux terminals. `#paid`
 - [Hocoos](https://hocoos.com/) - AI-driven no-code website construction tool. `#paid`
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - Developer-alpha Rust knowledge store with encrypted, append-only records and an MCP server for agent access through scoped, expiring grants. `#free` `#opensource`
+- [Imagera Code](https://imagera.ai/code) - Terminal AI coding agent with Claude, GPT, Gemini and hundreds more models on one plan. `#paid`
 - [Imgcook](https://www.imgcook.com/) - Taobao design-to-code intelligent tool. `#free`
 - [JamGPT](https://jam.dev/) - Automated error reporting and fixing assistant. `#free`
 - [Jet Browser](https://github.com/masakaai/jet-browser) - Portable WPE WebKit runtime for agents with isolated Docker sessions, native input, DOM/text reads, fresh screenshots, and ordered JSONL, MCP, and JavaScript SDK interfaces. `#free` `#opensource`
@@ -1313,6 +1314,7 @@ Use these hashtags in search to filter out the tools
 - [HeyVid](https://heyvid.ai/) - An all-in-one AI video and image generator. `#freemium`
 - [Hotel Lobby AI](https://tryhotellobby.app/) - Two photos to ~15s hotel lobby booth duo; packs from $8.88. `#paid`
 - [Hug In Heaven AI](https://huginheaven.cc/) - Two photos to ~12-15s stairway reunion memorial short (18+); packs from $8.88. `#paid`
+- [Imagera](https://imagera.ai/) - AI studio for video, images, voice and music; Character IDs keep one face or product consistent across shots. `#paid`
 - [Invideo](https://invideo.io/) - InVideo simplifies video creation with ready-made templates. `#freemium`
 - [Invideo AI](https://invideo.io/) - Transforms ideas into shareable videos (no skills). `#free`
 - [JeanPhilAI](https://jeanphilai.cc/) - One photo to ~12-15s blond bob + moustache clip; packs from $8.88. `#paid`
