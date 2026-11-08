@@ -97,6 +97,7 @@ Use these hashtags in search to filter out the tools
 - [Heroify](https://www.heroify.lol/) - Generate high-quality 3D graphics for landing pages. `#paid`
 - [Luphra](https://www.luphra.com/) - Prompt-to-matter: AI that turns prompts and sketches into editable 3D and physical products. `#freemium`
 - [Meshy](https://www.meshy.ai) - Create Stunning 3D Game Assets with AI `#free`
+- [objekto.io](https://objekto.io/en) - Turns a few words, a photo or a sketch into a multi-part, print-ready 3D model designed by AI, then has it 3D printed and delivered (France only for now). `#freemium`
 - [OctoEverywhere](https://octoeverywhere.com/) - OctoEverywhere is a 3D printing failure detection assistant that uses computer vision algorithms to detect printing errors such as spaghetti, layer shifts, adhesion issues, and more `#paid`
 - [Omnia](https://www.theomnia.io/) - Create 3D models based on text prompts or uploaded images. `#paid`
 - [Pixela AI](https://pixela.ai/) - AI-generated game textures. Share yours with the community! `#free`
