@@ -557,7 +557,7 @@ Use these hashtags in search to filter out the tools
 - [KeyDrift](https://keydrift.dev) - Scans deployed HTML and JavaScript for exposed secrets while recognizing public browser credentials that should not be treated as leaks.
 
 **[⬆️ Back to Top](#table-of-contents)**
-
+- [OneTag AI](https://onetagai.com) - Adds AI to any static site with one script tag; onetag.ask() runs in the browser, no backend. `#freemium`
 
 ## Document Processing
 
