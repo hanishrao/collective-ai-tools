@@ -486,6 +486,7 @@ Use these hashtags in search to filter out the tools
 - [Heabsy](https://heabsy.com/) - OpenAI- and Anthropic-compatible inference API for open models, with an EEA tier on dedicated GPUs in EEA data centres and zero data retention. `#paid`
 - [HeyCLI](https://heycli.com/) - Natural language execution for Linux terminals. `#paid`
 - [Hocoos](https://hocoos.com/) - AI-driven no-code website construction tool. `#paid`
+- [HopBase](https://hop-base.com/) - AI API gateway with one base URL for Claude, GPT, Gemini, DeepSeek and Qwen text models plus image and video models such as Seedream, Seedance and Kling, compatible with OpenAI, Anthropic and Gemini endpoints. `#paid` `#api` `#llm`
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - Developer-alpha Rust knowledge store with encrypted, append-only records and an MCP server for agent access through scoped, expiring grants. `#free` `#opensource`
 - [Imgcook](https://www.imgcook.com/) - Taobao design-to-code intelligent tool. `#free`
 - [JamGPT](https://jam.dev/) - Automated error reporting and fixing assistant. `#free`
