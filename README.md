@@ -449,6 +449,7 @@ Use these hashtags in search to filter out the tools
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) - Anthropic's terminal-native AI coding agent with agent skills, MCP, and extensible tool system. `#freemium`
 - [CoderPlan](https://coderplan.ai/) - LLM API Gateway with OpenAI-compatible interface. Pay-per-use access to Claude, GPT, Gemini, DeepSeek, Grok. One-line config for Claude Code, Codex CLI, Gemini CLI. `#freemium`
 - [Cline](https://cline.bot/) - AI-Powered Code assitant like Copilot in VS code. `#freemium`
+- [CloudGPU](https://cloudgpu.app/) - Per-minute GPU rental and an OpenAI-compatible model API, plus an MCP server that quotes a job and starts it only after confirmation. `#paid` `#mcp` `#api`
 - [CodeBuddy](https://codebuddy.cn/) - Tencent Cloud MCP ecosystem programming partner. `#free`
 - [Codex CLI](https://github.com/openai/codex) - OpenAI's open-source terminal AI agent that runs locally with any model. `#free` `#opensource`
 - [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay) - Independent desktop companion showing Codex quota, reset time, and reset credits beside the conversation title on Windows and macOS. `#free` `#opensource`
