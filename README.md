@@ -499,6 +499,7 @@ Use these hashtags in search to filter out the tools
 - [LangChain](https://www.langchain.com/) - Open-source framework for building LLM-powered applications and agents, with 1000+ integrations. `#free` `#opensource`
 - [Lintrule](https://www.lintrule.com/) - Supercharge Code Reviews and Policy Enforcement `#paid`
 - [Lovable](https://lovable.dev/) - Generating full-stack apps via Supabase/GitHub. `#freemium`
+- [MailVeri MCP](https://github.com/mailveri/mailveri-mcp) - Open-source MCP server that lets Claude, Cursor and other agents verify single emails and bulk lists via the MailVeri API (SMTP, catch-all, disposable and role detection). `#freemium` `#opensource` `#mcp`
 - [MarsX](https://www.marsx.dev/) - MicroApps and no-code software development. `#freemium`
 - [Markstream](https://markstream.simonhe.me/) - Open-source streaming Markdown renderer for AI chat interfaces, with incomplete-token handling and packages for Vue, React, Svelte, Angular, and Vue 2. `#free` `#opensource`
 - [Masaka for Codex](https://github.com/masakaai/codex-multiple-env) - Local macOS and Linux CLI that keeps each ChatGPT account and workspace in an isolated CODEX_HOME, shows Codex usage windows, and switches future native Codex sessions without copying tokens. `#free` `#opensource`
