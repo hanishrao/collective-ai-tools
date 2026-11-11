@@ -555,9 +555,10 @@ Use these hashtags in search to filter out the tools
 - [YYLO](https://github.com/yylo-dev/yylo) - Open-source command-line orchestrator for coding agents like Pi and Codex, with typed task, validation, merge, and release-readiness boundaries across isolated git worktrees. `#free` `#opensource`
 - [OutboundGateway](https://outboundgateway.com/) - Static outbound IPs for AI agents and MCP servers. `#paid`
 - [KeyDrift](https://keydrift.dev) - Scans deployed HTML and JavaScript for exposed secrets while recognizing public browser credentials that should not be treated as leaks.
+- [OneTag AI](https://onetagai.com) - Adds AI to any static site with one script tag; onetag.ask() runs in the browser, no backend. `#freemium`
 
 **[⬆️ Back to Top](#table-of-contents)**
-- [OneTag AI](https://onetagai.com) - Adds AI to any static site with one script tag; onetag.ask() runs in the browser, no backend. `#freemium`
+
 
 ## Document Processing
 
