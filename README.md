@@ -1277,6 +1277,7 @@ Use these hashtags in search to filter out the tools
 
 ## Video
 
+- [AI Rap Video](https://airapvideo.us/) - AI rap video generator: write or draft rap lyrics, pick a photo, original character or duo, and get a short lip-synced rap clip (8-15s); packs from $4.99. `#paid`
 - [airapvideo](https://ai-rap-video.asia/) - Vocals + photo to 9:16 lip-sync rap video; packs from $8.88. `#paid`
 - [AIVG](https://ai-video-generators.com/image-to-video) - Animate a photo into a short video with a choice of AI video models. `#paid`
 - [Alors on Danse AI](https://tryalorsondanse.video/) - Two photos to ~15s white-studio duo dance; packs from $8.88. `#paid`
