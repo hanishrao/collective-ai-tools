@@ -843,6 +843,7 @@ Use these hashtags in search to filter out the tools
 ## Image Generator
 
 - [Adobe Firefly 3](https://www.adobe.com/products/firefly.html) - Adobe's latest AI image generation with commercial-safe content `#freemium`
+- [AI Anime Generator](https://ai-anime-generator.io/) - Create anime portraits and original characters from text or reference images, with 40 one-time signup credits. `#freemium`
 - [AI Image](https://aiimage.com) - Generate and edit images from text prompts and reference pictures in a browser. `#paid` `#design`
 - [AI Passport Photo](https://aipassportphoto.com/) - Take A Photo with Your Mobile Phone and Get Your Passport Photo in Seconds. `#freemium`
 - [Alimvo](https://alimvo.com/) - AI product photo and video generator for ecommerce brands. Create studio shots, lifestyle scenes, and ad creatives in minutes. `#freemium`
