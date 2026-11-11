@@ -436,6 +436,7 @@ Use these hashtags in search to filter out the tools
 - [aiXcoder](https://www.aixcoder.com/) - Chinese deep learning software dev assistant. `#freemium`
 - [Archcore](https://github.com/archcore-ai/archcore) - Git-native context engineering and spec-driven development for AI coding agents. `#free` `#opensource`
 - [AskCodi](https://www.askcodi.com/) - Code generation and refactoring assistant. `#free`
+- [Atlas Cloud](https://www.atlascloud.ai) - AI API gateway with one API key for LLM, image, video and audio models, including an OpenAI-compatible chat completions endpoint. `#paid` `#api` `#llm`
 - [Augment Code](https://augmentcode.com/) - Industry-leading context engine for developers. `#paid`
 - [Better Agent](https://github.com/ofekron/better-agent) - Local workspace for Claude, Codex, and Gemini coding-agent sessions with parallel forks and restart recovery. `#free`
 - [Blackbox AI](https://www.blackbox.ai/) - AI-powered code completion and generation that works in over 20 languages. `#freemium`
