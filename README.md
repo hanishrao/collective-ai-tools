@@ -1175,6 +1175,7 @@ Use these hashtags in search to filter out the tools
 - [LoopCV](https://www.loopcv.pro/) - Upload your CV, Select the type of Job You Want, and Press Start! Loopcv will Mass Apply on your behalf Every Single Day `#freemium`
 - [resumA.I.](https://www.resumai.com/) - resumA.I. is a next generation intelligent resume builder for enabling more effective job applications `#freemium`
 - [Resume AI Scanner](https://pdf.ai/tools/resume-ai-scanner) - Assists in assessing candidates by scanning their resumes, extracting relevant information, and generating questions to evaluate their suitability for a position. `#free`
+- [Resume Claim Guard](https://github.com/korey2028-prog/resume-claim-guard) - Open-source agent skill that writes a job-tailored resume from confirmed facts only, then audits claims and previews interview follow-ups. `#free` `#opensource`
 - [ResumePlot AI](https://resumeplot.com/) - Resume drafting and tailoring with optional AI suggestions and PDF/JSON export, with sign-in and free-plan limits (AI-assisted listing submitted on behalf of the project). `#freemium` `#resume`
 
 **[⬆️ Back to Top](#table-of-contents)**
