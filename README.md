@@ -1229,6 +1229,7 @@ Use these hashtags in search to filter out the tools
 - [Piggy Magic](https://piggy.to/magic) - Piggy Magic - Social Story Maker `#free`
 - [StoriAI](https://storiai.com/) - Elevate Your Brand's Social Presence with StoriAI `#paid`
 - [Unsora](https://tryunsora.com/) - Generates AI images, video, music and voiceovers and schedules or publishes posts to YouTube, TikTok, Instagram, LinkedIn and other connected accounts. `#paid` `#opensource`
+- [Wavegrain](https://wavegrain.com/) - Curated slideshows and carousels for your brand on autopilot: writes TikTok slideshows and Instagram carousels in your brand's voice, then schedules and posts them; hosted MCP server for AI agents. `#social-media` `#mcp`
 
 **[⬆️ Back to Top](#table-of-contents)**
 
