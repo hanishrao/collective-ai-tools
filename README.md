@@ -930,7 +930,7 @@ Use these hashtags in search to filter out the tools
 - [MarketMirror](https://github.com/DarkWorldCoder/market-mirror) - Tests ads, prices, emails and sales pitches on simulated buyers and returns a go / iterate / no-go report; runs locally from coding agents as an MCP server. `#free` `#opensource`
 - [MentionDesk](https://mentiondesk.com/) - Tools to optimize being quoted or referenced within AI responses and track mentions. `#paid`
 - [Qimi](https://qimi.ai/) - Game industry ad production and placement. `#free`
-- [Revenue Scout](https://revenuescout.ai/) - Finds public posts where people need what you sell and drafts replies for you to review and post. `#freemium` `#lead-generation`
+- [Revenue Scout](https://revenuescout.ai/) - Sales Prospecting Assistant that finds public posts where people need what you sell and drafts replies for you to review and post. `#freemium` `#lead-generation`
 - [SE Visible (visible.seranking.com)](https://visible.seranking.com/) - AI brand visibility tracker for search/LLM result coverage. `#paid`
 - [Socialmon](https://www.socialmon.ai/) - Find viral marketing examples and trends across topics and industries. `#paid`
 - [Sparkiz.ai](https://sparkiz.ai) - Turn a product link into a ready-to-launch AI video ad (avatars, voiceover, captions) in 60 seconds. `#freemium`
