@@ -1379,6 +1379,7 @@ Use these hashtags in search to filter out the tools
 - [Tavus](https://www.tavus.io/) - Conversational video interface for marketing. `#freemium`
 - [Tencent Zhiying](https://www.tencent.com/) - Cloud-based video editor with rich copyright info. `#free`
 - [Thumbnail Ai](https://thumbnail-ai.ybouane.com/) - Will provide reviews of youtube thumbnails using AI `#free`
+- [ToHD](https://tohd.video/) - Free AI video upscaler that runs in the browser on your own GPU (WebGPU): turns 360p/480p clips into 720p or 1080p without uploading them, no signup, no watermark. `#freemium` `#video`
 - [Tongyi Wanxiang AI](https://wanxiang.aliyun.com/) - Alibaba high-definition film-quality videos. `#free`
 - [Unforgettable Car AI](https://unforgettablecarai.cc/) - One selfie to ~10s 24 card car reveal; packs from $8.88. `#paid`
 - [Unscreen](https://www.unscreen.com/) - 100% automatic online background removal. `#free`
