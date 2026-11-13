@@ -1236,6 +1236,7 @@ Use these hashtags in search to filter out the tools
 
 - [ChatGPT Summary Assistant](https://chrome.google.com/webstore/detail/chatgpt-summary-assistant/nnjcoododbeemlmmhbfmmkbneniepaog) - Free AI-Powered Chrome Extension for Instant Article Summaries `#free`
 - [Earkind](https://www.earkind.com/) - AI-Generated Podcasts on AI Topics `#free`
+- [Glasp](https://glasp.co/) - Browser extension and web app that shows YouTube video transcripts with AI summaries and highlights web pages and PDFs. `#freemium`
 - [LeaseLens](https://leaselens.ai/) - Automate the extraction of crucial data points from real estate and commercial lease documents `#free`
 - [ORANO](https://oranoai.com) - Turns saved Reels, TikToks, YouTube videos, articles and PDFs into searchable summaries and step-by-step plans. `#freemium`
 - [Quill](https://apps.apple.com/us/app/quill-news-digest/id1669557131) - The AI Way to Stay Informed `#free`
