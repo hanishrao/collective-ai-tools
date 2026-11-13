@@ -824,6 +824,7 @@ Use these hashtags in search to filter out the tools
 - [Meshy](https://www.meshy.ai/) - Convert text/images to 3D mesh models. `#freemium`
 - [Midjourney](https://www.midjourney.com/) - Gold standard for high-fidelity visual art. `#paid`
 - [Nano Banana](https://nanobanana.im/) - Transform any image with simple text prompts. Nano-banana's advanced model delivers consistent character editing and scene preservation that surpasses Flux Kontext. Experience the future of AI image editing. `#freemium`
+- [Nano Banana (nanobananana.com)](https://nanobananana.com/zh) - Independent third-party image creation tool for text-to-image generation, natural-language reference image editing, and multi-image blending, with a Chinese interface. `#freemium`
 - [PhotoRestore.ai](https://photorestore.ai) - AI-powered restoration of old and damaged photos — repairs scratches, fading, tears, and colorizes B&W images. `#freemium`
 - [Photoroom](https://www.photoroom.com/) - Fast enterprise-level image editing templates. `#free`
 - [PhotosStyle](https://www.photosstyle.com/art) - Online AI photo style converter for turning images into anime, sketches, line art, oil paintings, cartoons, and other creative styles. `#freemium`
