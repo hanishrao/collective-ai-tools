@@ -498,6 +498,7 @@ Use these hashtags in search to filter out the tools
 - [Keenable](https://keenable.ai) - Independent web search index for AI agents: search and page fetch over API, CLI and MCP (`https://api.keenable.ai/mcp`), with 100K free requests a month and keyless public endpoints. `#freemium` `#api` `#mcp`
 - [Keploy](https://keploy.io/) - AI-powered automation API and Unit testing, latest UTG pr agent generates unit tests after each pr. `#free`
 - [Keploy](https://www.keploy.io/) - A  developer-centric backend testing tool which makes backend tests with built-in-mocks faster than unit tests, from user traffic, making it easy to use, powerful, and extensible. `#opensource`
+- [Kling AI MCP](https://kling.ai/mcp/plugin) - Connect AI agents to Kling image/video generation via the Global plugin MCP endpoint; OAuth and paid personal credits required. [Setup guide](https://kling.ai/app/mcp/guide). `#paid` `#mcp`
 - [LangChain](https://www.langchain.com/) - Open-source framework for building LLM-powered applications and agents, with 1000+ integrations. `#free` `#opensource`
 - [Lintrule](https://www.lintrule.com/) - Supercharge Code Reviews and Policy Enforcement `#paid`
 - [Lovable](https://lovable.dev/) - Generating full-stack apps via Supabase/GitHub. `#freemium`
