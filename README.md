@@ -1244,6 +1244,7 @@ Use these hashtags in search to filter out the tools
 - [SummaryTube](https://summarytube.com/) - AI Youtube Video Summarizer. Get key AI insights, extract key moments and transcription. `#freemium`
 - [Too Long](https://toolongapp.com/) - Your Article Summarization Companion `#free`
 - [Watch YouTube Highlights](https://funcove.dev/watchhighlights/) - Chrome and Firefox extension for watching AI-selected passages from captioned YouTube videos, with timestamps, text summaries and current-video chat. `#freemium` `#video`
+- [YouTube Transcript: AI Summary & Chat](https://chromewebstore.google.com/detail/youtube-transcript-ai-sum/bbappnicmjmiliipjcmciaffiglmoekd) - Chrome extension that shows a YouTube video as a timestamped transcript, with key points and chat about the video. Free AI credits available. `#freemium` `#video`
 
 **[⬆️ Back to Top](#table-of-contents)**
 
