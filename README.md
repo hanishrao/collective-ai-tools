@@ -687,6 +687,7 @@ Use these hashtags in search to filter out the tools
 ## Finance
 
 - [BeeBee AI](https://www.beebee.ai/) - Financial reports and earnings calls become easily understandable with key insights for everyday investors. `#free`
+- [BeliefState](https://beliefstate.ai/) - Gives AI assistants dated, source-linked investor theses, catalysts, risks and revisions through a research API and hosted MCP. Company coverage is free to check. `#freemium` `#mcp` `#research`
 - [Cleo](https://web.meetcleo.com/) - AI financial assistant chatbot that helps users budget, save, and manage money in a fun, conversational way. `#freemium`
 - [DisconfirmAI](https://disconfirmai.com/en) - AI investment research and reading tool that looks for evidence against your thesis before you commit, with daily source reading, filings and earnings research, condition-based change alerts and a personal investment framework. `#freemium` `#research`
 - [Durable](https://durable.co/) - Build a website in 30 seconds with AI, leveraging AI-powered design and marketing tools to boost traffic and increase revenue. `#freemium`
