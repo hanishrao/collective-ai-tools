@@ -802,6 +802,7 @@ Use these hashtags in search to filter out the tools
 - [Clarifai](https://clarifai.com/) - Computer vision platform for image and video classification, object detection, and custom model training. `#freemium`
 - [isGenAI](https://isgenai.com/) - Checks images, links and text for recorded evidence of AI use: C2PA Content Credentials, AI labels and saved generation prompts, quoting each source. `#free`
 - [Nature GO](https://naturego.app/identify-animal-by-photo/) - Android app that suggests the species of a bird, insect, mammal or plant from an 8-second video filmed in the app, shows the visible evidence, and can also name a gallery photo. `#freemium`
+- [SightRadar Face Recognition API MCP](https://sightradar.com/mcp) - Official MCP server for the SightRadar face recognition API: index photos, find every photo of a person from one selfie, and compare or detect faces from Claude, ChatGPT, Cursor or VS Code. Add https://mcp.sightradar.com/mcp as an MCP server, or run it locally with npx. `#paid` `#mcp` `#opensource`
 
 **[⬆️ Back to Top](#table-of-contents)**
 
