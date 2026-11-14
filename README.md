@@ -176,6 +176,7 @@ Use these hashtags in search to filter out the tools
 
 ## Avatars
 
+- [FotoApta](https://fotoapta.com/en/ai-headshot/) - Generates professional AI portraits from one selfie, with a free watermarked preview and an optional one-time HD pack. `#freemium`
 - [iFlytek Virtual Human](https://www.xfyun.cn/services/virtual_human) - Full-stack cloning and customization platform. `#paid`
 - [Never AI](https://www.never.tech) - Unlock Your Imagination with Never's Hyper-Realistic AI Images. `#paid`
 - [Qimiao Wen](https://wen.mobvoi.com/) - Interactive digital employee generation platform. `#free`
