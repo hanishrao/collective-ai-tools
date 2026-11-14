@@ -838,6 +838,7 @@ Use these hashtags in search to filter out the tools
 - [PhotosStyle](https://www.photosstyle.com/art) - Online AI photo style converter for turning images into anime, sketches, line art, oil paintings, cartoons, and other creative styles. `#freemium`
 - [Photostockeditor](https://photostockeditor.com/tools/socialmedia-resize) - Intelligence Image Crop/Resize: Perfectly Tailored Social Media Images `#free`
 - [Rao Edits](https://raoedits.top/) - Generate images from text and edit reference photos for social, product, and creative workflows. `#paid`
+- [RemixThatPhoto](https://remixthatphoto.com/) - Edits a photo from a reference image or a written instruction for targeted changes. `#freemium`
 - [Remove Bg](https://www.remove-bg.dev/) - AI background remover for product photos, portraits, and logos with transparent PNG download. `#free`
 - [remove.bg](https://remove.bg/) - Online background remover (5 seconds)1. `#free`
 - [Skybox AI](https://skybox.blockadelabs.com/) - 360° virtual world panorama generation. `#freemium`
