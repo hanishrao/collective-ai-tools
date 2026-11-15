@@ -537,6 +537,7 @@ Use these hashtags in search to filter out the tools
 - [Respan](https://www.respan.ai/ai-gateway) - Full-stack AI engineering platform for tracing, evals, prompt management, and a gateway to 250+ models. `#freemium`
 - [ReviewCerberus](https://github.com/Kirill89/reviewcerberus) - 100% free, open-source AI code review tool for analyzing git branch differences with comprehensive security, performance, and quality analysis. `#free`
 - [Safurai](https://www.safurai.com/) - The AI Code Assistant that really helps developers. `#free`
+- [Sage](https://github.com/ZHangZHengEric/Sage) - Open-source agent harness with Desktop, Server and Python hosts, MCP tools, and task-feedback evaluation with user-selected version adoption; configured model providers may charge usage fees. `#opensource` `#agents`
 - [SandBase CLI](https://github.com/sandbaseai/cli) - Open-source CLI and MCP bridge for OpenAI-compatible access to 2,000+ AI models through usage-based pricing and a free plan. `#freemium` `#opensource`
 - [Shazeus](https://www.shazeus.com/en/skills) - Free English and Turkish directory of agent skills for Claude Code, Codex and Cursor with source repositories, pinned revisions, license links, and install commands. `#free`
 - [ShellWire](https://shellwire.com/) - Software discovery directory with explainable utility rankings, source-backed tool comparisons, and a remote Streamable HTTP MCP server for AI assistants. `#free`
