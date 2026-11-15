@@ -536,6 +536,7 @@ Use these hashtags in search to filter out the tools
 - [ReviewCerberus](https://github.com/Kirill89/reviewcerberus) - 100% free, open-source AI code review tool for analyzing git branch differences with comprehensive security, performance, and quality analysis. `#free`
 - [Safurai](https://www.safurai.com/) - The AI Code Assistant that really helps developers. `#free`
 - [SandBase CLI](https://github.com/sandbaseai/cli) - Open-source CLI and MCP bridge for OpenAI-compatible access to 2,000+ AI models through usage-based pricing and a free plan. `#freemium` `#opensource`
+- [Shazeus](https://www.shazeus.com/en/skills) - Free English and Turkish directory of agent skills for Claude Code, Codex and Cursor with source repositories, pinned revisions, license links, and install commands. `#free`
 - [ShellWire](https://shellwire.com/) - Software discovery directory with explainable utility rankings, source-backed tool comparisons, and a remote Streamable HTTP MCP server for AI assistants. `#free`
 - [SitePatent](https://sitepatent.com/) - Discovery directory for newly launched startups, SaaS tools and online products, with a free read-only remote MCP server (https://sitepatent.com/api/mcp) that lets AI assistants search listings, read full profiles and find alternatives, no API key. `#free` `#mcp`
 - [Sizzle AI](https://web.szl.ai/) - AI-powered tutor for math and coding problems. `#free`
