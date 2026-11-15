@@ -380,6 +380,7 @@ Use these hashtags in search to filter out the tools
 - [Book Witch](https://bookwitch.io/) - Use the power of AI to create complete e-books with just one click! `#freemium`
 - [Canva](https://www.canva.com/) - Use it to create social media posts, presentations, posters, videos, logos and more. `#freemium`
 - [Canva AI](https://www.canva.com/ai-image-generator/) - AI-powered design platform with image generation and editing tools. `#freemium`
+- [Cross-Stitch Studio](https://cross-stitch.erwan-boehm.fr/photo-to-cross-stitch?utm_source=directory) - Turn photos into editable cross-stitch charts with DMC thread colors and optional AI photo preparation. `#freemium` `#design`
 - [DALL-E 3](https://openai.com/dall-e-3) - OpenAI's advanced AI image generator with improved quality and safety. `#freemium`
 - [DESIGN:OS Studio](https://jangtrinh.github.io/design-os-studio/) - FREE desktop design studio where your own AI agent designs on .fig files and you refine on a GPU canvas. `#free` `#design`
 - [Designs AI](https://designs.ai/) - Make a logo, video, social media banner, business card, flyer, mockup and more with AI. `#freemium`
