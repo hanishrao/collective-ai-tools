@@ -125,6 +125,7 @@ Use these hashtags in search to filter out the tools
 
 ## App Builder
 
+- [EveryApp](https://everyapp.pro/app-builder) - AI app builder that turns a plain-language description into your own private web app at its own address, shared with the people you invite. `#freemium` `#nocode`
 - [FlutterFlow](https://www.flutterflow.io/)- FlutterFlow helps you build high quality, customized Mobile apps quickly. `#paid`
 - [Glif](https://glif.app/) - Build AI mini-apps and chatbots using LLMs. `#freemium`
 - [LoginLlama](https://loginllama.app/) - Enhance Security with LoginLlama's Suspicious Login Detection `#freemium`
