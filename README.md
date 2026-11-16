@@ -1013,6 +1013,7 @@ Use these hashtags in search to filter out the tools
 
 - [AIVA](https://www.aiva.ai/) - AI composer that creates original music for various purposes `#freemium`
 - [Boomy](https://boomy.com/) - Create and share AI-generated music in seconds `#freemium`
+- [Is This Song AI](https://isthissongai.app/) - Checks whether a song was likely made with an AI music generator such as Suno or Udio, from a Spotify, Apple Music, Deezer or YouTube link or an uploaded audio file, and explains the verdict. `#freemium`
 - [Mubert](https://mubert.com/) - AI-generated music for content creators and businesses `#freemium`
 - [Riffusion](https://www.riffusion.com/) - Create music from text with styles, instruments, modifiers and genres. `#free`
 - [Songifted](https://songifted.com/) - Creates personalized AI song gifts from names and memories, with lyrics approval before recording, a free 45-second preview, and paid full songs. `#paid`
