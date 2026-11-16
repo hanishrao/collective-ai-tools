@@ -1132,6 +1132,7 @@ Use these hashtags in search to filter out the tools
 
 ## Psychology
 
+- [Adoree](https://adoree.ai/?utm_source=github-hanishrao&utm_medium=directory&utm_campaign=launch_nov2026) - AI relationship assistant for couples where each partner talks privately, helping you both communicate without escalating. `#freemium`
 - [Selfgazer](https://www.selfgazer.com/) - Provides psychological tarot readings for users seeking self-exploration and personal insights through classic tarot symbolism. `#free`
 - [Wysa](https://www.wysa.com/) - AI mental health chatbot offering CBT-based coping tools and mood tracking. `#freemium`
 
