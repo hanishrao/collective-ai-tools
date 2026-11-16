@@ -1236,6 +1236,7 @@ Use these hashtags in search to filter out the tools
 - [Opera One Browser](https://www.opera.com/one) - Opera One offers a liquid navigation experience with a focus on modular design and AI-powered web services. `#free`
 - [Quark (CueMe)](https://quark.sm.cn/)%20AI%20Tool) - All-in-one search, browser, and scanner. 78 `#free`
 - [Not Human Search](https://nothumansearch.ai/) - Agent-first search engine indexing 8,000+ MCP servers and AI tools, ranked by agentic readiness. REST API + MCP server. `#free`
+- [search-console-mcp](https://github.com/sudomichael/search-console-mcp) - Google Search Console for any MCP client - 30-second login, no Google Cloud project. Read-only. `#opensource` `#mcp`
 
 **[⬆️ Back to Top](#table-of-contents)**
 
