@@ -1402,6 +1402,7 @@ Use these hashtags in search to filter out the tools
 - [Thumbnail Ai](https://thumbnail-ai.ybouane.com/) - Will provide reviews of youtube thumbnails using AI `#free`
 - [ToHD](https://tohd.video/) - Free AI video upscaler that runs in the browser on your own GPU (WebGPU): turns 360p/480p clips into 720p or 1080p without uploading them, no signup, no watermark. `#freemium` `#video`
 - [Tongyi Wanxiang AI](https://wanxiang.aliyun.com/) - Alibaba high-definition film-quality videos. `#free`
+- [Twistavo](https://twistavo.com/) - AI video studio to replace a person or character in an existing clip (Scene Recast) and run video and image models; monthly plans from $3.99. `#paid`
 - [Unforgettable Car AI](https://unforgettablecarai.cc/) - One selfie to ~10s 24 card car reveal; packs from $8.88. `#paid`
 - [Unscreen](https://www.unscreen.com/) - 100% automatic online background removal. `#free`
 - [Valmera](https://valmera.io/) - Edits uploaded footage through natural-language instructions in a browser studio or a connected AI assistant over MCP, with cuts, captions, reframing, preview review and MP4 export. `#paid` `#video` `#mcp`
