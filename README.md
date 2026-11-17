@@ -1014,6 +1014,7 @@ Use these hashtags in search to filter out the tools
 ## Music
 
 - [AIVA](https://www.aiva.ai/) - AI composer that creates original music for various purposes `#freemium`
+- [AudioMIDI](https://audiomidi.app/) - Converts short melodies or solo-instrument audio into editable MIDI with browser note preview and export; no-signup Quick mode and three free Deep transcriptions per day. `#free` `#music` `#midi`
 - [Boomy](https://boomy.com/) - Create and share AI-generated music in seconds `#freemium`
 - [Mubert](https://mubert.com/) - AI-generated music for content creators and businesses `#freemium`
 - [Riffusion](https://www.riffusion.com/) - Create music from text with styles, instruments, modifiers and genres. `#free`
