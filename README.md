@@ -1095,6 +1095,7 @@ Use these hashtags in search to filter out the tools
 - [Happy Copy](https://www.hoppycopy.co/) - Use AI to create powerful content for hundreds of different email campaigns, drips, newsletters and more—in seconds `#paid`
 - [Hoarder](https://hoarder.app/) - AI-powered bookmark organizer and retrieval. `#free`
 - [ima.copilot](https://ima.qq.com/) - Tencent Hunyuan-based search/write workbench. `#free`
+- [Launch OS](https://launchautomation.ai/launch-os) - Combines business contacts, sales pipelines, tasks and reports with an AI assistant grounded in workspace records. `#paid`
 - [Merlin](https://www.getmerlin.in/) - Research and writing plugin with multi-model access. `#free`
 - [Message AI](https://apps.apple.com/us/app/message-ai-gpt-tts/id6448740961) - Transform Text to Speech with Natural Accuracy `#paid`
 - [Motion](https://www.usemotion.com/) - AI-powered task management and calendar optimization. `#paid`
