@@ -1327,6 +1327,7 @@ Use these hashtags in search to filter out the tools
 - [Conch Video](https://hailuo.ai/) - MiniMax realistic video effects assistant. `#free`
 - [coralineai](https://coralineai.run/) - One selfie to ~10s button-eyes doll reveal; packs from $8.88. `#paid`
 - [Corpse Bride AI](https://corpsebride.cc/) - One photo to ~10s ghost bride/groom cemetery dance; packs from $8.88. `#paid`
+- [Cuecaps](https://cuecaps.com/) - Animated word-by-word captions for Shorts, TikTok and Reels, transcribed and rendered in the browser so the video never uploads; exports MP4, transparent overlays and SRT/VTT. `#freemium`
 - [Cutout.Pro](https://www.cutout.pro/) - AI-based video background removal tool. `#free`
 - [D-ID](https://www.d-id.com/) - D-ID is a platform to generate videos. `#freemium`
 - [Daydream](https://daydream.ai/) - professional-level video from input stories. `#free`
