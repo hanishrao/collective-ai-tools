@@ -1293,6 +1293,7 @@ Use these hashtags in search to filter out the tools
 
 ## Travel
 
+- [CheapCarRent](https://cheapcarent.com/) - Official hosted Streamable HTTP MCP server for car rental search at 15,000 pickup points in 46 countries, 19 languages. No API key, read-only. `#free` `#mcp` `#opensource`
 - [Famxplor](https://famxplor.com/) - Find activities for your family vacations worldwide. `#paid`
 - [MonkeyEatingMango](https://monkeyeatingmango.com/) - Your complete trip, planned in minutes with routes, attractions, budgets, and food guide. `#free`
 - [PLAN by Ixigo](https://www.ixigo.com/) - Your AI-Powered Travel Planning Companion `#free`
