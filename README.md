@@ -1086,6 +1086,7 @@ Use these hashtags in search to filter out the tools
 
 - [40h](https://40h.io/) - Map your career path and unlock your potential with the guidance of 40h. `#paid`
 - [Accountabilabuddy](https://www.summit.im/accountabilabuddy) - Sends simple text reminders to help you stay on track and achieve your objectives. `#free`
+- [Alter Ego](https://cloudalterego.cafeboon.com) - One memory for all your AI chats, in Claude, ChatGPT, Gemini and any other AI chat, logged automatically and kept in your own cloud storage. `#mcp` `#memory`
 - [AUTOMATER.ai](https://automater.ai/) - Tray app that keeps track of every AI coding agent you run: a searchable library of past sessions, a flag when an agent is waiting on you, and usage across 9 providers. `#freemium`
 - [Calendly AI](https://calendly.com/) - AI-powered scheduling assistant for meetings and appointments. `#freemium`
 - [Cloud One](https://yun.baidu.com/) - Baidu Netdisk document assistant and summary. `#free`
