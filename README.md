@@ -1065,6 +1065,7 @@ Use these hashtags in search to filter out the tools
 - [MindShow](https://www.mindshow.fun/) - Eliminates manual typesetting and design effort. `#paid`
 - [Powerpresent AI](https://powerpresent.ai/) - Prompt-based professional slide creation. `#paid`
 - [Presentations.AI](https://presentations.ai/) - Saves draft time and ensures brand sync. `#free`
+- [QuelLLM](https://quelllm.fr/) - Browser-based calculator and configurator for comparing local AI models against available hardware; results are estimates and the tool does not infer responses. `#free` `#productivity`
 - [Qingyan PPT](https://chatglm.cn/) - Intelligent PPT generator (Zhipu & AiPPT). `#free`
 - [Qingzhu Office](https://qingzhu.cn/) - Word/PDF conversion and industry-specific PPTs. `#paid`
 - [Seewo EasiNote](https://easinote.seewo.com/) - Interactive courseware tool for teachers. `#free`
