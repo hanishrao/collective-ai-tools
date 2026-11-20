@@ -1374,6 +1374,7 @@ Use these hashtags in search to filter out the tools
 - [Moonvalley](https://moonvalley.ai/) - AI-powered video generation with advanced editing capabilities `#freemium`
 - [Mootion](https://mootion.com/) - 3D animation and digital creative hub. `#free`
 - [Opus Clip](https://www.opus.pro/) - Converts long videos into high-quality short clips. `#freemium`
+- [PawMambo](https://pawmambo.com/) - Creates short AI dog dance videos from a dog photo and a dance-reference video. `#paid` `#video` `#pets`
 - [Pictory AI](https://pictory.ai/) - Pictory AI is a video creation tool that makes it effortless to produce short videos from your long-form content like scripts, posts `#paid`
 - [Pika](https://pika.art/) - Platform to transform creativity into videos. `#freemium`
 - [Pika Labs 2.0](https://pika.art/) - Next-generation video creation with enhanced motion and style control `#freemium`
