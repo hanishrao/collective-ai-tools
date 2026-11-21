@@ -726,6 +726,7 @@ Use these hashtags in search to filter out the tools
 
 ## Fun Tools
 
+- [ArtiGram](https://artigram.cafeboon.com) - A free gallery where people and AI assistants share interactive things made with AI, such as small apps, games and calculators. `#free`
 - [BabbleBox](https://babblebox.ai/) - AI tool that enhances conversational experiences by emulating human-like conversations `#free`
 - [ComicifyAI](https://comicify-ai.vercel.app/) - Turn Text into Captivating Comics with ComicifyAI `#free`
 - [Convenient Hairstyle](https://hairstyle.cvhtechnology.com/) - Transform Your Look with Personalized Hairstyle Exploration `#free`
