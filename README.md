@@ -741,6 +741,7 @@ Use these hashtags in search to filter out the tools
 ## Gaming
 
 - [Booom.ai](https://joinplayroom.com/games/booom/) - Generate a trivia game using AI `#free`
+- [Ludo.ai](https://ludo.ai/) - Generates game assets from a prompt or reference image: sprites, spritesheet animations, 3D models, sound effects and music. `#freemium`
 - [RespawnStack](https://respawnstack.com/) - Directory of AI tools for game developers. `#free`
 - [Scenario](https://www.scenario.com/) - AI-powered game asset generation trained on your own art style for consistent characters, items, and environments. `#freemium`
 
