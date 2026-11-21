@@ -551,6 +551,7 @@ Use these hashtags in search to filter out the tools
 - [Supermaven](https://supermaven.com/) - Fast AI code completion with 300k token context window. `#freemium`
 - [Tabby](https://tabbyml.com/) - Self-hosted Rust-based Copilot alternative. `#free`
 - [Tabnine](https://www.tabnine.com/) - AI code completion tool that learns from your code patterns. `#freemium`
+- [Taskhold](https://taskhold.com/?ref=collective-ai-tools) - Hosted task list shared with Claude Code, Cursor and Codex over MCP: agents plan steps, report live progress and ask when stuck, and you watch a live board. Paid, 7-day trial. `#paid` `#mcp`
 - [Teapot Router](https://teapotrouter.com) - Team API gateway for GPT and Claude Code: one shared token pool, per-request metering (model, tokens, cache hits, exact cost), a public price book with no login, and org-level key management. `#paid`
 - [The Enso Method](https://github.com/EnsoDynamics/enso-method) - Agent skills for Claude Code and Codex that record business assumptions with evidence and confidence, and preserve requirements as the source of truth. `#free` `#opensource`
 - [TinyTools](https://tinytools-smoky.vercel.app/) - Free single-purpose browser-based utilities (AI Background Remover that runs locally, OG Image Generator, AI Robots.txt Generator, SEO Meta Tag Generator, AI Cost Calculator, AI Content Disclosure for EU AI Act, favicon and color palette generators, domain name generator). Open source, no signup. `#free` `#opensource`
