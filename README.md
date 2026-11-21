@@ -1109,6 +1109,7 @@ Use these hashtags in search to filter out the tools
 - [Otter.ai](https://otter.ai/) - AI-powered transcription and meeting assistant. `#freemium`
 - [Plainer](https://plainer.app/) - Workspace for notes and files with a planner view, timeboxing and an AI assistant whose changes you can undo. `#freemium`
 - [Posylanki](https://www.posylanki.live/) - Streamline Web Content Management & Enhance Browsing Experience `#free`
+- [QuelLLM](https://quelllm.fr/) - Browser-based calculator and configurator for comparing local AI models against available hardware; results are estimates and the tool does not infer responses. `#free` `#productivity`
 - [Raycast AI](https://www.raycast.com/ai) - Mac-native operating system AI extension. `#freemium`
 - [Reclaim AI](https://reclaim.ai/) - AI-powered calendar management and time blocking. `#freemium`
 - [Releases Notes](https://www.releasesnotes.dev/) - Effortless Release Notes with Automation. `#free`
