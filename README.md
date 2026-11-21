@@ -1020,6 +1020,7 @@ Use these hashtags in search to filter out the tools
 
 - [AIVA](https://www.aiva.ai/) - AI composer that creates original music for various purposes `#freemium`
 - [AudioMIDI](https://audiomidi.app/) - Converts short melodies or solo-instrument audio into editable MIDI with browser note preview and export; no-signup Quick mode and three free Deep transcriptions per day. `#free` `#music` `#midi`
+- [BeatMusic](https://beatmusic.ai/) - AI music generator that turns a text idea or your lyrics into full songs with vocals. `#freemium`
 - [Boomy](https://boomy.com/) - Create and share AI-generated music in seconds `#freemium`
 - [Mubert](https://mubert.com/) - AI-generated music for content creators and businesses `#freemium`
 - [Riffusion](https://www.riffusion.com/) - Create music from text with styles, instruments, modifiers and genres. `#free`
@@ -1323,6 +1324,7 @@ Use these hashtags in search to filter out the tools
 - [AVCLabs](https://www.avclabs.com/) - 100% free automatic video background remover. `#free`
 - [Bad Times AI](https://badtimesai.cc/) - One photo to ~15s quarrel or lip-sync dance; packs from $8.88. `#paid`
 - [bbywowguy AI](https://bbywowguyai.cc/) - One photo to ~10s quince/concha meme video; packs from $8.88. `#paid`
+- [BeatMV](https://beatmv.ai/) - AI music video generator that turns any song into a music video that moves with the beat. `#freemium`
 - [Burning Bridges AI](https://burningbridgesvideoai.com/) - 1-2 photos to a party template clip; packs from $8.88. `#paid`
 - [C2Anime](https://c2anime.com/) - AI Anime Agent that turns stories into animated short films with voices and sound. `#paid` `#animation`
 - [Captions](https://www.captions.ai/) - AI creative studio application for creators. `#freemium`
