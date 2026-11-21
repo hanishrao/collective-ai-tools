@@ -201,6 +201,7 @@ Use these hashtags in search to filter out the tools
 - [ClickUp](https://clickup.com/) - All of your work in one place: Tasks, Docs, Chat, Goals, & more. `#free`
 - [Cookup.ai](https://cookup.ai/) - AI apps for every usecase `#free`
 - [DeskDay](https://deskday.ai/) - Revolutionizing IT Support for MSPs `#paid`
+- [Ginta](https://ginta.app/) - AI website builder for small businesses: describe the business and get a live website with contact forms, bookings, an online shop and a blog; Claude and ChatGPT can build sites through its MCP server. `#freemium` `#nocode`
 - [Harvey](https://www.harvey.ai/) - AI copilot for law and compliance, used by startups and enterprises for contract review, research, and drafting. `#paid`
 - [Jasper AI](https://www.jasper.ai/) - Jasper is an AI copilot for enterprise marketing teams. `#paid`
 - [Namelix](https://namelix.com/) - Generate short, brandable business names & domain names. `#free`
