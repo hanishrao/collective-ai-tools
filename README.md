@@ -1294,6 +1294,7 @@ Use these hashtags in search to filter out the tools
 - [DeepL Translation](https://www.deepl.com/translator) - High-precision semantic translation and writing help. `#free`
 - [DeepTranslate](https://chrome.google.com/webstore/detail/deeptranslate/) - Multi-API browser plugin (GPT, Claude, etc.). `#free`
 - [Google Translate](https://translate.google.com/) - Instant text and web translation for 100+ languages. `#free`
+- [GuruTrans](https://gurutrans.app/) - AI translation tools for languages, old English styles, and Morse code. Registered users get 5 free translations a day. `#freemium` `#translation`
 - [Immersive Translator](https://immersive-translate.owenyoung.com/) - Dual-language browser plugin for pages and PDFs. `#free`
 - [Sogou Translate](https://fanyi.sogou.com/) - Fast instant translation for 50+ languages. `#free`
 - [Tencent TranSmart](https://www.tencent.com/) - Human-machine interactive AI translation. `#free`
