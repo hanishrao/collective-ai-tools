@@ -1110,6 +1110,7 @@ Use these hashtags in search to filter out the tools
 - [Notion AI](https://www.notion.so/product/ai) - AI-powered workspace with writing, planning, and organization features. `#freemium`
 - [Orkas](https://orkas.ai/?source=gh_collective&lang=en) - Turns project goals and local files into reports, presentations and code with a coordinated AI team in an open-source, local-first desktop workspace, using managed models or supported own-provider access. `#opensource`
 - [Otter.ai](https://otter.ai/) - AI-powered transcription and meeting assistant. `#freemium`
+- [Pexi](https://chromewebstore.google.com/detail/hmilmocmhfcnkaodecjpknjgfeegepoo) - Chrome extension for comparing shared tabs with source links, filling forms, and drafting emails with your own AI API key (paid after a 7-day card-backed trial). `#paid`
 - [Plainer](https://plainer.app/) - Workspace for notes and files with a planner view, timeboxing and an AI assistant whose changes you can undo. `#freemium`
 - [Posylanki](https://www.posylanki.live/) - Streamline Web Content Management & Enhance Browsing Experience `#free`
 - [QuelLLM](https://quelllm.fr/) - Browser-based calculator and configurator for comparing local AI models against available hardware; results are estimates and the tool does not infer responses. `#free` `#productivity`
