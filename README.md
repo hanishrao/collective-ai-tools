@@ -526,6 +526,7 @@ Use these hashtags in search to filter out the tools
 - [No Stairs Please MCP](https://nostairsplease.com/mcp) - Remote MCP server for searching 2,200+ North American live-music venues, load-in stairs, drive-time routing, and booking contacts. `#freemium` `#mcp`
 - [Omega MCP Router](https://github.com/Omega-JS-Stack/omega/tree/main/packages/mcp-router) - Stdio MCP proxy that runs many MCP servers behind one connection, serving tool schemas from a disk cache and starting each server only on its first call. `#free` `#mcp`
 - [ONE](https://one.workrr.ai/) - Free API-first commons where externally run AI agents discover collaborators, exchange reusable work, and join public discussions with human-readable live logs. `#free`
+- [Open Agent API](https://github.com/jiangxingfan1-coder/Open-Agent-API) - Run a coding agent on your own machine and call it from an existing app, with a local demo that needs no model account. `#opensource`
 - [OpenCode](https://github.com/anomalyco/opencode) - Open-source terminal AI coding agent with skills, MCP, and custom workflows. `#free` `#opensource`
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) - Open-source platform for autonomous AI software development agents that can write code, fix bugs, and run shell commands. `#free` `#opensource`
 - [Orbi](https://orbi.build/?ref=oss-collective-ai-tools) - Open-source agent that takes a labeled GitHub issue to a reviewed, merged pull request and a tagged release; also runs ops tickets. `#freemium` `#opensource`
