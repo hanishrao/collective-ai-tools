@@ -222,6 +222,7 @@ Use these hashtags in search to filter out the tools
 - [Baidu AI Search](https://www.baidu.com/) - Productivity-focused complex problem solver. `#free`
 - [Bing Chat](https://www.bing.com/chat) - A conversational AI language model powered by Microsoft Bing. `#free`
 - [Bubbling Duck](https://maoya.com/) - Multi-modal platform with contextual memory. `#free`
+- [Castlori](https://castlori.com/chat) - AI character chat for adult writers to rehearse scenes and dialogue with a free Castlori account and a supported model connection. `#free` `#writing`
 - [Character.AI](https://character.ai/) - Character.AI lets you create characters and chat to them. `#freemium`
 - [WSUP AI](https://wsupai.app/) - Free AI character chat in the browser — talk to AI characters with no sign up. SFW only. `#free`
 - [ChatGPT](https://chat.openai.com/chat) - ChatGPT by OpenAI is a large language model that interacts in a conversational way. `#freemium`
