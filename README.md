@@ -1378,6 +1378,7 @@ Use these hashtags in search to filter out the tools
 - [HeyVid](https://heyvid.ai/) - An all-in-one AI video and image generator. `#freemium`
 - [Hotel Lobby AI](https://tryhotellobby.app/) - Two photos to ~15s hotel lobby booth duo; packs from $8.88. `#paid`
 - [Hug In Heaven AI](https://huginheaven.cc/) - Two photos to ~12-15s stairway reunion memorial short (18+); packs from $8.88. `#paid`
+- [iArt](https://www.iart.ai/) - Creates motion graphics videos from a text prompt, refined through chat edits, for logo animations, kinetic typography and explainers. `#freemium`
 - [i2v.ai](https://i2v.ai) - Image and video generation API for developers: one endpoint and one key covering 12 image models and 16 video models, with a USD quote returned before each paid task and an optional per-task spending cap. `#paid` `#api`
 - [Invideo](https://invideo.io/) - InVideo simplifies video creation with ready-made templates. `#freemium`
 - [Invideo AI](https://invideo.io/) - Transforms ideas into shareable videos (no skills). `#free`
