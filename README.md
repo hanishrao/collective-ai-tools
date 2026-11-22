@@ -1225,6 +1225,7 @@ Use these hashtags in search to filter out the tools
 - [Frizerly](https://www.thefrizerly.com/) - AI agent that learns your business and competitors to automatically publish SEO blogs. `#paid`
 - [GrowthBar](https://www.growthbarseo.com/) - SEO tool designed to help marketers, bloggers, and content teams create SEO-friendly content. `#paid`
 - [LogNorm](https://lognorm.com/) - SEO and GEO growth backlog worked by AI agents (Claude Code, Codex, Cursor) via MCP. `#freemium` `#seo`
+- [Can AI Bots Read My Site? by Mydentify](https://mydentify.com/tools/ai-crawler-access-checker) - Free checker that reads robots.txt and page-level directives, then tests whether OpenAI and Anthropic crawlers can reach a public page; it reports search, user-requested retrieval, and training access separately. `#free` `#seo`
 - [Serplux](https://serplux.com/) - AI Growth Agents to Boost Traffic, Rankings & Sales - 24/7 `#paid`
 - [Surfer SEO](https://surferseo.com/) - SEO tool that helps users optimize their content for better search engine rankings. `#paid`
 - [Verand](https://verand.ai/) - Writes articles from your own expertise, blocks non-compliant claims before they publish, and tracks your rankings and mentions in AI answers. `#paid` `#seo`
