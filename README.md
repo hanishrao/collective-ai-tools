@@ -529,7 +529,7 @@ Use these hashtags in search to filter out the tools
 - [Open Agent API](https://github.com/jiangxingfan1-coder/Open-Agent-API) - Run a coding agent on your own machine and call it from an existing app, with a local demo that needs no model account. `#opensource`
 - [OpenCode](https://github.com/anomalyco/opencode) - Open-source terminal AI coding agent with skills, MCP, and custom workflows. `#free` `#opensource`
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) - Open-source platform for autonomous AI software development agents that can write code, fix bugs, and run shell commands. `#free` `#opensource`
-- [Orbi](https://orbi.build/?ref=oss-collective-ai-tools) - Open-source agent that takes a labeled GitHub issue to a reviewed, merged pull request and a tagged release; also runs ops tickets. `#freemium` `#opensource`
+- [Orbi](https://orbi.build/) - Open-source agent that takes a labeled GitHub issue to a reviewed, merged pull request and a tagged release; also runs ops tickets. `#freemium` `#opensource`
 - [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a coding-agent run and replays it back to the agent with no model called, or forks a checkpoint onto other models to compare. `#free`
 - [Plandex](https://plandex.ai/) - Terminal AI agent for large-scale projects. `#free`
 - [QueryCraft](https://querycraft.ai/) - AI-Powered Data Query Generator `#free`
@@ -1342,7 +1342,7 @@ Use these hashtags in search to filter out the tools
 - [Conch Video](https://hailuo.ai/) - MiniMax realistic video effects assistant. `#free`
 - [coralineai](https://coralineai.run/) - One selfie to ~10s button-eyes doll reveal; packs from $8.88. `#paid`
 - [Corpse Bride AI](https://corpsebride.cc/) - One photo to ~10s ghost bride/groom cemetery dance; packs from $8.88. `#paid`
-- [Crisp Video](https://crispvideo.app/?ref=collectiveai) - Restores, denoises and upscales old video and VHS transfers up to 4K offline on a Mac or Windows PC, with a timeline editor. `#freemium` `#video`
+- [Crisp Video](https://crispvideo.app/) - Restores, denoises and upscales old video and VHS transfers up to 4K offline on a Mac or Windows PC, with a timeline editor. `#freemium` `#video`
 - [Cuecaps](https://cuecaps.com/) - Animated word-by-word captions for Shorts, TikTok and Reels, transcribed and rendered in the browser so the video never uploads; exports MP4, transparent overlays and SRT/VTT. `#freemium`
 - [Cutout.Pro](https://www.cutout.pro/) - AI-based video background removal tool. `#free`
 - [D-ID](https://www.d-id.com/) - D-ID is a platform to generate videos. `#freemium`
