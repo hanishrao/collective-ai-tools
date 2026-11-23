@@ -842,6 +842,7 @@ Use these hashtags in search to filter out the tools
 - [Crisp](https://crisp.photos/) - Free AI photo upscaler that runs entirely in your browser. No upload, no signup, no watermark. Includes a dedicated anime upscaler. `#free`
 - [Cutout.Pro](https://www.cutout.pro/) - Creative visual platform and automated tasks. `#free`
 - [DishVivid](https://dishvivid.com/) - Restaurant-photo editing with free local manual controls and optional sign-in/allowance-based AI, with food details requiring human review (AI-assisted listing submitted on behalf of the project). `#photo-editing`
+- [Free Image Upscaler](https://free-image-upscaler.web-free.site/) - Upscale photos and anime art 2x or 4x with Real-ESRGAN running in your browser (WebGPU/WASM); no upload, no sign-up. `#free` `#photo`
 - [igly.ai](https://igly.ai/) - Browser-based AI image editor for background removal, inpainting, upscaling, and generative fill. `#freemium`
 - [Image Candy](https://imagecandy.com/) - Online Image Editor - Image Candy `#free`
 - [Img.Upscaler](https://imgupscaler.com/) - Img.Upscaler uses AI to enlarge your jpg, png, webp images by 200% or 400% without losing quality. `#freemium`
