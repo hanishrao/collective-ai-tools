@@ -611,6 +611,7 @@ Use these hashtags in search to filter out the tools
 
 ## E-Commerce
 
+- [Car Listing Check](https://aicarvideo.com/mcp/) - Remote MCP server (no account, no API key) that checks a car dealer's vehicle listing for completeness and presentation and returns a score with prioritized fixes; endpoint https://mcp.aicarvideo.com/mcp. `#free` `#mcp` `#opensource`
 - [Etsy Search & Shop Sales MCP](https://github.com/GeminiGeorge22/etsy-sales-mcp) - MCP server that gives AI assistants Etsy search results by keyword, marketplace and category plus daily sales counts and growth for any Etsy shop; runs on your own Apify token. `#opensource` `#mcp`
 - [EverAlice AI](https://everalice.studio/) - All-in-one AI studio for Etsy and digital-product sellers: turns one artwork or idea into listing copy and SEO tags for 25 marketplaces, studio mockups, print-ready files, listing videos, a launch marketing pack and a customer delivery ZIP, with bulk runs of up to 100 products. `#freemium`
 - [PlushSource MCP](https://github.com/quickman924/plushsource-mcp) - MCP server that lets AI assistants search and compare the 55 custom plush manufacturers in the PlushSource directory (plushsource.com) by MOQ, lead time and OEM/ODM, with facts compiled from each manufacturer's website. `#opensource` `#mcp` `#free`
@@ -1210,6 +1211,7 @@ Use these hashtags in search to filter out the tools
 - [Resume Roaster](https://resume.roastlabai.com/) - AI-powered resume critique with ATS scoring and keyword gap analysis. Upload your resume, get brutally honest feedback on what a recruiter sees, and identify keyword gaps against any job description. `#freemium`
 - [ResumeAI](https://withresumeai.com/) - Free ATS checker (3/day anonymous, 10/day free account) and AI resume builder; State of ATS 2026 (738 employers, Workday 37.9%). `#freemium`
 - [CVExpert](https://cvexpert.com/) - Free, no-sign-up CV health and CV–job keyword checks that run in the browser without uploading or saving pasted text. `#free`
+- [Headshot Photo Check](https://www.profilfoto-ki.de/mcp) - Remote MCP server (no account, no API key) that technically checks profile and job-application photos (resolution, lighting, sharpness, crop) and returns a score with prioritized tips, without judging the person; endpoint https://mcp.profilfoto-ki.de/mcp. `#free` `#mcp` `#opensource`
 - [HireDraftAI](https://hiredraftai.com/) - AI-assisted resumes and cover letters with free anonymous tools for reviewing keywords and planning job applications. `#freemium` `#writing`
 - [LoopCV](https://www.loopcv.pro/) - Upload your CV, Select the type of Job You Want, and Press Start! Loopcv will Mass Apply on your behalf Every Single Day `#freemium`
 - [resumA.I.](https://www.resumai.com/) - resumA.I. is a next generation intelligent resume builder for enabling more effective job applications `#freemium`
