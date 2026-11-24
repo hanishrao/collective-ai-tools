@@ -484,6 +484,7 @@ Use these hashtags in search to filter out the tools
 - [Devin](https://www.cognition.ai/devin) - Autonomous AI software engineer for end-to-end tasks. `#paid`
 - [Doubao AI Prog](https://www.doubao.com/) - Assistant for beginners to master concepts. `#free`
 - [ERIUS PHONE](https://eriusphone.com/) - Hosted Android phones that an AI agent controls over an HTTP API or an open-source MCP server to use and test apps: read the screen, tap, type, swipe, install APKs, and pull crash logs. Early access.`#paid` `#testing` `#opensource`
+- [Excellent for Mac](https://www.excellent.so/) - Reviews recorded coding-agent activity on macOS and can send a masked finding to the user's own agent for explanation. `#freemium`
 - [Fig](https://fig.io/) - Terminal auto-completion (Shutdown 2024). `#free`
 - [FindAIforWork](https://findaiforwork.com/) - Human-reviewed AI tools directory organized by work scenario, with a free read-only remote MCP server. `#free` `#mcp`
 - [Firebase Studio](https://firebase.google.com/) - Google backend and front-end AI integration. `#free`
