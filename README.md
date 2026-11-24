@@ -522,6 +522,7 @@ Use these hashtags in search to filter out the tools
 - [ModelRush](https://modelrush.ai/) - API platform for text, image, video, and audio models, with OpenAI-compatible chat access, published pricing, and request-level usage tracking. `#paid`
 - [MuAPI](https://muapi.ai/) - Generative media API for image, video, and audio models, with OpenAI-compatible chat and image endpoints. `#paid` `#api`
 - [molt](https://solvyx.xyz/work/molt) - Coding agent that won't say done on a false claim — on-disk verification and receipts for accepts/refusals. `#free` `#opensource`
+- [Novadeck](https://github.com/novadeck-org/novadeck) - Free, open-source desktop app for macOS, Windows and Linux that runs Claude Code, Codex, Antigravity and opencode side by side, with every agent's questions and permission asks in one Inbox. `#free` `#opensource`
 - [Oh My Android](https://github.com/ateymoori/oh-my-android) - Native macOS control panel for the Android Emulator and real phones, with a built-in MCP server (18 tools) so Claude Code, Codex and Cursor can see and drive the emulator. `#mcp` `#free` `#opensource`
 - [Ollama](https://ollama.com/) - Run LLMs locally with GPU acceleration. Llama, Mistral, DeepSeek, Gemma and more. `#free` `#opensource`
 - [n8n](https://n8n.io/) - Open-source workflow automation with AI agent nodes, MCP support, and 400+ integrations. `#freemium` `#opensource`
