@@ -537,6 +537,7 @@ Use these hashtags in search to filter out the tools
 - [QueryCraft](https://querycraft.ai/) - AI-Powered Data Query Generator `#free`
 - [Quest AI](https://www.quest.ai/) - Intelligent Q&A and info retrieval for dev. `#freemium`
 - [RAG Citation Coverage Auditor](https://github.com/edilec/rag-citation-coverage-auditor) - Offline CLI that checks declared RAG answer citations against approved retrieval sources and explicit claim support in local exports. `#free` `#opensource` `#rag`
+- [ReLimit: Monitor](https://apps.apple.com/us/app/relimit-monitor/id6834602625) - macOS utility that compares remaining Codex quota and reset times across saved accounts in a floating window, with live updates for the signed-in account. `#paid`
 - [Replit Agent](https://replit.com/ai) - Creates mobile APPs in just 2 minutes. `#freemium`
 - [Replit Ghostwriter](https://replit.com/ghostwriter) - AI-powered code generation and completion in the browser. `#freemium`
 - [Repo Agent Kit](https://repoagentkit.com) - Free, privacy-first browser tools for creating, auditing, and adapting repository instructions for Codex and other coding agents. `#free`
