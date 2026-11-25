@@ -1316,6 +1316,7 @@ Use these hashtags in search to filter out the tools
 
 - [CheapCarRent](https://cheapcarent.com/) - Official hosted Streamable HTTP MCP server for car rental search at 15,000 pickup points in 46 countries, 19 languages. No API key, read-only. `#free` `#mcp` `#opensource`
 - [Famxplor](https://famxplor.com/) - Find activities for your family vacations worldwide. `#paid`
+- [Latino Events MCP](https://github.com/AlonDrilich/latino-events-mcp) - Hosted MCP server for events.lat: search upcoming concerts, festivals and cultural events across Latin America by city, country, category and date, with venue, price and ticket page. Streamable HTTP, OAuth sign-in with an events.lat account. `#free` `#mcp`
 - [MonkeyEatingMango](https://monkeyeatingmango.com/) - Your complete trip, planned in minutes with routes, attractions, budgets, and food guide. `#free`
 - [PLAN by Ixigo](https://www.ixigo.com/) - Your AI-Powered Travel Planning Companion `#free`
 - [Roam Around](https://www.roamaround.io/) - Find interesting and fun places to visit `#free`
