@@ -160,6 +160,7 @@ Use these hashtags in search to filter out the tools
 - [Diktatorial Suite](https://diktatorial.com) - Audio mastering and music enhancer with text prompts. `#freemium`
 - [Dubverse](https://dubverse.ai/text-to-speech/) - AI-powered text-to-speech with Dubverse is accurate, real, and fast! Type, paste, or upload a document & convert text to speech for free. `#freemium`
 - [ElevenLabs](https://elevenlabs.io/) - AI-powered text-to-speech and voice cloning technology. `#freemium`
+- [FastScribe](https://fastscribe.org/) - Transcribes podcast audio and video into editable, speaker-labeled text and exports timestamped subtitles as SRT files. `#freemium` `#transcription`
 - [Gladia](https://www.gladia.io/) - Speech-to-Text API. `#freemium`
 - [HappySRT](https://www.happysrt.com/) - Generate SRT Files for youtube using AI Technology `#freemium`
 - [Krisp](https://krisp.ai) - Krisp's AI removes background noise & echo from meetings `#freemium`
