@@ -1353,6 +1353,7 @@ Use these hashtags in search to filter out the tools
 - [Crisp Video](https://crispvideo.app/) - Restores, denoises and upscales old video and VHS transfers up to 4K offline on a Mac or Windows PC, with a timeline editor. `#freemium` `#video`
 - [Cuecaps](https://cuecaps.com/) - Animated word-by-word captions for Shorts, TikTok and Reels, transcribed and rendered in the browser so the video never uploads; exports MP4, transparent overlays and SRT/VTT. `#freemium`
 - [Cutout.Pro](https://www.cutout.pro/) - AI-based video background removal tool. `#free`
+- [CutVoke](https://github.com/frankShan001/CutVoke) - Local-first desktop video editor where Claude Code, Codex, Cursor or any MCP client edits the same multi-track timeline you finish by hand. `#free` `#opensource`
 - [D-ID](https://www.d-id.com/) - D-ID is a platform to generate videos. `#freemium`
 - [Daydream](https://daydream.ai/) - professional-level video from input stories. `#free`
 - [Decohere](https://decohere.ai/) - High-precision extremely fast AI generator. `#free`
