@@ -1243,6 +1243,7 @@ Use these hashtags in search to filter out the tools
 
 - [AlphaOSINT LinkedIn Company Employees](https://alphaosint.com/sources/linkedin-company-employees-api/) - Lists the people who work at a company on LinkedIn, with titles and profile links, as an MCP tool for prospecting. `#mcp` `#paid`
 - [Feishu Multi-Table](https://www.feishu.cn/product/base) - Zero-code business system and infrastructure. `#paid`
+- [Leadsets](https://www.leadsets.ai/) - Unlimited B2B Contact Data for AI Agents, Starting from $29/mo: people and company search, enrichment and work email verification over MCP or REST. `#mcp` `#freemium`
 - [Sellesta](https://sellesta.ai/) - Revamp your Amazon business with Sellesta AI tools! Keyword Research, Listing Optimization, and Keyword Tracking. Start Free Now! `#freemium`
 
 **[⬆️ Back to Top](#table-of-contents)**
