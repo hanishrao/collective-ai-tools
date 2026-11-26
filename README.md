@@ -482,6 +482,7 @@ Use these hashtags in search to filter out the tools
 - [DeepSeek Coder](https://deepseekcoder.ai/) - Open-source code-focused LLM for AI-assisted development with state-of-the-art benchmarks. `#free` `#opensource`
 - [Devassistant.ai](https://devassistant.ai/) - Your AI Co-Programmer for Efficient Development `#paid`
 - [Devin](https://www.cognition.ai/devin) - Autonomous AI software engineer for end-to-end tasks. `#paid`
+- [DocStar](https://docstar.io) - Turns your product's API into published docs that your users' AI assistants can read and call, through a hosted remote MCP server (https://mcp.docstar.io/mcp); reading docs needs no account. `#mcp`
 - [Doubao AI Prog](https://www.doubao.com/) - Assistant for beginners to master concepts. `#free`
 - [ERIUS PHONE](https://eriusphone.com/) - Hosted Android phones that an AI agent controls over an HTTP API or an open-source MCP server to use and test apps: read the screen, tap, type, swipe, install APKs, and pull crash logs. Early access.`#paid` `#testing` `#opensource`
 - [Fig](https://fig.io/) - Terminal auto-completion (Shutdown 2024). `#free`
