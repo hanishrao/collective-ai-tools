@@ -641,6 +641,7 @@ Use these hashtags in search to filter out the tools
 - [Intro to Neural Networks](https://brilliant.org/) - Practical neural network training (Brilliant)4. `#paid`
 - [Kaggle](https://www.kaggle.com/) - World's largest data science community/GPU. `#free`
 - [ML for Beginners](https://microsoft.github.io/ML-For-Beginners/) - Microsoft Scikit-learn project curriculum. `#free`
+- [ModuMath](https://math.hjinlabs.com/?lang=en) - Read the step where a math problem gets difficult, then try a related problem. New accounts receive ten trial credits. `#education` `#math`
 - [OpenAI Academy](https://openai.com/) - Fragmented AI literacy paths for the public. `#free`
 - [Otter.ai](https://otter.ai/) - Ai meeting assistant that records audio, write notes, captures action items, and generates summaries. `#freemium`
 - [PaddlePaddle Studio](https://studio.paddlepaddle.org.cn/) - Baidu practice environment with free GPU. 146 `#free`
