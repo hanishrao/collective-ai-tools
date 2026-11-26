@@ -204,6 +204,7 @@ Use these hashtags in search to filter out the tools
 - [Ginta](https://ginta.app/) - AI website builder for small businesses: describe the business and get a live website with contact forms, bookings, an online shop and a blog; Claude and ChatGPT can build sites through its MCP server. `#freemium` `#nocode`
 - [Harvey](https://www.harvey.ai/) - AI copilot for law and compliance, used by startups and enterprises for contract review, research, and drafting. `#paid`
 - [Jasper AI](https://www.jasper.ai/) - Jasper is an AI copilot for enterprise marketing teams. `#paid`
+- [MSG91](https://msg91.com/) - Cloud communication platform with APIs and tools for SMS, WhatsApp, email, voice calls and OTP verification; AI assistants can search its docs and call MSG91 APIs through its hosted remote MCP server (https://mcp.msg91.com/mcp, OAuth sign-in). `#mcp`
 - [Namelix](https://namelix.com/) - Generate short, brandable business names & domain names. `#free`
 - [Olympia](https://olympia.chat) - AI-powered virtual staffing tool tailored for solopreneurs and bootstrapped startups. `#paid`
 - [Rasgo](https://www.rasgoml.com/) - Your Self-Service AI Analytics Revolution `#free`
