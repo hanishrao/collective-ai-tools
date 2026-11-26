@@ -698,6 +698,7 @@ Use these hashtags in search to filter out the tools
 
 ## Finance
 
+- [AlphaSift](https://github.com/ZhuLinsen/alphasift) - Open-source Apache-2.0 multi-market quantitative stock screener across 7 global equity markets with announcement risk checks, zero-snooping Walk-Forward validation, and a 14-tool read-only STDIO MCP server. `#opensource` `#mcp` `#free`
 - [BeeBee AI](https://www.beebee.ai/) - Financial reports and earnings calls become easily understandable with key insights for everyday investors. `#free`
 - [BeliefState](https://beliefstate.ai/) - Gives AI assistants dated, source-linked investor theses, catalysts, risks and revisions through a research API and hosted MCP. Company coverage is free to check. `#freemium` `#mcp` `#research`
 - [Cleo](https://web.meetcleo.com/) - AI financial assistant chatbot that helps users budget, save, and manage money in a fun, conversational way. `#freemium`
