@@ -808,7 +808,7 @@ Use these hashtags in search to filter out the tools
 - [Deepbrain AI](https://www.deepbrain.io/) - Innovate HR Process with AI Interview. `#paid`
 - [Interview Cat](https://mianshiya.com/) - Answer suggestions based on real-time listening. ``
 - [Interview Star](https://xingmian.com/) - Big data and algorithm interview modeling. `#paid`
-- [Jobvetta](https://www.jobvetta.com/) - MCP server and API for searching current India jobs from official employer career pages by keyword, location, and posting age. `#free`
+- [Jobvetta](https://www.jobvetta.com/) - MCP server and REST API for searching 6.5M+ live jobs from 238,000+ official employer career pages across 242 countries. `#free`
 - [Lan Zidian AI](https://lanzidian.com/) - One-stop resume and interview optimization. `#free`
 - [Magic Pen Resume](https://mojibjl.com/) - Employment guidance for college students. `#free`
 - [Mercor](https://mercor.com/) - Global job seeker and enterprise matching. ``
