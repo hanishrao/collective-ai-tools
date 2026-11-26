@@ -976,6 +976,7 @@ Use these hashtags in search to filter out the tools
 - [Feishu Minutes](https://www.feishu.cn/product/minutes) - Transcribes video/audio into knowledge notes. `#freemium`
 - [Fireflies.ai](https://fireflies.ai/) - High-accuracy transcription in 100 languages. `#free`
 - [iFlytek Meeting](https://meeting.xfyun.cn/) - Secure AI cloud meeting system platform. `#free`
+- [Liliphant](https://liliphant.com/) - Joins your meetings and remembers the work across all of them, so you can ask what was decided and who promised what; AI assistants connect through its hosted remote MCP server (https://mcp.liliphant.com/mcp, OAuth sign-in). `#mcp`
 - [Meetini](https://meetini.net/) - Meeting and interview assistant for Apple Silicon Macs with local captions, transcripts, meeting notes, and metered AI assistance. `#paid`
 - [Noty.ai](https://noty.ai/) - Converts meeting content into executable tasks. `#free`
 - [Otter.ai](https://otter.ai/) - joins calls to automatically record/summarize. `#freemium`
