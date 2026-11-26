@@ -698,6 +698,7 @@ Use these hashtags in search to filter out the tools
 
 ## Finance
 
+- [Autotroph Data & Compliance MCP](https://char5742.github.io/autotroph-mcp-catalog/) - Schema-verified MCP and REST APIs for SEC EDGAR XBRL financials, EU TED tenders, SAM.gov federal contracts, USPTO patents, and US Federal Register rules with $5/mo free credit. `#freemium`
 - [BeeBee AI](https://www.beebee.ai/) - Financial reports and earnings calls become easily understandable with key insights for everyday investors. `#free`
 - [BeliefState](https://beliefstate.ai/) - Gives AI assistants dated, source-linked investor theses, catalysts, risks and revisions through a research API and hosted MCP. Company coverage is free to check. `#freemium` `#mcp` `#research`
 - [Cleo](https://web.meetcleo.com/) - AI financial assistant chatbot that helps users budget, save, and manage money in a fun, conversational way. `#freemium`
