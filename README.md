@@ -128,6 +128,7 @@ Use these hashtags in search to filter out the tools
 - [EveryApp](https://everyapp.pro/app-builder) - AI app builder that turns a plain-language description into your own private web app at its own address, shared with the people you invite. `#freemium` `#nocode`
 - [FlutterFlow](https://www.flutterflow.io/)- FlutterFlow helps you build high quality, customized Mobile apps quickly. `#paid`
 - [Glif](https://glif.app/) - Build AI mini-apps and chatbots using LLMs. `#freemium`
+- [Kliv](https://kliv.dev/) - AI app builder: describe a web app in plain words and Kliv builds and hosts it, with sign-in, a database, email, payments through your own Stripe account and custom domains. `#freemium` `#nocode`
 - [LoginLlama](https://loginllama.app/) - Enhance Security with LoginLlama's Suspicious Login Detection `#freemium`
 - [Lovable](https://lovable.dev/) - Idea to app in seconds,Lovable is your superhuman full stack engineer. `#free`
 - [Luminal](https://getluminal.com/) - Clean, transform and analyze spreadsheets at lightspeed with AI `#freemium`
