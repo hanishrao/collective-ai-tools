@@ -623,6 +623,7 @@ Use these hashtags in search to filter out the tools
 
 ## Education
 
+- [AshuTeacher](https://ashuteacher.vercel.app) - Interactive AI Voice Blackboard, 195-country syllabus academy (KG to Doctoral), PDF/photo exam paper solver, 3D flashcards & 6-milestone Thesis Research Studio with live AI Viva Defense. `#education` `#freemium`
 - [10xhuman](https://10xhuman.net/?lang=en) - AI-guided project learning in Korean, English and Japanese, with a free project brief and downloadable workbook to get started. `#education`
 - [AI University Hall](https://www.aidaxue.com/) - iFlytek programming and AI training platform. `#free`
 - [Alibaba Cloud Path](https://www.alibabagroup.com/) - 871 class hours and 26 free courses. `#free`
