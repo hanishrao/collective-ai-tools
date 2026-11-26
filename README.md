@@ -483,6 +483,7 @@ Use these hashtags in search to filter out the tools
 - [Devassistant.ai](https://devassistant.ai/) - Your AI Co-Programmer for Efficient Development `#paid`
 - [Devin](https://www.cognition.ai/devin) - Autonomous AI software engineer for end-to-end tasks. `#paid`
 - [Doubao AI Prog](https://www.doubao.com/) - Assistant for beginners to master concepts. `#free`
+- [Embarko](https://embarko.ai) - Deploy and host AI-built apps and websites and get a live URL without any DevOps setup; Claude, Cursor and other MCP clients connect through its hosted remote MCP server (https://mcp.embarko.ai/mcp, OAuth sign-in). `#mcp`
 - [ERIUS PHONE](https://eriusphone.com/) - Hosted Android phones that an AI agent controls over an HTTP API or an open-source MCP server to use and test apps: read the screen, tap, type, swipe, install APKs, and pull crash logs. Early access.`#paid` `#testing` `#opensource`
 - [Fig](https://fig.io/) - Terminal auto-completion (Shutdown 2024). `#free`
 - [FindAIforWork](https://findaiforwork.com/) - Human-reviewed AI tools directory organized by work scenario, with a free read-only remote MCP server. `#free` `#mcp`
