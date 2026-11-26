@@ -959,6 +959,7 @@ Use these hashtags in search to filter out the tools
 - [HubSpot](https://www.hubspot.com/) - CRM with AI features for lead tracking, sequences, and automation. `#freemium`
 - [MarketMirror](https://github.com/DarkWorldCoder/market-mirror) - Tests ads, prices, emails and sales pitches on simulated buyers and returns a go / iterate / no-go report; runs locally from coding agents as an MCP server. `#free` `#opensource`
 - [MentionDesk](https://mentiondesk.com/) - Tools to optimize being quoted or referenced within AI responses and track mentions. `#paid`
+- [Poptin MCP](https://www.poptin.com/mcp/) - Connect AI assistants to Poptin to draft email campaigns, analyze popup and signup form performance, and build audience segments. `#freemium` `#mcp`
 - [Qimi](https://qimi.ai/) - Game industry ad production and placement. `#free`
 - [Revenue Scout](https://revenuescout.ai/) - Sales Prospecting Assistant that finds public posts where people need what you sell and drafts replies for you to review and post. `#freemium` `#lead-generation`
 - [SE Visible (visible.seranking.com)](https://visible.seranking.com/) - AI brand visibility tracker for search/LLM result coverage. `#paid`
