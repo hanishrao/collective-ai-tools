@@ -377,6 +377,7 @@ Use these hashtags in search to filter out the tools
 ## Design
 
 - [Adobe Firefly](https://www.adobe.com/products/firefly.html) - AI-powered creative tools for image generation and editing. `#freemium`
+- [AIBanner](https://www.aibanner.ai/) - Generate banner images from text prompts and optional reference images with sign-in required. `#paid`
 - [AI Site Builder](https://library.relume.io/ai-site-builder) - Create a marketing website for any company in minutes using systems you already love. `#freemium`
 - [AmyMind](https://amymind.com/) - Markdown and document to mind map converter. `#free`
 - [APPLORE](https://applore.app/ai-app-icon-generator) - AI app icon generator plus a library of 18,000+ real App Store and Google Play icons for reference. `#freemium` `#design`
