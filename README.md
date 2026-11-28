@@ -965,6 +965,7 @@ Use these hashtags in search to filter out the tools
 - [Socialmon](https://www.socialmon.ai/) - Find viral marketing examples and trends across topics and industries. `#paid`
 - [Sparkiz.ai](https://sparkiz.ai) - Turn a product link into a ready-to-launch AI video ad (avatars, voiceover, captions) in 60 seconds. `#freemium`
 - [TikTokalyzer](https://tiktokalyzer.ai/) - TikTok analytics and insights for content performance and trends. `#paid`
+- [Tweenery](https://tweenery.com/) - AI agent that writes and designs ready-to-post Instagram carousels and TikTok slideshows from an idea or a post you like. `#freemium` `#design`
 - [Virbo](https://virbo.wondershare.com/) - digital human customization for personal IP. `#freemium`
 - [We-Connect](https://we-connect.io/) - LinkedIn outreach automation with multi-touch sequences and post remixing. `#paid`
 
