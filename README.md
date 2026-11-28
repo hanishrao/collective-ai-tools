@@ -817,6 +817,7 @@ Use these hashtags in search to filter out the tools
 - [CookLLM](https://cookllm.com/en/jobs/match) - AI job matcher that emails you new AI jobs from 1,300+ AI companies' career pages and hiring posts on X and LinkedIn, scored against your resume. `#paid`
 - [Cover Letter Copilot](https://coverlettercopilot.ai/) - Your AI-Powered Cover Letter Generator `#freemium`
 - [Deepbrain AI](https://www.deepbrain.io/) - Innovate HR Process with AI Interview. `#paid`
+- [Greetigo](https://greetigo.com/employee-birthday-tracker) - Keeps a small team's birthdays and work anniversaries and emails the manager the day before and on the day, with an AI-drafted message ready. `#freemium`
 - [Interview Cat](https://mianshiya.com/) - Answer suggestions based on real-time listening. ``
 - [Interview Star](https://xingmian.com/) - Big data and algorithm interview modeling. `#paid`
 - [Jobvetta](https://www.jobvetta.com/) - MCP server and API for searching current India jobs from official employer career pages by keyword, location, and posting age. `#free`
