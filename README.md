@@ -263,6 +263,7 @@ Use these hashtags in search to filter out the tools
 - [Phind](https://www.phind.com/) - An AI-powered coding and technical assistant, making complex tasks simpler. `#freemium`
 - [Poe](https://poe.com/) - Platform that lets you chat with multiple AI models in one place. `#freemium`
 - [Qwen Chat](https://tongyi.aliyun.com/qianwen/) - Multimodal Tongyi model experience platform. 61 `#free`
+- [Sammi: AI Girlfriend](https://sammiai.app/) - Android fictional AI character chat with voice interaction, customization and creative roleplay; free download with in-app purchases. `#android` `#roleplay`
 - [Saylo](https://saylo.ai/) - Imaginative space for interactive story games. 69 `#free`
 - [Shangliang (SenseChat)](https://chat.sensetime.com/) - Finance, Education, and Creative assistant. 70 `#free`
 - [Shusheng Big Model](https://internlm.intern-ai.org.cn/) - Shanghai AI Lab open-source research models. 62 `#free`
