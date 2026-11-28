@@ -1046,6 +1046,7 @@ Use these hashtags in search to filter out the tools
 - [AudioMIDI](https://audiomidi.app/) - Converts short melodies or solo-instrument audio into editable MIDI with browser note preview and export; no-signup Quick mode and three free Deep transcriptions per day. `#free` `#music` `#midi`
 - [BeatMusic](https://beatmusic.ai/) - AI music generator that turns a text idea or your lyrics into full songs with vocals. `#freemium`
 - [Boomy](https://boomy.com/) - Create and share AI-generated music in seconds `#freemium`
+- [Flow Music AI](https://flowmusicai.pro/) - Generate vocal songs and instrumentals from prompts or original lyrics with sign-in required. `#paid`
 - [Mubert](https://mubert.com/) - AI-generated music for content creators and businesses `#freemium`
 - [Riffusion](https://www.riffusion.com/) - Create music from text with styles, instruments, modifiers and genres. `#free`
 - [Songifted](https://songifted.com/) - Creates personalized AI song gifts from names and memories, with lyrics approval before recording, a free 45-second preview, and paid full songs. `#paid`
