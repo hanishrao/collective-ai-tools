@@ -321,7 +321,7 @@ Use these hashtags in search to filter out the tools
 
 - [Hellomatik](https://hellomatik.com) - AI agents that prepare a company's decisions from one blueprint of its data, procedures and formulas, for an approver to accept, amend or reject. `#paid`
 - [Tongyi Xiaomi](https://tongyi.aliyun.com/) - Outbound calling and dialogue robots for business. `#free`
-- [CallForMe](https://callforme.tel/?ref=collective-ai-tools) - Remote MCP server that lets Claude, ChatGPT or any agent phone a business, wait on hold and bring back a transcript. $1 per answered call. `#paid` `#mcp`
+- [CallForMe](https://callforme.tel) - Remote MCP server that lets Claude, ChatGPT or any agent phone a business, wait on hold and bring back a transcript. $1 per answered call. `#paid` `#mcp`
 
 **[⬆️ Back to Top](#table-of-contents)**
 
