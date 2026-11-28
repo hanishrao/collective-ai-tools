@@ -1469,6 +1469,7 @@ Use these hashtags in search to filter out the tools
 - [WinkStudio](https://wink.meitu.com/) - Meitu image restoration and portrait retouch. `#free`
 - [wywmysweetie AI](https://wywmysweetie.run/) - One photo to ~13s jersey-club dance; packs from $8.88. `#paid`
 - [Xiling Digital Human](https://xiling.baidu.com/) - Marketing promotion and content output avatars. `#free`
+- [Ziztu Clip Maker](https://getziztu.com/clipper) - Turns YouTube, Twitch and Kick streams (up to 10 hours) into vertical clips with word-timed captions, hook titles and facecam layouts. `#paid`
 - [ZombieHug](https://aizombie.app/) - Two photos to a vertical zombie love-story video; packs from $9.99. `#paid`
 - [ZOOOP](https://zooop.ai/) - AI-native filmmaking workstation for text/image-to-video, lip-sync, and storyboarding on an infinite canvas. `#freemium`
   
