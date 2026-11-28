@@ -801,6 +801,7 @@ Use these hashtags in search to filter out the tools
 
 - [Aethel](https://aethel.pro/practice) - Free AI interview practice for developers: four questions about your real work for your role and level, with a quick check on each answer, no account. `#free`
 - [Allowly Hiring Evidence](https://allowly.ai/solutions/hiring/) - Applies approved employment-screening policies to selected fields, records linked reviews and corrections, and exports signed Hiring Decision Packs. `#freemium`
+- [AlphaOSINT Google Jobs](https://apify.com/johnvc/google-jobs-scraper) - Searches Google Jobs by keyword and location across 184 country domains and returns each posting with title, company, location, posting age, apply links and the full description, as an MCP tool for job search. `#mcp` `#paid`
 - [Baigua Interview](https://baigua.ai/) - Safe technical interview code-writing assistant. `#free`
 - [CareJobs.Now](https://carejobs.now) - Free AI job search for US healthcare workers: describe the job you want in plain words and it matches you to 170,000+ hospital and clinic jobs with posted pay. `#free`
 - [CookLLM](https://cookllm.com/en/jobs/match) - AI job matcher that emails you new AI jobs from 1,300+ AI companies' career pages and hiring posts on X and LinkedIn, scored against your resume. `#paid`
