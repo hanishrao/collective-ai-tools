@@ -478,6 +478,7 @@ Use these hashtags in search to filter out the tools
 - [CrewAI](https://crewai.com/) - Multi-agent orchestration framework for building teams of AI agents that collaborate on complex tasks. `#freemium` `#opensource`
 - [CurlShot](https://curlshot.com/) - Screenshot API that captures any URL, HTML, or Markdown as PNG, JPEG, WebP, PDF, or scrolling video, with a hosted MCP server so AI agents can take screenshots. Free plan with 100 screenshots/month. `#freemium` `#api` `#mcp`
 - [Cursor.sh](https://cursor.sh) - This tool uses GPT-4 to help you code that increases productivity `#freemium`
+- [DBConvert Studio](https://dbconvert.com/assistant/) - Database migration and synchronization with an AI assistant for connection setup, SQL generation, and job and error explanations; supports local models. `#paid`
 - [dbdiagram.io](https://dbdiagram.io/home) - It's an online AI-Powered database diagram design tool that allows you to visually create and edit database schemas `#free`
 - [deed.page](https://deed.page/) - Static hosting built for AI coding agents: one PUT (REST or remote MCP server) publishes HTML or a folder to a permanent HTTPS URL, with no account needed. `#freemium` `#hosting`
 - [DeepSeek Coder](https://deepseekcoder.ai/) - Open-source code-focused LLM for AI-assisted development with state-of-the-art benchmarks. `#free` `#opensource`
