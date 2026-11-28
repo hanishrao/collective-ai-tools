@@ -1444,6 +1444,7 @@ Use these hashtags in search to filter out the tools
 - [Pollo AI](https://pollo.ai/) - Singapore-based image and video creative hub. `#freemium`
 - [Quickads](https://www.quickads.ai/) - AI Ad Creation Platform for all your Ad Campaigns. `#freemium`
 - [Raindance AI](https://raindanceai.click/) - Two photos to ~15s pier/dock sequence; packs from $8.88. `#paid`
+- [RapVideo AI](https://rapvideoai.com/) - Turns photos into lip-synced AI rap songs, dance videos and meme effects; also works in ChatGPT, Claude, Cursor and other MCP clients through a hosted MCP server. `#paid`
 - [Rask](https://rask.ai/) - Localization tool for 130 languages with API. `#free`
 - [RemixMeme](https://remixmeme.com/) - AI meme video generator from photos with dance, pet and funny templates. `#paid`
 - [Rumpelstiltskin Dance AI](https://rumpelstiltskindance.video/) - 1-2 photos to a barn tip-toe dance short; packs from $8.88. `#paid`
