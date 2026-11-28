@@ -442,6 +442,7 @@ Use these hashtags in search to filter out the tools
 - [AirOps](https://airops.com/) - Large language model LLM workflows for SEO. `#freemium`
 - [AI Router](https://ai-router.dev) - Hosted OpenAI-compatible API relay with unified multi-model access, personal API keys, and per-key usage visibility. `#freemium`
 - [aiXcoder](https://www.aixcoder.com/) - Chinese deep learning software dev assistant. `#freemium`
+- [Apidly Cloud](https://apidly.com/) - Managed GPU servers and serverless GPU endpoints for AI workloads, billed by the second, with a REST API, CLI and SDKs. `#paid` `#api`
 - [Archcore](https://github.com/archcore-ai/archcore) - Git-native context engineering and spec-driven development for AI coding agents. `#free` `#opensource`
 - [AskCodi](https://www.askcodi.com/) - Code generation and refactoring assistant. `#free`
 - [Atlas Cloud](https://www.atlascloud.ai) - AI API gateway with one API key for LLM, image, video and audio models, including an OpenAI-compatible chat completions endpoint. `#paid` `#api` `#llm`
