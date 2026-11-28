@@ -262,6 +262,7 @@ Use these hashtags in search to filter out the tools
 - [Perplexity AI](https://www.perplexity.ai/) - AI-powered search engine that provides comprehensive answers with sources. `#freemium`
 - [Phind](https://www.phind.com/) - An AI-powered coding and technical assistant, making complex tasks simpler. `#freemium`
 - [Poe](https://poe.com/) - Platform that lets you chat with multiple AI models in one place. `#freemium`
+- [Whizi](https://whizi.io/) - Chat with GPT-5.6 Sol, Claude, Gemini, Grok, DeepSeek and Perplexity in one app; switch models mid-chat and import your ChatGPT history. `#paid`
 - [Qwen Chat](https://tongyi.aliyun.com/qianwen/) - Multimodal Tongyi model experience platform. 61 `#free`
 - [Saylo](https://saylo.ai/) - Imaginative space for interactive story games. 69 `#free`
 - [Shangliang (SenseChat)](https://chat.sensetime.com/) - Finance, Education, and Creative assistant. 70 `#free`
