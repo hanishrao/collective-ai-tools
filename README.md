@@ -396,6 +396,7 @@ Use these hashtags in search to filter out the tools
 - [Free Canvas](https://canvas.baidu.com/) - Baidu's free-flowing creative design platform. `#free`
 - [Galileo AI](https://www.usegalileo.ai/explore) -Galileo AI is a UI generation platform for easy and fast design ideation.Generative AI for user interface design, empowering you to design beyond imagination with speed . `#freemium`
 - [GitMind](https://gitmind.com/) - Brainstorming and architecture diagram creation. `#free`
+- [Kite](https://kite.new) - Collaborative design tool where Claude, ChatGPT, Cursor or Codex draw editable frames via MCP, exportable as HTML, React or Tailwind. `#freemium` `#design`
 - [Kittl](https://www.kittl.com/) - AI-powered graphic design tool with text-to-image and logo generation. `#freemium`
 - [LandscapioAI](https://www.landscapioai.com/) - AI landscape design generator that turns yard photos into outdoor redesign concepts and cost estimates. `#freemium`
 - [LogoAi](https://www.logoai.com/logo-maker) - AI-powered logo maker and online design tool. `#freemium`
